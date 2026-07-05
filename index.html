@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🦋 Cringe Meme Generator — @adhdloganberry</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Impact&family=Papyrus&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="sparkle-layer" aria-hidden="true"></div>
+  <div class="marquee-bar">
+    <div class="marquee-track">
+      ✨ CRINGE ALERT ✨ @adhdloganberry.bsky.social ✨ LIVE LAUGH LOGANBERRY ✨ NOBODY ASKED BUT HERE'S A MEME ✨
+      ✨ CRINGE ALERT ✨ @adhdloganberry.bsky.social ✨ LIVE LAUGH LOGANBERRY ✨ NOBODY ASKED BUT HERE'S A MEME ✨
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="hero-badge">🦋 Bluesky Certified Cringe™</div>
+    <h1 class="wordart-title">Cringe Meme Generator</h1>
+    <p class="hero-sub">
+      Powered by the feed of
+      <a href="https://bsky.app/profile/adhdloganberry.bsky.social" target="_blank" rel="noopener">
+        @adhdloganberry.bsky.social
+      </a>
+    </p>
+    <div class="profile-card" id="profile-card">
+      <div class="profile-skeleton">
+        <div class="skel-avatar"></div>
+        <div class="skel-lines">
+          <div class="skel-line"></div>
+          <div class="skel-line short"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="panel controls">
+      <h2>🎛️ Cringe Controls</h2>
+
+      <label class="field">
+        <span>Meme Template</span>
+        <select id="template-select"></select>
+      </label>
+
+      <label class="field">
+        <span>Top Text</span>
+        <input type="text" id="top-text" maxlength="120" placeholder="NOBODY:" />
+      </label>
+
+      <label class="field">
+        <span>Bottom Text</span>
+        <input type="text" id="bottom-text" maxlength="120" placeholder="me @ fanvueofficial:" />
+      </label>
+
+      <label class="field">
+        <span>Cringe Level</span>
+        <input type="range" id="cringe-level" min="1" max="10" value="8" />
+        <output id="cringe-output">8/10</output>
+      </label>
+
+      <label class="field checkbox">
+        <input type="checkbox" id="sparkles" checked />
+        <span>Add ✨ sparkles ✨</span>
+      </label>
+
+      <label class="field checkbox">
+        <input type="checkbox" id="wordart" checked />
+        <span>WordArt™ mode</span>
+      </label>
+
+      <label class="field checkbox">
+        <input type="checkbox" id="comic-sans" checked />
+        <span>Comic Sans subtitles</span>
+      </label>
+
+      <div class="btn-row">
+        <button type="button" class="btn primary" id="generate-btn">🎲 Randomize Cringe</button>
+        <button type="button" class="btn secondary" id="feed-btn">📡 Pull From Feed</button>
+      </div>
+
+      <div class="btn-row">
+        <button type="button" class="btn accent" id="download-btn">💾 Download Meme</button>
+        <button type="button" class="btn ghost" id="copy-btn">📋 Copy Caption</button>
+      </div>
+
+      <div class="feed-posts" id="feed-posts">
+        <h3>Recent Posts (meme fuel)</h3>
+        <ul id="post-list"></ul>
+      </div>
+    </section>
+
+    <section class="panel preview">
+      <h2>👁️ Cringe Preview</h2>
+      <div class="canvas-wrap">
+        <canvas id="meme-canvas" width="800" height="600"></canvas>
+        <div class="cringe-meter">
+          <span>Cringe Meter</span>
+          <div class="meter-bar"><div class="meter-fill" id="meter-fill"></div></div>
+        </div>
+      </div>
+      <p class="caption-preview" id="caption-preview"></p>
+      <a
+        class="bsky-share"
+        id="bsky-share"
+        href="https://bsky.app/profile/adhdloganberry.bsky.social"
+        target="_blank"
+        rel="noopener"
+      >
+        Post this cringe on Bluesky 🦋
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>not affiliated with bluesky. maximum cringe intended. 🫐 loganberry gang rise up</p>
+  </footer>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>
