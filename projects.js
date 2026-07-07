@@ -221,6 +221,17 @@ export const GITHUB_PROJECTS = [
     bg: 'berry',
   },
   {
+    id: 'hogwarts-sherlock',
+    name: 'Hogwarts-Sherlock',
+    repo: 'Hogwarts-Sherlock',
+    url: 'https://github.com/dglogan42/Hogwarts-Sherlock',
+    emoji: '🔍',
+    tagline: '33k-word EPUB — Mr Holmes on TikTok meets teenage secret notebook energy.',
+    memeTop: 'ELEMENTARY MY DEAR TIKTOKER',
+    memeBottom: 'chromatography at baker street secondary fr',
+    bg: 'adhd',
+  },
+  {
     id: 'cringe-memes',
     name: 'cringe-memes-bluesky',
     repo: 'cringe-memes-bluesky',
@@ -261,5 +272,6 @@ export const PROJECT_CATEGORY_MAP = {
   'rednote-streaming': 'chaos',
   'uncensored-ai': 'chaos',
   'creampie-calculator': 'chaos',
+  'hogwarts-sherlock': 'chaos',
   'cringe-memes': 'chaos',
 };

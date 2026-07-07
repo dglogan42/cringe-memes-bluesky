@@ -13,7 +13,7 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — 21 repos from [@dglogan42](https://github.com/dglogan42) as one-click meme fuel
+- **Stupid GitHub Projects** — 22 repos from [@dglogan42](https://github.com/dglogan42) as one-click meme fuel
 
 ## Quick Start
 
@@ -81,6 +81,7 @@ When a repo is selected:
 | [Rednote-Streaming](https://github.com/dglogan42/Rednote-Streaming) | RedNote extension — livestream to X & Bluesky |
 | [Uncensored-AI](https://github.com/dglogan42/Uncensored-AI) | Local AI studio — SD, LLMs, Whisper, TTS |
 | [Creampie-Time-Calculator](https://github.com/dglogan42/Creampie-Time-Calculator) | Ovulation tracker with whipped-cream pastry fertile-window alert |
+| [Hogwarts-Sherlock](https://github.com/dglogan42/Hogwarts-Sherlock) | 33k-word EPUB — modern Sherlock science teacher × teenage notebook voice |
 | [cringe-memes-bluesky](https://github.com/dglogan42/cringe-memes-bluesky) | This repo (recursive cringe) |
 
 Edit `projects.js` to add or update repos.
