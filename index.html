@@ -13,8 +13,8 @@
   <div class="sparkle-layer" aria-hidden="true"></div>
   <div class="marquee-bar">
     <div class="marquee-track">
-      ✨ CRINGE ALERT ✨ @adhdloganberry.bsky.social ✨ LIVE LAUGH LOGANBERRY ✨ NOBODY ASKED BUT HERE'S A MEME ✨
-      ✨ CRINGE ALERT ✨ @adhdloganberry.bsky.social ✨ LIVE LAUGH LOGANBERRY ✨ NOBODY ASKED BUT HERE'S A MEME ✨
+      ✨ CRINGE ALERT ✨ @adhdloganberry.bsky.social ✨ 20 STUPID GITHUB REPOS ✨ MEME YOUR CODEBASE ✨ LIVE LAUGH LOGANBERRY ✨
+      ✨ CRINGE ALERT ✨ @adhdloganberry.bsky.social ✨ 20 STUPID GITHUB REPOS ✨ MEME YOUR CODEBASE ✨ LIVE LAUGH LOGANBERRY ✨
     </div>
   </div>
 
@@ -92,6 +92,10 @@
         <h3>Recent Posts (meme fuel)</h3>
         <ul id="post-list"></ul>
       </div>
+
+      <div class="btn-row">
+        <button type="button" class="btn secondary" id="project-meme-btn">🗑️ Meme a Random Repo</button>
+      </div>
     </section>
 
     <section class="panel preview">
@@ -116,8 +120,24 @@
     </section>
   </main>
 
+  <section class="projects-section" id="projects-section">
+    <div class="projects-head">
+      <h2>🗑️ My Stupid GitHub Projects</h2>
+      <p>
+        <a href="https://github.com/dglogan42" target="_blank" rel="noopener">@dglogan42</a>
+        — click any repo to turn it into meme text. nobody asked for any of this.
+      </p>
+      <div class="project-filters" id="project-filters"></div>
+    </div>
+    <div class="projects-grid" id="projects-grid"></div>
+  </section>
+
   <footer>
-    <p>not affiliated with bluesky. maximum cringe intended. 🫐 loganberry gang rise up</p>
+    <p>
+      not affiliated with bluesky. <span id="project-count">20</span> stupid repos and counting.
+      🫐 loganberry gang rise up ·
+      <a href="https://github.com/dglogan42/cringe-memes-bluesky" target="_blank" rel="noopener">source on github</a>
+    </p>
   </footer>
 
   <script src="app.js" type="module"></script>

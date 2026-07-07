@@ -463,6 +463,146 @@ body {
   background: #0066cc;
 }
 
+.projects-section {
+  position: relative;
+  z-index: 1;
+  max-width: 1100px;
+  margin: 0 auto 2rem;
+  padding: 0 1rem;
+}
+
+.projects-head {
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+.projects-head h2 {
+  margin: 0 0 0.5rem;
+  font-family: Papyrus, fantasy;
+  font-size: clamp(1.4rem, 4vw, 2rem);
+  color: var(--cringe-yellow);
+  text-shadow: 0 0 12px rgba(255, 230, 0, 0.4);
+}
+
+.projects-head p {
+  margin: 0;
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+.projects-head a {
+  color: var(--cringe-lime);
+  font-weight: 700;
+}
+
+.project-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.project-filter {
+  padding: 0.45rem 0.85rem;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.35);
+  color: #fff;
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.project-filter.active {
+  border-color: var(--cringe-pink);
+  background: rgba(255, 0, 170, 0.2);
+  box-shadow: 0 0 12px rgba(255, 0, 170, 0.3);
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 0.85rem;
+}
+
+.project-card {
+  padding: 1rem;
+  border: 2px solid rgba(0, 133, 255, 0.25);
+  border-radius: 14px;
+  background: rgba(10, 22, 40, 0.85);
+  cursor: pointer;
+  transition: transform 0.15s, border-color 0.15s, box-shadow 0.15s;
+}
+
+.project-card:hover,
+.project-card.active {
+  transform: translateY(-2px);
+  border-color: var(--cringe-pink);
+  box-shadow: 0 8px 24px rgba(255, 0, 170, 0.2);
+}
+
+.project-card-top {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-emoji {
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.project-card h3 {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 800;
+}
+
+.project-repo {
+  margin: 0.15rem 0 0;
+  font-size: 0.72rem;
+  color: var(--bsky-blue);
+  font-family: ui-monospace, monospace;
+}
+
+.project-tagline {
+  margin: 0 0 0.75rem;
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.75);
+  min-height: 2.8em;
+}
+
+.project-actions {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.project-meme-btn {
+  flex: 1;
+  padding: 0.45rem 0.6rem;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--cringe-pink), var(--cringe-purple));
+  color: #fff;
+  font-family: inherit;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.project-github-link {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--cringe-lime);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
 footer {
   position: relative;
   z-index: 1;

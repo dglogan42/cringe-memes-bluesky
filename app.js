@@ -1,5 +1,12 @@
+import {
+  GITHUB_PROJECTS,
+  PROJECT_CATEGORIES,
+  PROJECT_CATEGORY_MAP,
+} from './projects.js';
+
 const BSKY_ACTOR = 'adhdloganberry.bsky.social';
 const BSKY_API = 'https://public.api.bsky.app/xrpc';
+const GITHUB_USER = 'dglogan42';
 
 const TEMPLATES = [
   {
@@ -96,13 +103,18 @@ const ctx = canvas.getContext('2d');
 let profile = null;
 let feedPosts = [];
 let avatarImg = null;
+let activeProject = null;
+let projectFilter = 'all';
 
 function init() {
   populateTemplates();
+  renderProjectFilters();
+  renderProjectsGrid();
   bindEvents();
   loadProfile();
   loadFeed();
   renderMeme();
+  $('#project-count').textContent = String(GITHUB_PROJECTS.length);
 }
 
 function populateTemplates() {
@@ -126,8 +138,86 @@ function bindEvents() {
   $('#comic-sans').addEventListener('change', renderMeme);
   $('#generate-btn').addEventListener('click', randomizeCringe);
   $('#feed-btn').addEventListener('click', pullFromFeed);
+  $('#project-meme-btn').addEventListener('click', memeRandomProject);
   $('#download-btn').addEventListener('click', downloadMeme);
   $('#copy-btn').addEventListener('click', copyCaption);
+}
+
+function renderProjectFilters() {
+  const wrap = $('#project-filters');
+  wrap.innerHTML = '';
+  PROJECT_CATEGORIES.forEach((cat) => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = `project-filter${cat.id === projectFilter ? ' active' : ''}`;
+    btn.textContent = cat.label;
+    btn.addEventListener('click', () => {
+      projectFilter = cat.id;
+      renderProjectFilters();
+      renderProjectsGrid();
+    });
+    wrap.appendChild(btn);
+  });
+}
+
+function getFilteredProjects() {
+  if (projectFilter === 'all') return GITHUB_PROJECTS;
+  return GITHUB_PROJECTS.filter(
+    (p) => PROJECT_CATEGORY_MAP[p.id] === projectFilter
+  );
+}
+
+function renderProjectsGrid() {
+  const grid = $('#projects-grid');
+  grid.innerHTML = '';
+  getFilteredProjects().forEach((project) => {
+    const card = document.createElement('article');
+    card.className = `project-card${activeProject?.id === project.id ? ' active' : ''}`;
+    card.innerHTML = `
+      <div class="project-card-top">
+        <span class="project-emoji">${project.emoji}</span>
+        <div>
+          <h3>${escapeHtml(project.name)}</h3>
+          <p class="project-repo">${escapeHtml(project.repo)}</p>
+        </div>
+      </div>
+      <p class="project-tagline">${escapeHtml(project.tagline)}</p>
+      <div class="project-actions">
+        <button type="button" class="project-meme-btn">Meme this repo</button>
+        <a href="${project.url}" target="_blank" rel="noopener" class="project-github-link">GitHub ↗</a>
+      </div>
+    `;
+    card.querySelector('.project-meme-btn').addEventListener('click', (e) => {
+      e.stopPropagation();
+      useProjectAsMeme(project);
+    });
+    card.addEventListener('click', () => useProjectAsMeme(project));
+    grid.appendChild(card);
+  });
+}
+
+function useProjectAsMeme(project) {
+  activeProject = project;
+  $('#top-text').value = project.memeTop;
+  $('#bottom-text').value = project.memeBottom;
+
+  const template = TEMPLATES.find((t) => t.bg === project.bg);
+  if (template) {
+    $('#template-select').value = template.id;
+  } else {
+    $('#template-select').value = 'loganberry';
+  }
+
+  renderProjectsGrid();
+  randomizeCringeExtras();
+  renderMeme();
+  document.querySelector('.preview')?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+function memeRandomProject() {
+  const pool = getFilteredProjects();
+  const project = pool[Math.floor(Math.random() * pool.length)];
+  useProjectAsMeme(project);
 }
 
 function onTemplateChange() {
@@ -392,7 +482,10 @@ function drawWatermark(w, h) {
   ctx.font = 'bold 14px Comic Sans MS, cursive';
   ctx.fillStyle = '#fff';
   ctx.textAlign = 'right';
-  ctx.fillText('🦋 @adhdloganberry.bsky.social', w - 15, h - 130);
+  const stamp = activeProject
+    ? `🗑️ ${activeProject.repo}`
+    : '🦋 @adhdloganberry.bsky.social';
+  ctx.fillText(truncate(stamp, 42), w - 15, h - 130);
   ctx.restore();
 }
 
@@ -412,16 +505,23 @@ function drawEmojiBarrage(w, h) {
 function updateCaptionPreview(s) {
   const phrase = CRINGE_PHRASES[Math.floor(Math.random() * CRINGE_PHRASES.length)];
   const emoji = CRINGE_EMOJIS.slice(0, Math.min(s.cringe, 5)).join('');
-  const caption = `${emoji} ${s.top} / ${s.bottom} ${emoji}\n\n${phrase} #bluesky #cringe #adhdloganberry`;
+  const projectLine = activeProject
+    ? `\n\n🗑️ stupid project: ${activeProject.name}\n${activeProject.url}`
+    : '';
+  const caption = `${emoji} ${s.top} / ${s.bottom} ${emoji}\n\n${phrase}${projectLine}\n\n#bluesky #cringe #adhdloganberry #github`;
   $('#caption-preview').textContent = caption;
 
-  const shareText = encodeURIComponent(truncate(`${s.top} — ${s.bottom} 🦋`, 280));
+  const shareParts = [s.top, s.bottom];
+  if (activeProject) shareParts.push(`${activeProject.emoji} ${activeProject.url}`);
+  shareParts.push('🦋');
+  const shareText = encodeURIComponent(truncate(shareParts.join(' — '), 280));
   $('#bsky-share').href = `https://bsky.app/intent/compose?text=${shareText}`;
 }
 
 function downloadMeme() {
   const link = document.createElement('a');
-  link.download = `cringe-meme-${Date.now()}.png`;
+  const slug = activeProject?.id || 'cringe';
+  link.download = `cringe-meme-${slug}-${Date.now()}.png`;
   link.href = canvas.toDataURL('image/png');
   link.click();
 }

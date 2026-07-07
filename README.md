@@ -11,6 +11,7 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript.
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
+- **Stupid GitHub Projects** panel — all [@dglogan42](https://github.com/dglogan42) repos as one-click meme fuel
 
 ## Quick Start
 
@@ -30,6 +31,8 @@ Open [http://localhost:3456](http://localhost:3456) in your browser.
 
 Click any post in the "Recent Posts" sidebar to turn it into meme text instantly.
 
+Scroll to **My Stupid GitHub Projects** to meme your repos (ABG-Finder, Valorant-Streamer, Glasgow-2026, sports-clip-studio, F1-Season, and 15+ more). Click **Meme this repo** or **Meme a Random Repo** — captions and watermarks include the GitHub link.
+
 ## Project Structure
 
 ```
@@ -37,6 +40,7 @@ cringe-meme-generator/
 ├── index.html   # App shell
 ├── style.css    # Cringe UI styles
 ├── app.js       # Bluesky API + canvas meme engine
+├── projects.js  # @dglogan42 GitHub portfolio data
 ├── package.json # Convenience scripts
 ├── LICENSE      # MIT
 └── README.md
