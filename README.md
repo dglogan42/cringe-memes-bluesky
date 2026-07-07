@@ -13,7 +13,7 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — 22 repos from [@dglogan42](https://github.com/dglogan42) as one-click meme fuel
+- **Stupid GitHub Projects** — 57 repos across two accounts ([@dglogan42](https://github.com/dglogan42) + [@Thedoctorjpg](https://github.com/Thedoctorjpg)) as one-click meme fuel
 
 ## Quick Start
 
@@ -46,9 +46,10 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Filter by **All Chaos**, **Sports**, **Chaos Apps**, or **Commerce**.
-2. Click a repo card or **Meme this repo** to load cringe top/bottom text.
-3. Use **Meme a Random Repo** in the sidebar for chaos mode.
+1. Switch between **@dglogan42** (22 repos) and **@Thedoctorjpg** (35 repos).
+2. Filter by category — Sports, Chaos Apps, Games, Writing, etc.
+3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
+4. Use **Meme a Random Repo** in the sidebar for chaos mode.
 
 When a repo is selected:
 
@@ -84,7 +85,11 @@ When a repo is selected:
 | [Hogwarts-Sherlock](https://github.com/dglogan42/Hogwarts-Sherlock) | 33k-word EPUB — modern Sherlock science teacher × teenage notebook voice |
 | [cringe-memes-bluesky](https://github.com/dglogan42/cringe-memes-bluesky) | This repo (recursive cringe) |
 
-Edit `projects.js` to add or update repos.
+### @Thedoctorjpg portfolio (35 repos)
+
+Playdate games, open-source novels, red-flag scanners, snack finders, and other chaos — including [The-Keeper-s-Test](https://github.com/Thedoctorjpg/The-Keeper-s-Test), [warriors-meme-generator](https://github.com/Thedoctorjpg/warriors-meme-generator), [Constellation-Drug-Quiz](https://github.com/Thedoctorjpg/Constellation-Drug-Quiz), and more. Switch to the **@Thedoctorjpg** tab in the app.
+
+Edit `projects.js` (dglogan42) or `projects-thedoctorjpg.js` (Thedoctorjpg) to add or update repos.
 
 ## Project Structure
 
@@ -93,7 +98,8 @@ cringe-meme-generator/
 ├── index.html   # App shell + GitHub projects panel
 ├── style.css    # Cringe UI styles
 ├── app.js       # Bluesky API + canvas meme engine
-├── projects.js  # @dglogan42 GitHub portfolio data
+├── projects.js              # @dglogan42 GitHub portfolio data
+├── projects-thedoctorjpg.js # @Thedoctorjpg GitHub portfolio data
 ├── package.json # Convenience scripts
 ├── LICENSE      # MIT
 └── README.md

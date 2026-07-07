@@ -1,7 +1,14 @@
+import {
+  THE_DOCTOR_JPG_PROJECTS,
+  THE_DOCTOR_JPG_CATEGORIES,
+  THE_DOCTOR_JPG_CATEGORY_MAP,
+} from './projects-thedoctorjpg.js';
+
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
-export const GITHUB_PROJECTS = [
+export const DGLOGAN42_PROJECTS = [
   {
     id: 'abg-finder',
+    owner: 'dglogan42',
     name: 'ABG-Finder',
     repo: 'ABG-Finder',
     url: 'https://github.com/dglogan42/ABG-Finder',
@@ -13,6 +20,7 @@ export const GITHUB_PROJECTS = [
   },
   {
     id: 'valorant-streamer',
+    owner: 'dglogan42',
     name: 'Valorant-Streamer',
     repo: 'Valorant-Streamer',
     url: 'https://github.com/dglogan42/Valorant-Streamer',
@@ -24,6 +32,7 @@ export const GITHUB_PROJECTS = [
   },
   {
     id: 'glasgow-2026',
+    owner: 'dglogan42',
     name: 'Glasgow-2026',
     repo: 'Glasgow-2026',
     url: 'https://github.com/dglogan42/Glasgow-2026',
@@ -35,6 +44,7 @@ export const GITHUB_PROJECTS = [
   },
   {
     id: 'sports-clip-studio',
+    owner: 'dglogan42',
     name: 'sports-clip-studio',
     repo: 'sports-clip-studio',
     url: 'https://github.com/dglogan42/sports-clip-studio',
@@ -46,6 +56,7 @@ export const GITHUB_PROJECTS = [
   },
   {
     id: 'f1-season',
+    owner: 'dglogan42',
     name: 'F1-Season',
     repo: 'F1-Season',
     url: 'https://github.com/dglogan42/F1-Season',
@@ -57,6 +68,7 @@ export const GITHUB_PROJECTS = [
   },
   {
     id: 'le-tour',
+    owner: 'dglogan42',
     name: 'le-tour',
     repo: 'le-tour',
     url: 'https://github.com/dglogan42/le-tour',
@@ -68,6 +80,7 @@ export const GITHUB_PROJECTS = [
   },
   {
     id: '12th-man',
+    owner: 'dglogan42',
     name: '12th-Man',
     repo: '12th-Man',
     url: 'https://github.com/dglogan42/12th-Man',
@@ -79,6 +92,7 @@ export const GITHUB_PROJECTS = [
   },
   {
     id: 'all-blacks',
+    owner: 'dglogan42',
     name: 'All-Blacks-Season',
     repo: 'All-Blacks-Season',
     url: 'https://github.com/dglogan42/All-Blacks-Season',
@@ -90,6 +104,7 @@ export const GITHUB_PROJECTS = [
   },
   {
     id: 'wimbledon',
+    owner: 'dglogan42',
     name: 'Road-To-Wimbledon',
     repo: 'Road-To-Wimbledon',
     url: 'https://github.com/dglogan42/Road-To-Wimbledon',
@@ -101,6 +116,7 @@ export const GITHUB_PROJECTS = [
   },
   {
     id: 'wwe',
+    owner: 'dglogan42',
     name: 'WWE-Wrestlemania',
     repo: 'WWE-Wrestlemania',
     url: 'https://github.com/dglogan42/WWE-Wrestlemania',
@@ -112,6 +128,7 @@ export const GITHUB_PROJECTS = [
   },
   {
     id: 'pga-masters',
+    owner: 'dglogan42',
     name: 'PGA-Masters',
     repo: 'PGA-Masters',
     url: 'https://github.com/dglogan42/PGA-Masters',
@@ -123,6 +140,7 @@ export const GITHUB_PROJECTS = [
   },
   {
     id: 'asian-supermarket',
+    owner: 'dglogan42',
     name: 'Asian-Supermarket',
     repo: 'Asian-Supermarket',
     url: 'https://github.com/dglogan42/Asian-Supermarket',
@@ -134,6 +152,7 @@ export const GITHUB_PROJECTS = [
   },
   {
     id: 'healthpoint',
+    owner: 'dglogan42',
     name: 'Healthpoint',
     repo: 'Healthpoint',
     url: 'https://github.com/dglogan42/Healthpoint',
@@ -145,6 +164,7 @@ export const GITHUB_PROJECTS = [
   },
   {
     id: 'anime-filter',
+    owner: 'dglogan42',
     name: 'Instagram-Anime-Effect',
     repo: 'Instagram-Anime-Effect',
     url: 'https://github.com/dglogan42/Instagram-Anime-Effect',
@@ -156,6 +176,7 @@ export const GITHUB_PROJECTS = [
   },
   {
     id: 'european-pantry',
+    owner: 'dglogan42',
     name: 'European-Pantry',
     repo: 'European-Pantry',
     url: 'https://github.com/dglogan42/European-Pantry',
@@ -167,6 +188,7 @@ export const GITHUB_PROJECTS = [
   },
   {
     id: 'ozbiz',
+    owner: 'dglogan42',
     name: 'OzBiz-Properties',
     repo: 'OzBiz-Properties',
     url: 'https://github.com/dglogan42/OzBiz-Properties',
@@ -178,6 +200,7 @@ export const GITHUB_PROJECTS = [
   },
   {
     id: 'rednote-trader',
+    owner: 'dglogan42',
     name: 'Rednote-Trader',
     repo: 'Rednote-Trader',
     url: 'https://github.com/dglogan42/Rednote-Trader',
@@ -189,6 +212,7 @@ export const GITHUB_PROJECTS = [
   },
   {
     id: 'rednote-streaming',
+    owner: 'dglogan42',
     name: 'Rednote-Streaming',
     repo: 'Rednote-Streaming',
     url: 'https://github.com/dglogan42/Rednote-Streaming',
@@ -200,6 +224,7 @@ export const GITHUB_PROJECTS = [
   },
   {
     id: 'uncensored-ai',
+    owner: 'dglogan42',
     name: 'Uncensored-AI',
     repo: 'Uncensored-AI',
     url: 'https://github.com/dglogan42/Uncensored-AI',
@@ -211,6 +236,7 @@ export const GITHUB_PROJECTS = [
   },
   {
     id: 'creampie-calculator',
+    owner: 'dglogan42',
     name: 'Creampie-Time-Calculator',
     repo: 'Creampie-Time-Calculator',
     url: 'https://github.com/dglogan42/Creampie-Time-Calculator',
@@ -222,6 +248,7 @@ export const GITHUB_PROJECTS = [
   },
   {
     id: 'hogwarts-sherlock',
+    owner: 'dglogan42',
     name: 'Hogwarts-Sherlock',
     repo: 'Hogwarts-Sherlock',
     url: 'https://github.com/dglogan42/Hogwarts-Sherlock',
@@ -233,6 +260,7 @@ export const GITHUB_PROJECTS = [
   },
   {
     id: 'cringe-memes',
+    owner: 'dglogan42',
     name: 'cringe-memes-bluesky',
     repo: 'cringe-memes-bluesky',
     url: 'https://github.com/dglogan42/cringe-memes-bluesky',
@@ -275,3 +303,27 @@ export const PROJECT_CATEGORY_MAP = {
   'hogwarts-sherlock': 'chaos',
   'cringe-memes': 'chaos',
 };
+
+/** @deprecated use DGLOGAN42_PROJECTS */
+export const GITHUB_PROJECTS = DGLOGAN42_PROJECTS;
+
+export const GITHUB_ACCOUNTS = [
+  {
+    id: 'dglogan42',
+    username: 'dglogan42',
+    label: '@dglogan42',
+    url: 'https://github.com/dglogan42',
+    projects: DGLOGAN42_PROJECTS,
+    categories: PROJECT_CATEGORIES,
+    categoryMap: PROJECT_CATEGORY_MAP,
+  },
+  {
+    id: 'thedoctorjpg',
+    username: 'Thedoctorjpg',
+    label: '@Thedoctorjpg',
+    url: 'https://github.com/Thedoctorjpg',
+    projects: THE_DOCTOR_JPG_PROJECTS,
+    categories: THE_DOCTOR_JPG_CATEGORIES,
+    categoryMap: THE_DOCTOR_JPG_CATEGORY_MAP,
+  },
+];

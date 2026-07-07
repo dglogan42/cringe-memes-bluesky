@@ -1,7 +1,7 @@
 {
   "name": "cringe-meme-generator",
-  "version": "1.1.0",
-  "description": "Cringe meme generator for @adhdloganberry.bsky.social + @dglogan42 GitHub portfolio meme fuel",
+  "version": "1.2.0",
+  "description": "Cringe meme generator for @adhdloganberry.bsky.social + @dglogan42 & @Thedoctorjpg GitHub portfolio meme fuel",
   "repository": {
     "type": "git",
     "url": "https://github.com/dglogan42/cringe-memes-bluesky.git"

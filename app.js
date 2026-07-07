@@ -1,12 +1,7 @@
-import {
-  GITHUB_PROJECTS,
-  PROJECT_CATEGORIES,
-  PROJECT_CATEGORY_MAP,
-} from './projects.js';
+import { GITHUB_ACCOUNTS } from './projects.js';
 
 const BSKY_ACTOR = 'adhdloganberry.bsky.social';
 const BSKY_API = 'https://public.api.bsky.app/xrpc';
-const GITHUB_USER = 'dglogan42';
 
 const TEMPLATES = [
   {
@@ -105,16 +100,32 @@ let feedPosts = [];
 let avatarImg = null;
 let activeProject = null;
 let projectFilter = 'all';
+let activeGithubAccount = GITHUB_ACCOUNTS[0];
+
+function getActiveAccount() {
+  return activeGithubAccount;
+}
+
+function getAccountProjects() {
+  return getActiveAccount().projects;
+}
 
 function init() {
   populateTemplates();
+  renderGithubAccountTabs();
   renderProjectFilters();
   renderProjectsGrid();
   bindEvents();
   loadProfile();
   loadFeed();
   renderMeme();
-  $('#project-count').textContent = String(GITHUB_PROJECTS.length);
+  updateProjectCount();
+}
+
+function updateProjectCount() {
+  const total = GITHUB_ACCOUNTS.reduce((sum, acc) => sum + acc.projects.length, 0);
+  $('#project-count').textContent = String(total);
+  $('#active-account-count').textContent = String(getAccountProjects().length);
 }
 
 function populateTemplates() {
@@ -143,10 +154,43 @@ function bindEvents() {
   $('#copy-btn').addEventListener('click', copyCaption);
 }
 
+function renderGithubAccountTabs() {
+  const wrap = $('#github-account-tabs');
+  wrap.innerHTML = '';
+  GITHUB_ACCOUNTS.forEach((account) => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = `github-account-tab${account.id === activeGithubAccount.id ? ' active' : ''}`;
+    btn.innerHTML = `${escapeHtml(account.label)} <span class="tab-count">${account.projects.length}</span>`;
+    btn.addEventListener('click', () => {
+      if (activeGithubAccount.id === account.id) return;
+      activeGithubAccount = account;
+      projectFilter = 'all';
+      activeProject = null;
+      renderGithubAccountTabs();
+      renderProjectFilters();
+      renderProjectsGrid();
+      updateProjectCount();
+      updateProjectsHead();
+    });
+    wrap.appendChild(btn);
+  });
+  updateProjectsHead();
+}
+
+function updateProjectsHead() {
+  const account = getActiveAccount();
+  const link = $('#active-github-link');
+  if (link) {
+    link.href = account.url;
+    link.textContent = account.label;
+  }
+}
+
 function renderProjectFilters() {
   const wrap = $('#project-filters');
   wrap.innerHTML = '';
-  PROJECT_CATEGORIES.forEach((cat) => {
+  getActiveAccount().categories.forEach((cat) => {
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.className = `project-filter${cat.id === projectFilter ? ' active' : ''}`;
@@ -161,10 +205,9 @@ function renderProjectFilters() {
 }
 
 function getFilteredProjects() {
-  if (projectFilter === 'all') return GITHUB_PROJECTS;
-  return GITHUB_PROJECTS.filter(
-    (p) => PROJECT_CATEGORY_MAP[p.id] === projectFilter
-  );
+  const { projects, categoryMap } = getActiveAccount();
+  if (projectFilter === 'all') return projects;
+  return projects.filter((p) => categoryMap[p.id] === projectFilter);
 }
 
 function renderProjectsGrid() {
@@ -178,7 +221,7 @@ function renderProjectsGrid() {
         <span class="project-emoji">${project.emoji}</span>
         <div>
           <h3>${escapeHtml(project.name)}</h3>
-          <p class="project-repo">${escapeHtml(project.repo)}</p>
+          <p class="project-repo">${escapeHtml(project.owner || getActiveAccount().username)}/${escapeHtml(project.repo)}</p>
         </div>
       </div>
       <p class="project-tagline">${escapeHtml(project.tagline)}</p>
@@ -483,7 +526,7 @@ function drawWatermark(w, h) {
   ctx.fillStyle = '#fff';
   ctx.textAlign = 'right';
   const stamp = activeProject
-    ? `🗑️ ${activeProject.repo}`
+    ? `🗑️ ${activeProject.owner || getActiveAccount().username}/${activeProject.repo}`
     : '🦋 @adhdloganberry.bsky.social';
   ctx.fillText(truncate(stamp, 42), w - 15, h - 130);
   ctx.restore();
