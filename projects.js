@@ -210,6 +210,17 @@ export const GITHUB_PROJECTS = [
     bg: 'ai',
   },
   {
+    id: 'creampie-calculator',
+    name: 'Creampie-Time-Calculator',
+    repo: 'Creampie-Time-Calculator',
+    url: 'https://github.com/dglogan42/Creampie-Time-Calculator',
+    emoji: '🥧',
+    tagline: 'Ovulation tracker with whipped-cream pastry alert when it\'s baby time.',
+    memeTop: 'CREAMPIE TIME CALCULATOR',
+    memeBottom: 'load the whipped cream at ovulation o\'clock',
+    bg: 'berry',
+  },
+  {
     id: 'cringe-memes',
     name: 'cringe-memes-bluesky',
     repo: 'cringe-memes-bluesky',
@@ -249,5 +260,6 @@ export const PROJECT_CATEGORY_MAP = {
   'rednote-trader': 'commerce',
   'rednote-streaming': 'chaos',
   'uncensored-ai': 'chaos',
+  'creampie-calculator': 'chaos',
   'cringe-memes': 'chaos',
 };
