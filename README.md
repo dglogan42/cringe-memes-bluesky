@@ -13,7 +13,7 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — 58 repos across two accounts ([@dglogan42](https://github.com/dglogan42) + [@Thedoctorjpg](https://github.com/Thedoctorjpg)) as one-click meme fuel
+- **Stupid GitHub Projects** — 65+ repos across two accounts ([@dglogan42](https://github.com/dglogan42) + [@Thedoctorjpg](https://github.com/Thedoctorjpg)) as one-click meme fuel
 
 ## Quick Start
 
@@ -46,8 +46,8 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (23 repos) and **@Thedoctorjpg** (35 repos).
-2. Filter by category — Sports, Chaos Apps, Games, Writing, etc.
+1. Switch between **@dglogan42** (30 repos) and **@Thedoctorjpg** (portfolio tab).
+2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
 
@@ -84,6 +84,13 @@ When a repo is selected:
 | [Creampie-Time-Calculator](https://github.com/dglogan42/Creampie-Time-Calculator) | Ovulation tracker with whipped-cream pastry fertile-window alert |
 | [Hogwarts-Sherlock](https://github.com/dglogan42/Hogwarts-Sherlock) | 33k-word EPUB — modern Sherlock science teacher × teenage notebook voice |
 | [Openstream](https://github.com/dglogan42/Openstream) | Free open-source multi-site streamer — FFmpeg fan-out to YouTube/Twitch/etc. |
+| [Openrestream](https://github.com/dglogan42/Openrestream) | Multi-destination broadcast experiments |
+| [Beastwars-TCG](https://github.com/dglogan42/Beastwars-TCG) | Beast Wars Transformers TCG PWA — expansions, deck builder, battle AI |
+| [Azogue-Netflix](https://github.com/dglogan42/Azogue-Netflix) | Netflix-adjacent viewing chaos |
+| [Slam-Poet](https://github.com/dglogan42/Slam-Poet) | Slam poetry / spoken-word tooling |
+| [THE-FALLEN-SEED](https://github.com/dglogan42/THE-FALLEN-SEED) | Dark-seed creative project |
+| [ADHD-Ardour](https://github.com/dglogan42/ADHD-Ardour) | Ardour DAW + ADHD workflow chaos |
+| [observability-monitoring-toolkit](https://github.com/dglogan42/observability-monitoring-toolkit) | Observability / monitoring toolkit |
 | [cringe-memes-bluesky](https://github.com/dglogan42/cringe-memes-bluesky) | This repo (recursive cringe) |
 
 ### @Thedoctorjpg portfolio (35 repos)
