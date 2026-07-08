@@ -2,13 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>🦋 Cringe Meme Generator — @adhdloganberry</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Impact&family=Papyrus&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
-</head>
+    <meta name="theme-color" content="#7b2cbf" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Cringe Memes" />
+    <meta name="application-name" content="Cringe Memes Bluesky" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="icons/icon-180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png" />
+  </head>
 <body>
   <div class="sparkle-layer" aria-hidden="true"></div>
   <div class="marquee-bar">
@@ -147,6 +156,19 @@
     </p>
   </footer>
 
-  <script src="app.js" type="module"></script>
-</body>
+  <script type="module" src="install.js"></script>
+    <script src="app.js" type="module"></script>
+
+    <div class="install-prompt" id="installPrompt" hidden role="dialog" aria-label="Install app">
+      <div class="install-prompt__body">
+        <strong>Install this app</strong>
+        <p data-install-text>Add to your home screen for offline use on any device.</p>
+      </div>
+      <div class="install-prompt__actions">
+        <button type="button" data-install hidden>Install</button>
+        <button type="button" data-dismiss>Not now</button>
+      </div>
+    </div>
+
+  </body>
 </html>

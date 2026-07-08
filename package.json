@@ -1,6 +1,6 @@
 {
   "name": "cringe-meme-generator",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "private": true,
   "type": "module",
   "description": "Cringe meme generator for @adhdloganberry.bsky.social + @dglogan42 & @Thedoctorjpg GitHub portfolio meme fuel (Beastwars-TCG era)",
@@ -11,7 +11,7 @@
   "homepage": "https://github.com/dglogan42/cringe-memes-bluesky#readme",
   "license": "MIT",
   "scripts": {
-    "start": "python3 -m http.server 3456",
+    "start": "python3 -m http.server 3456 --bind 0.0.0.0",
     "dev": "python3 -m http.server 3456"
   }
 }

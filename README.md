@@ -13,7 +13,8 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — 65+ repos across two accounts ([@dglogan42](https://github.com/dglogan42) + [@Thedoctorjpg](https://github.com/Thedoctorjpg)) as one-click meme fuel
+- **Stupid GitHub Projects** — 65+ repos across two accounts ([@dglogan42](https://github.com/dglogan42) + [@Thedoctorjpg](https://github.com/Thedoctorjpg)) as one-click meme fuel (includes **Christmas-Countdown**)
+- **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
 ## Quick Start
 
@@ -46,7 +47,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (30 repos) and **@Thedoctorjpg** (portfolio tab).
+1. Switch between **@dglogan42** (31 repos) and **@Thedoctorjpg** (portfolio tab).
 2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
@@ -86,6 +87,7 @@ When a repo is selected:
 | [Openstream](https://github.com/dglogan42/Openstream) | Free open-source multi-site streamer — FFmpeg fan-out to YouTube/Twitch/etc. |
 | [Openrestream](https://github.com/dglogan42/Openrestream) | Multi-destination broadcast experiments |
 | [Beastwars-TCG](https://github.com/dglogan42/Beastwars-TCG) | Beast Wars Transformers TCG PWA — expansions, deck builder, battle AI |
+| [Christmas-Countdown](https://github.com/dglogan42/Christmas-Countdown) | Buddy / Grinch / Jack · cozy -ber months · Feliz Navidad PWA |
 | [Azogue-Netflix](https://github.com/dglogan42/Azogue-Netflix) | Netflix-adjacent viewing chaos |
 | [Slam-Poet](https://github.com/dglogan42/Slam-Poet) | Slam poetry / spoken-word tooling |
 | [THE-FALLEN-SEED](https://github.com/dglogan42/THE-FALLEN-SEED) | Dark-seed creative project |
@@ -135,3 +137,23 @@ Not affiliated with Bluesky or GitHub. Maximum cringe intended.
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+## Multi-platform (web · iOS · Android · Windows · Mac · Linux)
+
+This app is a **Progressive Web App (PWA)** — installable from the browser on phones and desktops.
+
+| Platform | How |
+|----------|-----|
+| **Web** | Any modern browser |
+| **iOS** | Safari → Share → **Add to Home Screen** |
+| **Android** | Chrome → **Install app** / Add to Home screen |
+| **Windows / Mac / Linux** | Chrome or Edge → Install from address bar |
+
+```bash
+npm start
+# → http://localhost:3456
+# Use the Network URL on a phone (same Wi‑Fi)
+```
+
+Serve over **HTTPS** (or localhost) for install + offline. Core files are cached by `sw.js`.
+
