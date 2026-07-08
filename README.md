@@ -13,7 +13,7 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — 57 repos across two accounts ([@dglogan42](https://github.com/dglogan42) + [@Thedoctorjpg](https://github.com/Thedoctorjpg)) as one-click meme fuel
+- **Stupid GitHub Projects** — 58 repos across two accounts ([@dglogan42](https://github.com/dglogan42) + [@Thedoctorjpg](https://github.com/Thedoctorjpg)) as one-click meme fuel
 
 ## Quick Start
 
@@ -46,7 +46,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (22 repos) and **@Thedoctorjpg** (35 repos).
+1. Switch between **@dglogan42** (23 repos) and **@Thedoctorjpg** (35 repos).
 2. Filter by category — Sports, Chaos Apps, Games, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
@@ -83,6 +83,7 @@ When a repo is selected:
 | [Uncensored-AI](https://github.com/dglogan42/Uncensored-AI) | Local AI studio — SD, LLMs, Whisper, TTS |
 | [Creampie-Time-Calculator](https://github.com/dglogan42/Creampie-Time-Calculator) | Ovulation tracker with whipped-cream pastry fertile-window alert |
 | [Hogwarts-Sherlock](https://github.com/dglogan42/Hogwarts-Sherlock) | 33k-word EPUB — modern Sherlock science teacher × teenage notebook voice |
+| [Openstream](https://github.com/dglogan42/Openstream) | Free open-source multi-site streamer — FFmpeg fan-out to YouTube/Twitch/etc. |
 | [cringe-memes-bluesky](https://github.com/dglogan42/cringe-memes-bluesky) | This repo (recursive cringe) |
 
 ### @Thedoctorjpg portfolio (35 repos)

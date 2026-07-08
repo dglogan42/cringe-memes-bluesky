@@ -259,6 +259,18 @@ export const DGLOGAN42_PROJECTS = [
     bg: 'adhd',
   },
   {
+    id: 'openstream',
+    owner: 'dglogan42',
+    name: 'Openstream',
+    repo: 'Openstream',
+    url: 'https://github.com/dglogan42/Openstream',
+    emoji: '📡',
+    tagline: 'Free open-source multi-site streamer — one ingest, many platforms via FFmpeg.',
+    memeTop: 'STREAM ONCE TO EVERYTHING',
+    memeBottom: 'self-hosted restream on a free plan forever',
+    bg: 'stream',
+  },
+  {
     id: 'cringe-memes',
     owner: 'dglogan42',
     name: 'cringe-memes-bluesky',
@@ -301,6 +313,7 @@ export const PROJECT_CATEGORY_MAP = {
   'uncensored-ai': 'chaos',
   'creampie-calculator': 'chaos',
   'hogwarts-sherlock': 'chaos',
+  'openstream': 'chaos',
   'cringe-memes': 'chaos',
 };
 
