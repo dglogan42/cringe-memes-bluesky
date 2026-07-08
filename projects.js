@@ -277,9 +277,9 @@ export const DGLOGAN42_PROJECTS = [
     repo: 'Openrestream',
     url: 'https://github.com/dglogan42/Openrestream',
     emoji: '🔀',
-    tagline: 'Sister restream chaos — open multi-destination broadcast experiments.',
-    memeTop: 'OPENRESTREAM PROTOCOL',
-    memeBottom: 'because one stream platform is never enough',
+    tagline: 'Standalone multistream app + OBS Lua companion — one OBS feed, many platforms.',
+    memeTop: 'OPENRESTREAM + OBS',
+    memeBottom: 'stream once. fan out forever. self-hosted.',
     bg: 'stream',
   },
   {
