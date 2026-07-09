@@ -13,7 +13,7 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — 65+ repos across two accounts ([@dglogan42](https://github.com/dglogan42) + [@Thedoctorjpg](https://github.com/Thedoctorjpg)) as one-click meme fuel (includes **Witchfire**)
+- **Stupid GitHub Projects** — 65+ repos across two accounts ([@dglogan42](https://github.com/dglogan42) + [@Thedoctorjpg](https://github.com/Thedoctorjpg)) as one-click meme fuel (includes **Mission-Not-Ready** + **Witchfire**)
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
 ## Quick Start
@@ -47,7 +47,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (32 repos, newest first — **Witchfire** featured) and **@Thedoctorjpg** (portfolio tab).
+1. Switch between **@dglogan42** (33 repos, newest first — **Mission-Not-Ready** featured) and **@Thedoctorjpg** (portfolio tab).
 2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
@@ -63,6 +63,8 @@ When a repo is selected:
 
 | Repo | What it is |
 |------|------------|
+| [Mission-Not-Ready](https://github.com/dglogan42/Mission-Not-Ready) | Satire meme lab roasting missionreadyhq.com — empty Nest, no Wi‑Fi, phantom classrooms, multi-format export + social share packs |
+| [Witchfire](https://github.com/dglogan42/Witchfire) | Full 3-act Broadway musical + EPUB — Basque witch-hunt of 1609 |
 | [ABG-Finder](https://github.com/dglogan42/ABG-Finder) | ABG swipe app with snack flavor ratings & the sauce |
 | [Valorant-Streamer](https://github.com/dglogan42/Valorant-Streamer) | Twitch ladder, clip studio, gift subs, Throne |
 | [Glasgow-2026](https://github.com/dglogan42/Glasgow-2026) | Morag MacMeme Scots TTS Commonwealth Games |

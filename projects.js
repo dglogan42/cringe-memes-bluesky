@@ -7,6 +7,18 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'mission-not-ready',
+    owner: 'dglogan42',
+    name: 'Mission-Not-Ready',
+    repo: 'Mission-Not-Ready',
+    url: 'https://github.com/dglogan42/Mission-Not-Ready',
+    emoji: '🏢',
+    tagline: 'Satire meme lab roasting missionreadyhq.com — on-site with no site, no Wi‑Fi, phantom classrooms. Multi-format export + share packs.',
+    memeTop: 'SIGNED UP FOR ON-SITE',
+    memeBottom: 'arrives to an empty nest (no wifi)',
+    bg: 'ai',
+  },
+  {
     id: 'witchfire',
     owner: 'dglogan42',
     name: 'Witchfire',
@@ -402,6 +414,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'mission-not-ready': 'chaos',
   'abg-finder': 'chaos',
   'valorant-streamer': 'chaos',
   'glasgow-2026': 'sports',
