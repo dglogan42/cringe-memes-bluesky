@@ -7,6 +7,18 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'card-collector',
+    owner: 'dglogan42',
+    name: 'Card-Collector',
+    repo: 'Card-Collector',
+    url: 'https://github.com/dglogan42/Card-Collector',
+    emoji: '🃏',
+    tagline: 'iOS + Android TCG con companion — scan, grade, trade, and pay with Stripe/PayPal/Apple Pay/Google Pay at the booth.',
+    memeTop: 'SCANNED A CHARIZARD AT THE CON',
+    memeBottom: 'grade says 10. wallet says apple pay. wife says leave',
+    bg: 'berry',
+  },
+  {
     id: 'mission-not-ready',
     owner: 'dglogan42',
     name: 'Mission-Not-Ready',
@@ -414,6 +426,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'card-collector': 'games',
   'mission-not-ready': 'chaos',
   'abg-finder': 'chaos',
   'valorant-streamer': 'chaos',
