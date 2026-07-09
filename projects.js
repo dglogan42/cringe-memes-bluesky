@@ -7,6 +7,18 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'witchfire',
+    owner: 'dglogan42',
+    name: 'Witchfire',
+    repo: 'Witchfire',
+    url: 'https://github.com/dglogan42/Witchfire',
+    emoji: '🔥',
+    tagline: 'Full 3-act Broadway musical + EPUB — Basque witch-hunt of 1609, but make it showtunes.',
+    memeTop: 'WITCHFIRE IN LABOURD',
+    memeBottom: 'broadway said burn the receipts (1609)',
+    bg: 'adhd',
+  },
+  {
     id: 'abg-finder',
     owner: 'dglogan42',
     name: 'ABG-Finder',
@@ -256,18 +268,6 @@ export const DGLOGAN42_PROJECTS = [
     tagline: '33k-word EPUB — Mr Holmes on TikTok meets teenage secret notebook energy.',
     memeTop: 'ELEMENTARY MY DEAR TIKTOKER',
     memeBottom: 'chromatography at baker street secondary fr',
-    bg: 'adhd',
-  },
-  {
-    id: 'witchfire',
-    owner: 'dglogan42',
-    name: 'Witchfire',
-    repo: 'Witchfire',
-    url: 'https://github.com/dglogan42/Witchfire',
-    emoji: '🔥',
-    tagline: 'Full 3-act Broadway musical + EPUB — Basque witch-hunt of 1609, but make it showtunes.',
-    memeTop: 'WITCHFIRE IN LABOURD',
-    memeBottom: 'broadway said burn the receipts (1609)',
     bg: 'adhd',
   },
   {

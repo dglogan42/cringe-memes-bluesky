@@ -1,5 +1,5 @@
 /* Multi-platform PWA service worker */
-const CACHE = 'pwa-cringe-memes-bluesky-v1';
+const CACHE = 'pwa-cringe-memes-bluesky-v1.5.1';
 const ASSETS = [
   "./",
   "./index.html",
@@ -10,6 +10,9 @@ const ASSETS = [
   "./icons/icon-maskable-512.png",
   "./style.css",
   "./app.js",
+  "./projects.js",
+  "./projects-thedoctorjpg.js",
+  "./install.js",
 ];
 
 self.addEventListener("install", (event) => {
