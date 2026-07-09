@@ -13,7 +13,7 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — 65+ repos across two accounts ([@dglogan42](https://github.com/dglogan42) + [@Thedoctorjpg](https://github.com/Thedoctorjpg)) as one-click meme fuel (includes **Christmas-Countdown**)
+- **Stupid GitHub Projects** — 65+ repos across two accounts ([@dglogan42](https://github.com/dglogan42) + [@Thedoctorjpg](https://github.com/Thedoctorjpg)) as one-click meme fuel (includes **Witchfire**)
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
 ## Quick Start
@@ -47,7 +47,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (31 repos) and **@Thedoctorjpg** (portfolio tab).
+1. Switch between **@dglogan42** (32 repos) and **@Thedoctorjpg** (portfolio tab).
 2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.

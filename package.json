@@ -1,9 +1,9 @@
 {
   "name": "cringe-meme-generator",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "private": true,
   "type": "module",
-  "description": "Cringe meme generator for @adhdloganberry.bsky.social + @dglogan42 & @Thedoctorjpg GitHub portfolio meme fuel (Beastwars-TCG era)",
+  "description": "Cringe meme generator for @adhdloganberry.bsky.social + @dglogan42 & @Thedoctorjpg GitHub portfolio meme fuel (Witchfire era)",
   "repository": {
     "type": "git",
     "url": "https://github.com/dglogan42/cringe-memes-bluesky.git"
