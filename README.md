@@ -13,7 +13,7 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — 65+ repos across two accounts ([@dglogan42](https://github.com/dglogan42) + [@Thedoctorjpg](https://github.com/Thedoctorjpg)) as one-click meme fuel (includes **Card-Collector** + **Mission-Not-Ready** + **Witchfire**)
+- **Stupid GitHub Projects** — 65+ repos across two accounts ([@dglogan42](https://github.com/dglogan42) + [@Thedoctorjpg](https://github.com/Thedoctorjpg)) as one-click meme fuel (includes **V8-Supercars** + **Card-Collector** + **Mission-Not-Ready**)
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
 ## Quick Start
@@ -47,7 +47,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (34 repos, newest first — **Card-Collector** featured) and **@Thedoctorjpg** (portfolio tab).
+1. Switch between **@dglogan42** (35 repos, newest first — **V8-Supercars** featured) and **@Thedoctorjpg** (portfolio tab).
 2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
@@ -63,6 +63,7 @@ When a repo is selected:
 
 | Repo | What it is |
 |------|------------|
+| [V8-Supercars](https://github.com/dglogan42/V8-Supercars) | iOS + Android PWA — DAZZA bogan Supercars commentary, Clip Studio, Openrestream rebroadcast |
 | [Card-Collector](https://github.com/dglogan42/Card-Collector) | iOS + Android TCG con app — scan, grade, trade, Stripe/PayPal/Apple Pay/Google Pay |
 | [Mission-Not-Ready](https://github.com/dglogan42/Mission-Not-Ready) | Satire meme lab roasting missionreadyhq.com — empty Nest, no Wi‑Fi, phantom classrooms, multi-format export + social share packs |
 | [Witchfire](https://github.com/dglogan42/Witchfire) | Full 3-act Broadway musical + EPUB — Basque witch-hunt of 1609 |

@@ -7,6 +7,18 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'v8-supercars',
+    owner: 'dglogan42',
+    name: 'V8-Supercars',
+    repo: 'V8-Supercars',
+    url: 'https://github.com/dglogan42/V8-Supercars',
+    emoji: '🏎️',
+    tagline: 'iOS + Android PWA — DAZZA bogan Supercars commentary, Clip Studio, Openrestream rebroadcast.',
+    memeTop: 'LIGHTS OUT AND AWAY WE GO',
+    memeBottom: 'dazza said yeah nah send it mate',
+    bg: 'fifa',
+  },
+  {
     id: 'card-collector',
     owner: 'dglogan42',
     name: 'Card-Collector',
@@ -426,6 +438,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'v8-supercars': 'sports',
   'card-collector': 'games',
   'mission-not-ready': 'chaos',
   'abg-finder': 'chaos',
