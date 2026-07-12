@@ -7,6 +7,43 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'fable-offline',
+    owner: 'dglogan42',
+    name: 'Fable-Offline',
+    repo: 'Fable-Offline',
+    url: 'https://github.com/dglogan42/Fable-Offline',
+    emoji: '🧠',
+    tagline:
+      'Offline Fable 5 agent — Ollama chat, loop engineering, self-improving skills. Maker ≠ grader. No cloud tax.',
+    memeTop: 'FABLE 5 OFFLINE MODE',
+    memeBottom: 'no api key. no rate limit. just pure local rigour (and a 7b model)',
+    bg: 'ai',
+  },
+  {
+    id: 'coursex-agents',
+    owner: 'dglogan42',
+    name: 'CourseX-Agents',
+    repo: 'CourseX-Agents',
+    url: 'https://github.com/dglogan42/CourseX-Agents',
+    emoji: '🤖',
+    tagline: 'Agent swarm for CourseX — multi-agent course chaos in Python.',
+    memeTop: 'COURSEX AGENTS ASSEMBLE',
+    memeBottom: 'one agent to syllabus them all',
+    bg: 'ai',
+  },
+  {
+    id: 'coursex',
+    owner: 'dglogan42',
+    name: 'CourseX',
+    repo: 'CourseX',
+    url: 'https://github.com/dglogan42/CourseX',
+    emoji: '📚',
+    tagline: 'CourseX platform core — courses, content, and educational pipeline energy.',
+    memeTop: 'COURSEX JUST DROPPED',
+    memeBottom: 'another learning platform nobody asked for (i asked)',
+    bg: 'adhd',
+  },
+  {
     id: 'v8-supercars',
     owner: 'dglogan42',
     name: 'V8-Supercars',
@@ -438,6 +475,9 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'fable-offline': 'chaos',
+  'coursex-agents': 'chaos',
+  'coursex': 'chaos',
   'v8-supercars': 'sports',
   'card-collector': 'games',
   'mission-not-ready': 'chaos',
