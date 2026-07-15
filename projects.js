@@ -463,6 +463,18 @@ export const DGLOGAN42_PROJECTS = [
     memeBottom: 'recursively cringe (this repo)',
     bg: 'berry',
   },
+  {
+    id: 'unlisted',
+    owner: 'dglogan42',
+    name: 'UNLISTED',
+    repo: 'UNLISTED',
+    url: 'https://github.com/dglogan42/UNLISTED',
+    emoji: '💾',
+    tagline: 'Found-footage horror screenplay — an SD card mailed with no return address, three people go looking, one very bad ARG.',
+    memeTop: 'FOUND THE UNLISTED FOLDER',
+    memeBottom: 'should NOT have opened it',
+    bg: 'pandemic',
+  },
 ];
 
 export const PROJECT_CATEGORIES = [
@@ -513,6 +525,7 @@ export const PROJECT_CATEGORY_MAP = {
   'adhd-ardour': 'chaos',
   'observability-toolkit': 'chaos',
   'cringe-memes': 'chaos',
+  'unlisted': 'writing',
 };
 
 /** @deprecated use DGLOGAN42_PROJECTS */
