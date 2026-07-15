@@ -464,6 +464,18 @@ export const DGLOGAN42_PROJECTS = [
     bg: 'berry',
   },
   {
+    id: 'claude-skills',
+    owner: 'dglogan42',
+    name: 'Claude-Skills',
+    repo: 'Claude-Skills',
+    url: 'https://github.com/dglogan42/Claude-Skills',
+    emoji: '🧩',
+    tagline: 'Custom Claude Code skills — found-footage screenplay method, tabloid gossip voice, whatever chaos comes next.',
+    memeTop: 'WROTE A CLAUDE SKILL FOR THAT',
+    memeBottom: 'there is now a slash command for the vibes',
+    bg: 'ai',
+  },
+  {
     id: 'unlisted',
     owner: 'dglogan42',
     name: 'UNLISTED',
@@ -526,6 +538,7 @@ export const PROJECT_CATEGORY_MAP = {
   'observability-toolkit': 'chaos',
   'cringe-memes': 'chaos',
   'unlisted': 'writing',
+  'claude-skills': 'chaos',
 };
 
 /** @deprecated use DGLOGAN42_PROJECTS */
