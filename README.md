@@ -101,6 +101,9 @@ When a repo is selected:
 | [ADHD-Ardour](https://github.com/dglogan42/ADHD-Ardour) | Ardour DAW + ADHD workflow chaos |
 | [observability-monitoring-toolkit](https://github.com/dglogan42/observability-monitoring-toolkit) | Observability / monitoring toolkit |
 | [cringe-memes-bluesky](https://github.com/dglogan42/cringe-memes-bluesky) | This repo (recursive cringe) |
+| [Claude-Skills](https://github.com/dglogan42/Claude-Skills) | Custom Claude Code skills — found-footage screenplay method, tabloid gossip voice, promo shoot briefs |
+| [UNLISTED](https://github.com/dglogan42/UNLISTED) | Found-footage horror screenplay — SD card, no return address, one very bad ARG |
+| [production-notes](https://github.com/dglogan42/production-notes) | Yoga wind-down routine that turned into a shoot brief, call sheet, choreography count, and location scout guide |
 
 ### @Thedoctorjpg portfolio (35 repos)
 

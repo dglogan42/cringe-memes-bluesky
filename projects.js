@@ -487,6 +487,18 @@ export const DGLOGAN42_PROJECTS = [
     memeBottom: 'should NOT have opened it',
     bg: 'pandemic',
   },
+  {
+    id: 'production-notes',
+    owner: 'dglogan42',
+    name: 'production-notes',
+    repo: 'production-notes',
+    url: 'https://github.com/dglogan42/production-notes',
+    emoji: '🧘',
+    tagline: 'Evening yoga routine that spiralled into a full shoot brief, call sheet, choreography count, and location scout guide.',
+    memeTop: 'ASKED FOR A WIND-DOWN ROUTINE',
+    memeBottom: 'received an entire production bible',
+    bg: 'liveLaugh',
+  },
 ];
 
 export const PROJECT_CATEGORIES = [
@@ -539,6 +551,7 @@ export const PROJECT_CATEGORY_MAP = {
   'cringe-memes': 'chaos',
   'unlisted': 'writing',
   'claude-skills': 'chaos',
+  'production-notes': 'chaos',
 };
 
 /** @deprecated use DGLOGAN42_PROJECTS */
