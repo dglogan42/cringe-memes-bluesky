@@ -13,7 +13,7 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — 70+ repos across two accounts ([@dglogan42](https://github.com/dglogan42) + [@Thedoctorjpg](https://github.com/Thedoctorjpg)) as one-click meme fuel (includes **Fable-Offline** + **CourseX** + **CourseX-Agents** + V8-Supercars + more)
+- **Stupid GitHub Projects** — 77 repos across two accounts ([@dglogan42](https://github.com/dglogan42) + [@Thedoctorjpg](https://github.com/Thedoctorjpg)) as one-click meme fuel (includes **SapioLink** + **production-notes** + **Claude-Skills** + **Fable-Offline** + more)
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
 ## Quick Start
@@ -47,7 +47,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (38 repos, newest first — **Fable-Offline** featured) and **@Thedoctorjpg** (portfolio tab).
+1. Switch between **@dglogan42** (42 repos, newest first — **SapioLink** featured) and **@Thedoctorjpg** (portfolio tab).
 2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
@@ -63,6 +63,7 @@ When a repo is selected:
 
 | Repo | What it is |
 |------|------------|
+| [SapioLink](https://github.com/dglogan42/SapioLink) | Dating app landing page — write a letter before you see a face. Vite + React |
 | [Fable-Offline](https://github.com/dglogan42/Fable-Offline) | Offline Fable 5 agent — Ollama chat, loop engineering, self-improving skills (maker ≠ grader) |
 | [CourseX-Agents](https://github.com/dglogan42/CourseX-Agents) | Multi-agent swarm for CourseX — Python agent chaos |
 | [CourseX](https://github.com/dglogan42/CourseX) | CourseX platform core — courses & educational pipeline energy |

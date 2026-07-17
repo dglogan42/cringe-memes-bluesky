@@ -7,6 +7,18 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'sapiolink',
+    owner: 'dglogan42',
+    name: 'SapioLink',
+    repo: 'SapioLink',
+    url: 'https://github.com/dglogan42/SapioLink',
+    emoji: '💌',
+    tagline: 'Dating app landing page — write a letter before you see a face. Vite + React, sincere by accident.',
+    memeTop: 'MADE A DATING APP',
+    memeBottom: 'you fall for the paragraph before the face (still single btw)',
+    bg: 'berry',
+  },
+  {
     id: 'fable-offline',
     owner: 'dglogan42',
     name: 'Fable-Offline',
@@ -552,6 +564,7 @@ export const PROJECT_CATEGORY_MAP = {
   'unlisted': 'writing',
   'claude-skills': 'chaos',
   'production-notes': 'chaos',
+  'sapiolink': 'writing',
 };
 
 /** @deprecated use DGLOGAN42_PROJECTS */

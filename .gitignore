@@ -1,0 +1,21 @@
+# Dependencies (none currently, kept for future npm additions)
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Env
+.env
+.env.local
+*.local
