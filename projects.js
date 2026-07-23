@@ -511,6 +511,18 @@ export const DGLOGAN42_PROJECTS = [
     memeBottom: 'received an entire production bible',
     bg: 'liveLaugh',
   },
+  {
+    id: 'ai-friend',
+    owner: 'dglogan42',
+    name: 'AI-Friend',
+    repo: 'AI-Friend',
+    url: 'https://github.com/dglogan42/AI-Friend',
+    emoji: '🐱',
+    tagline: 'Cat-eared VR companion, in pseudocode: BEGIN heard ← Listen(); reply ← Think(heard); Emote(reply.mood); Speak(reply.text) END.',
+    memeTop: 'BEGIN COMPANION.EXE',
+    memeBottom: 'openai has no billing, kimi is broke, but the cat ears compile',
+    bg: 'ai',
+  },
 ];
 
 export const PROJECT_CATEGORIES = [
@@ -565,6 +577,7 @@ export const PROJECT_CATEGORY_MAP = {
   'claude-skills': 'chaos',
   'production-notes': 'chaos',
   'sapiolink': 'writing',
+  'ai-friend': 'chaos',
 };
 
 /** @deprecated use DGLOGAN42_PROJECTS */
