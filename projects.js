@@ -7,6 +7,45 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'cosplay-meetup-manager',
+    owner: 'dglogan42',
+    name: 'Cosplay-Meetup-Manager',
+    repo: 'Cosplay-Meetup-Manager',
+    url: 'https://github.com/dglogan42/Cosplay-Meetup-Manager',
+    emoji: '🎭',
+    tagline:
+      'Cosplay meetup event planner — checklist, attendees, schedule, localStorage, and share to LINE / KakaoTalk / WeChat / WhatsApp / Discord. No backend. Pure con-prep chaos.',
+    memeTop: 'BUILT A COSPLAY MEETUP APP',
+    memeBottom: 'still sewing the costume the night before',
+    bg: 'berry',
+  },
+  {
+    id: 'church-date',
+    owner: 'dglogan42',
+    name: 'Church-Date',
+    repo: 'Church-Date',
+    url: 'https://github.com/dglogan42/Church-Date',
+    emoji: '✝️',
+    tagline:
+      'Kindred — faith-based dating. Next.js + Prisma + NextAuth, 18+ gate, real photo onboarding, mutual match, chat, verse of the day by tradition.',
+    memeTop: 'BUILT A CHURCH DATING APP',
+    memeBottom: 'mutual match before you DMs (amen)',
+    bg: 'liveLaugh',
+  },
+  {
+    id: 'milf-mate',
+    owner: 'dglogan42',
+    name: 'MILF-Mate',
+    repo: 'MILF-Mate',
+    url: 'https://github.com/dglogan42/MILF-Mate',
+    emoji: '🔥',
+    tagline:
+      'Location-based discover app — swipe, filters, matches, Haversine distance. Demo seed personas only; real product needs real opt-in users. React + Express + SQLite PWA.',
+    memeTop: 'SHIPPED A GEO HOOKUP APP',
+    memeBottom: 'the seed profiles are fictional (the cringe is real)',
+    bg: 'berry',
+  },
+  {
     id: 'palagi-life',
     owner: 'dglogan42',
     name: 'palagi-life',
@@ -634,6 +673,9 @@ export const PROJECT_CATEGORY_MAP = {
   'user-ex-int': 'chaos',
   'bubble-tea-news': 'writing',
   'palagi-life': 'writing',
+  'cosplay-meetup-manager': 'chaos',
+  'church-date': 'chaos',
+  'milf-mate': 'chaos',
 };
 
 /** @deprecated use DGLOGAN42_PROJECTS */
