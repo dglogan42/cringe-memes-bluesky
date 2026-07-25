@@ -7,6 +7,45 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'brick-bud',
+    owner: 'dglogan42',
+    name: 'Brick-Bud',
+    repo: 'Brick-Bud',
+    url: 'https://github.com/dglogan42/Brick-Bud',
+    emoji: '🧱',
+    tagline:
+      'LEGO® Collectible Minifig tracker — Expo + React Native, 28 CMF series, owned/wishlist, spend vs value, per-series completion. Local AsyncStorage only. Pure blind-bag pain.',
+    memeTop: 'BUILT A MINIFIG TRACKER',
+    memeBottom: 'still bought the same figure twice (blind bag tax)',
+    bg: 'minion',
+  },
+  {
+    id: 'warband',
+    owner: 'dglogan42',
+    name: 'WarBand',
+    repo: 'WarBand',
+    url: 'https://github.com/dglogan42/WarBand',
+    emoji: '⚔️',
+    tagline:
+      'Teams/Slack-style hub for tabletop groups — channels, calendar ICS sync, Socket.IO chat, Jitsi video, JWT + SQLite, optional Teams manifest + Slack Bolt bot.',
+    memeTop: 'BUILT A TABLETOP TEAMS APP',
+    memeBottom: 'session zero is still in the group chat (nobody rsvpd)',
+    bg: 'liveLaugh',
+  },
+  {
+    id: 'dispensa',
+    owner: 'dglogan42',
+    name: 'Dispensa',
+    repo: 'Dispensa',
+    url: 'https://github.com/dglogan42/Dispensa',
+    emoji: '💊',
+    tagline:
+      'Pharmacist AR support tool — eRx queue, camera AR overlays, accuracy checks, drug interaction engine, QR/PDF intake, SpaceXAI clinical narratives (demo CDS only).',
+    memeTop: 'BUILT PHARMACY AR SOFTWARE',
+    memeBottom: 'the interactions are real; the license is demo-only',
+    bg: 'ai',
+  },
+  {
     id: 'cosplay-meetup-manager',
     owner: 'dglogan42',
     name: 'Cosplay-Meetup-Manager',
@@ -676,6 +715,9 @@ export const PROJECT_CATEGORY_MAP = {
   'cosplay-meetup-manager': 'chaos',
   'church-date': 'chaos',
   'milf-mate': 'chaos',
+  'brick-bud': 'games',
+  'warband': 'chaos',
+  'dispensa': 'chaos',
 };
 
 /** @deprecated use DGLOGAN42_PROJECTS */
