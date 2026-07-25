@@ -7,6 +7,71 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'camera-trader',
+    owner: 'dglogan42',
+    name: 'Camera-Trader',
+    repo: 'Camera-Trader',
+    url: 'https://github.com/dglogan42/Camera-Trader',
+    emoji: '📷',
+    tagline:
+      'Auckland camera trade-in hub — grade gear, store credit vs cash (Stripe Connect sim), inventory, shutter depreciation, stolen-serial mock. SNAP is dead; SeriSafe is homework; 105 is real.',
+    memeTop: 'BUILT A CAMERA TRADE APP',
+    memeBottom: 'snap.org.nz decommissioned (serials still haunt me)',
+    bg: 'ai',
+  },
+  {
+    id: 'vinyl-addict',
+    owner: 'dglogan42',
+    name: 'Vinyl-Addict',
+    repo: 'Vinyl-Addict',
+    url: 'https://github.com/dglogan42/Vinyl-Addict',
+    emoji: '💿',
+    tagline:
+      'Vinyl Addict × Real Groovy PWA — scan covers, collection, mock trade-in grade, cash vs store credit (+10%). React + Vite + Express. iOS/Android/desktop installable.',
+    memeTop: 'SCANNED MY ENTIRE COLLECTION',
+    memeBottom: 'real groovy still wants the actual records in a bag',
+    bg: 'berry',
+  },
+  {
+    id: 'uma-companion',
+    owner: 'dglogan42',
+    name: 'Uma-Companion',
+    repo: 'Uma-Companion',
+    url: 'https://github.com/dglogan42/Uma-Companion',
+    emoji: '💜',
+    tagline:
+      'Personal PWA companion — offline chat, mood check-ins, private notes. React + Vite + service worker. Data stays on-device. Installable on phone and desktop.',
+    memeTop: 'SHIPPED A COMPANION APP',
+    memeBottom: 'she only exists in localStorage (still better than my DMs)',
+    bg: 'liveLaugh',
+  },
+  {
+    id: 'fetchly',
+    owner: 'dglogan42',
+    name: 'Fetchly',
+    repo: 'Fetchly',
+    url: 'https://github.com/dglogan42/Fetchly',
+    emoji: '🛴',
+    tagline:
+      'Student neighborhood delivery — email-only signup, walk/bike/scooter/skateboard couriers, no driver’s license. React + Express + SQLite. Snacks before school, chaos after.',
+    memeTop: 'BUILT A TEEN DELIVERY APP',
+    memeBottom: 'no license required (neither is a business plan)',
+    bg: 'minion',
+  },
+  {
+    id: 'manga-mate',
+    owner: 'dglogan42',
+    name: 'Manga-Mate',
+    repo: 'Manga-Mate',
+    url: 'https://github.com/dglogan42/Manga-Mate',
+    emoji: '📚',
+    tagline:
+      'Manga series tracker by genre + chapter progress. PWA + Electron + Capacitor Android. localStorage only. Offline shell. TBR pile grows anyway.',
+    memeTop: 'TRACKED 200 SERIES',
+    memeBottom: 'still “catching up” on chapter 3',
+    bg: 'berry',
+  },
+  {
     id: 'brick-bud',
     owner: 'dglogan42',
     name: 'Brick-Bud',
@@ -718,6 +783,11 @@ export const PROJECT_CATEGORY_MAP = {
   'brick-bud': 'games',
   'warband': 'chaos',
   'dispensa': 'chaos',
+  'camera-trader': 'commerce',
+  'vinyl-addict': 'commerce',
+  'uma-companion': 'chaos',
+  'fetchly': 'commerce',
+  'manga-mate': 'games',
 };
 
 /** @deprecated use DGLOGAN42_PROJECTS */

@@ -1,9 +1,9 @@
 {
   "name": "cringe-meme-generator",
-  "version": "1.5.9",
+  "version": "1.6.0",
   "private": true,
   "type": "module",
-  "description": "Cringe meme generator for @adhdloganberry.bsky.social + @dglogan42 & @Thedoctorjpg GitHub portfolio meme fuel (Brick-Bud + WarBand + Dispensa era)",
+  "description": "Cringe meme generator for @adhdloganberry.bsky.social + @dglogan42 & @Thedoctorjpg GitHub portfolio meme fuel (Camera-Trader + Vinyl-Addict + Uma era)",
   "repository": {
     "type": "git",
     "url": "https://github.com/dglogan42/cringe-memes-bluesky.git"
