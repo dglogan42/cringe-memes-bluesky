@@ -7,6 +7,45 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'delphitools-mobile',
+    owner: 'dglogan42',
+    name: 'delphitools-mobile',
+    repo: 'delphitools-mobile',
+    url: 'https://github.com/dglogan42/delphitools-mobile',
+    emoji: '🧰',
+    tagline:
+      'Mobile-first privacy-first browser tools + an unhinged AI Prompt Pack (Agent Team, FMCG ads, Blender MCP, VRM, DAW…). Vite + React. No login. Just vibes.',
+    memeTop: 'BUILT ANOTHER TOOLKIT',
+    memeBottom: 'now it has 20 prompt packs and a vrm exporter (still no users)',
+    bg: 'ai',
+  },
+  {
+    id: 'user-ex-int',
+    owner: 'dglogan42',
+    name: 'User-Ex-Int',
+    repo: 'User-Ex-Int',
+    url: 'https://github.com/dglogan42/User-Ex-Int',
+    emoji: '🕸️',
+    tagline:
+      'User Experience Intelligence via Graph Engineering — multi-agent loops with shared memory (generate → critique → revise → graph that survives sessions).',
+    memeTop: 'AGENTS NEED SHARED MEMORY',
+    memeBottom: 'built a graph so the swarm stops gaslighting itself',
+    bg: 'ai',
+  },
+  {
+    id: 'bubble-tea-news',
+    owner: 'dglogan42',
+    name: 'bubble-tea-news',
+    repo: 'bubble-tea-news',
+    url: 'https://github.com/dglogan42/bubble-tea-news',
+    emoji: '🧋',
+    tagline:
+      "Fictional Auckland bubble-tea freesheet — weekly satirical issues, print PDFs, and a whole coffee-news energy empire. Claude-Skills writes it; this repo ships it.",
+    memeTop: 'LAUNCHED A NEWSPAPER',
+    memeBottom: 'for bubble tea (print-ready pdfs btw)',
+    bg: 'berry',
+  },
+  {
     id: 'sapiolink',
     owner: 'dglogan42',
     name: 'SapioLink',
@@ -578,6 +617,9 @@ export const PROJECT_CATEGORY_MAP = {
   'production-notes': 'chaos',
   'sapiolink': 'writing',
   'ai-friend': 'chaos',
+  'delphitools-mobile': 'chaos',
+  'user-ex-int': 'chaos',
+  'bubble-tea-news': 'writing',
 };
 
 /** @deprecated use DGLOGAN42_PROJECTS */

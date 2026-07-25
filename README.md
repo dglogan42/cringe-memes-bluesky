@@ -13,7 +13,7 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — 77 repos across two accounts ([@dglogan42](https://github.com/dglogan42) + [@Thedoctorjpg](https://github.com/Thedoctorjpg)) as one-click meme fuel (includes **SapioLink** + **production-notes** + **Claude-Skills** + **Fable-Offline** + more)
+- **Stupid GitHub Projects** — 80 repos across two accounts ([@dglogan42](https://github.com/dglogan42) + [@Thedoctorjpg](https://github.com/Thedoctorjpg)) as one-click meme fuel (includes **delphitools-mobile** + **User-Ex-Int** + **bubble-tea-news** + **SapioLink** + more)
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
 ## Quick Start
@@ -47,7 +47,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (42 repos, newest first — **SapioLink** featured) and **@Thedoctorjpg** (portfolio tab).
+1. Switch between **@dglogan42** (46 repos, newest first — **delphitools-mobile** featured) and **@Thedoctorjpg** (portfolio tab).
 2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
@@ -63,6 +63,9 @@ When a repo is selected:
 
 | Repo | What it is |
 |------|------------|
+| [delphitools-mobile](https://github.com/dglogan42/delphitools-mobile) | Mobile-first browser tools + AI Prompt Pack (Agent Team, FMCG, Blender MCP, VRM…) |
+| [User-Ex-Int](https://github.com/dglogan42/User-Ex-Int) | Graph Engineering multi-agent loops with shared memory |
+| [bubble-tea-news](https://github.com/dglogan42/bubble-tea-news) | Fictional Auckland bubble-tea weekly freesheet (print + web) |
 | [SapioLink](https://github.com/dglogan42/SapioLink) | Dating app landing page — write a letter before you see a face. Vite + React |
 | [Fable-Offline](https://github.com/dglogan42/Fable-Offline) | Offline Fable 5 agent — Ollama chat, loop engineering, self-improving skills (maker ≠ grader) |
 | [CourseX-Agents](https://github.com/dglogan42/CourseX-Agents) | Multi-agent swarm for CourseX — Python agent chaos |
