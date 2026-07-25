@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'palagi-life',
+    owner: 'dglogan42',
+    name: 'palagi-life',
+    repo: 'palagi-life',
+    url: 'https://github.com/dglogan42/palagi-life',
+    emoji: '💒',
+    tagline:
+      'Self-deprecating blog + simulated live stream (palagi_live) + TikTok kit. Sione’s Wedding energy offline; chat flirts online; he thanks “stay after? xx” for the roadmap.',
+    memeTop: 'SHE TIPPED 500 BITS',
+    memeBottom: 'i thanked her for supporting the channel roadmap',
+    bg: 'berry',
+  },
+  {
     id: 'delphitools-mobile',
     owner: 'dglogan42',
     name: 'delphitools-mobile',
@@ -620,6 +633,7 @@ export const PROJECT_CATEGORY_MAP = {
   'delphitools-mobile': 'chaos',
   'user-ex-int': 'chaos',
   'bubble-tea-news': 'writing',
+  'palagi-life': 'writing',
 };
 
 /** @deprecated use DGLOGAN42_PROJECTS */
