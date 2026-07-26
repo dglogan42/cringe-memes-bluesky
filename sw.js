@@ -1,5 +1,5 @@
 /* Multi-platform PWA service worker */
-const CACHE = 'pwa-cringe-memes-bluesky-v1.5.9';
+const CACHE = 'pwa-cringe-memes-bluesky-v1.7.0';
 const ASSETS = [
   "./",
   "./index.html",

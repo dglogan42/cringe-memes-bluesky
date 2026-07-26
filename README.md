@@ -13,7 +13,7 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — 94 repos across two accounts ([@dglogan42](https://github.com/dglogan42) + [@Thedoctorjpg](https://github.com/Thedoctorjpg)) as one-click meme fuel (includes **The-Good-Herbs** + **Camera-Trader** + **Vinyl-Addict** + **Uma-Companion** + **Fetchly** + Manga-Mate era + more)
+- **Stupid GitHub Projects** — 101 repos across two accounts ([@dglogan42](https://github.com/dglogan42) + [@Thedoctorjpg](https://github.com/Thedoctorjpg)) as one-click meme fuel (includes **Trails-Companion** + **Paleo-Pal** + **Sew-And-Sew** + **birdy-bro** + **Biker-Meet** + **Pickle-Padel** + **Kart-Lap** + The-Good-Herbs era + more)
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
 ## Quick Start
@@ -47,7 +47,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (59 repos, newest first — **The-Good-Herbs** / **Camera-Trader** / **Vinyl-Addict** featured) and **@Thedoctorjpg** (portfolio tab).
+1. Switch between **@dglogan42** (66 repos, newest first — **Trails-Companion** / **Paleo-Pal** / **Sew-And-Sew** / **birdy-bro** featured) and **@Thedoctorjpg** (portfolio tab).
 2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
@@ -63,6 +63,13 @@ When a repo is selected:
 
 | Repo | What it is |
 |------|------------|
+| [Trails-Companion](https://github.com/dglogan42/Trails-Companion) | Local hiking group social app — walks, crews, RSVP meetups, trail catalog (React + localStorage) |
+| [Paleo-Pal](https://github.com/dglogan42/Paleo-Pal) | Paleo calorie & macro tracker — ring, meals, ~40 staples, 7-day history |
+| [Sew-And-Sew](https://github.com/dglogan42/Sew-And-Sew) | Craft community — sewing/crochet/knitting patterns, clubs, stitch-night RSVPs |
+| [birdy-bro](https://github.com/dglogan42/birdy-bro) | Field guide, life list & spot log for amateur ornithologists — GPS, photos, optional SpaceXAI ID |
+| [Biker-Meet](https://github.com/dglogan42/Biker-Meet) | Group rides for motorcyclists & cycle clubs — RSVP, chapters, garage |
+| [Pickle-Padel](https://github.com/dglogan42/Pickle-Padel) | Pickleball + padel tournaments, solo join, leaderboards, club meets |
+| [Kart-Lap](https://github.com/dglogan42/Kart-Lap) | Lapline — pit-lane go-kart lap timer & scoreboard (static HTML, lights-out start) |
 | [The-Good-Herbs](https://github.com/dglogan42/The-good-herbs) | Garden club finder, seed & bulb swap board, hemisphere-aware planting calendar — React + Express + SQLite |
 | [Camera-Trader](https://github.com/dglogan42/Camera-Trader) | Auckland camera trade-in hub — grade, credit/cash, shutter depreciation, stolen-serial mock (SNAP dead) |
 | [Vinyl-Addict](https://github.com/dglogan42/Vinyl-Addict) | Vinyl × Real Groovy PWA — scan covers, collection, mock trade-in, cash vs credit |

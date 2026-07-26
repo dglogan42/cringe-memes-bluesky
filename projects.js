@@ -7,6 +7,97 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'trails-companion',
+    owner: 'dglogan42',
+    name: 'Trails-Companion',
+    repo: 'Trails-Companion',
+    url: 'https://github.com/dglogan42/Trails-Companion',
+    emoji: '🥾',
+    tagline:
+      'Local hiking group social app — discover walks, join crews, RSVP meetups, trail catalog. React + Vite + Zustand, localStorage demo. Boots on, trail legs optional.',
+    memeTop: 'SHIPPED A HIKING MEETUP APP',
+    memeBottom: 'still “might go” on every RSVP (my couch is a trail)',
+    bg: 'berry',
+  },
+  {
+    id: 'paleo-pal',
+    owner: 'dglogan42',
+    name: 'Paleo-Pal',
+    repo: 'Paleo-Pal',
+    url: 'https://github.com/dglogan42/Paleo-Pal',
+    emoji: '🥩',
+    tagline:
+      'Paleo calorie & macro tracker — calorie ring, meal sections, ~40 staples, 7-day history. React 19 + Vite. localStorage only. Caveman diet, modern UI guilt.',
+    memeTop: 'TRACKED EVERY GRAM OF BISON',
+    memeBottom: 'then ate a pastry and closed the tab',
+    bg: 'minion',
+  },
+  {
+    id: 'sew-and-sew',
+    owner: 'dglogan42',
+    name: 'Sew-And-Sew',
+    repo: 'Sew-And-Sew',
+    url: 'https://github.com/dglogan42/Sew-And-Sew',
+    emoji: '🧵',
+    tagline:
+      'Craft community for sewing, crochet, knitting, embroidery, quilting, mending — patterns, clubs, stitch-night RSVPs. React + Zustand PWA demo. Seamstress energy, unfinished WIP pile.',
+    memeTop: 'JOINED A SEWING CIRCLE APP',
+    memeBottom: 'my only finished project is the README',
+    bg: 'liveLaugh',
+  },
+  {
+    id: 'birdy-bro',
+    owner: 'dglogan42',
+    name: 'birdy-bro',
+    repo: 'birdy-bro',
+    url: 'https://github.com/dglogan42/birdy-bro',
+    emoji: '🦜',
+    tagline:
+      'Field guide, life list & spot log for amateur ornithologists — 50+ species, GPS, photos, hotspots, optional SpaceXAI ID. Mobile-first PWA. Birds > people.',
+    memeTop: 'LOGGED A RARE SIGHTING',
+    memeBottom: 'it was a pigeon. I still put it on the life list',
+    bg: 'berry',
+  },
+  {
+    id: 'biker-meet',
+    owner: 'dglogan42',
+    name: 'Biker-Meet',
+    repo: 'Biker-Meet',
+    url: 'https://github.com/dglogan42/Biker-Meet',
+    emoji: '🏍️',
+    tagline:
+      'Group rides for motorcyclists and cycle clubs — discover rides, join chapters, RSVP, plan runs, garage profile. React + Vite PWA, NZ-flavoured demo data.',
+    memeTop: 'BUILT A GROUP RIDE APP',
+    memeBottom: 'my bike is still in the shop (and so is my courage)',
+    bg: 'ai',
+  },
+  {
+    id: 'pickle-padel',
+    owner: 'dglogan42',
+    name: 'Pickle-Padel',
+    repo: 'Pickle-Padel',
+    url: 'https://github.com/dglogan42/Pickle-Padel',
+    emoji: '🥒',
+    tagline:
+      'Pickleball + padel club app — tournaments, solo join, partner queue, leaderboards, club meets. React + Zustand localStorage. Two sports, one midlife crisis.',
+    memeTop: 'HOSTED A PICKLEBALL OPEN',
+    memeBottom: 'still can’t return serve (or emails)',
+    bg: 'minion',
+  },
+  {
+    id: 'kart-lap',
+    owner: 'dglogan42',
+    name: 'Kart-Lap',
+    repo: 'Kart-Lap',
+    url: 'https://github.com/dglogan42/Kart-Lap',
+    emoji: '🏎️',
+    tagline:
+      'Lapline — pit-lane lap timer & scoreboard for go-kart challenges. F1-style lights-out start, splits, P1 gaps. Single static HTML + localStorage. No build, pure red mist.',
+    memeTop: 'LIGHTS OUT AND AWAY WE GO',
+    memeBottom: 'best lap was the practice one I forgot to save',
+    bg: 'ai',
+  },
+  {
     id: 'the-good-herbs',
     owner: 'dglogan42',
     name: 'The-Good-Herbs',
@@ -743,6 +834,13 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'trails-companion': 'chaos',
+  'paleo-pal': 'chaos',
+  'sew-and-sew': 'chaos',
+  'birdy-bro': 'chaos',
+  'biker-meet': 'sports',
+  'pickle-padel': 'sports',
+  'kart-lap': 'sports',
   'the-good-herbs': 'commerce',
   'fable-offline': 'chaos',
   'coursex-agents': 'chaos',
