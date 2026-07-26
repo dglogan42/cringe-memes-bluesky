@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'the-good-herbs',
+    owner: 'dglogan42',
+    name: 'The-Good-Herbs',
+    repo: 'The-good-herbs',
+    url: 'https://github.com/dglogan42/The-good-herbs',
+    emoji: '🌱',
+    tagline:
+      'Local garden club finder, seed & bulb swap board, and a hemisphere-aware planting calendar. React + Vite + Express + SQLite, so a herb club gets a full stack app.',
+    memeTop: 'SHIPPED A GARDEN CLUB FINDER + SEED SWAP APP',
+    memeBottom: 'my actual garden: one dead basil plant',
+    bg: 'berry',
+  },
+  {
     id: 'camera-trader',
     owner: 'dglogan42',
     name: 'Camera-Trader',
@@ -730,6 +743,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'the-good-herbs': 'commerce',
   'fable-offline': 'chaos',
   'coursex-agents': 'chaos',
   'coursex': 'chaos',

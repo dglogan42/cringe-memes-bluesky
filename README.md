@@ -13,7 +13,7 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — 93 repos across two accounts ([@dglogan42](https://github.com/dglogan42) + [@Thedoctorjpg](https://github.com/Thedoctorjpg)) as one-click meme fuel (includes **Camera-Trader** + **Vinyl-Addict** + **Uma-Companion** + **Fetchly** + **Manga-Mate** + Brick-Bud era + more)
+- **Stupid GitHub Projects** — 94 repos across two accounts ([@dglogan42](https://github.com/dglogan42) + [@Thedoctorjpg](https://github.com/Thedoctorjpg)) as one-click meme fuel (includes **The-Good-Herbs** + **Camera-Trader** + **Vinyl-Addict** + **Uma-Companion** + **Fetchly** + Manga-Mate era + more)
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
 ## Quick Start
@@ -47,7 +47,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (58 repos, newest first — **Camera-Trader** / **Vinyl-Addict** / **Uma-Companion** featured) and **@Thedoctorjpg** (portfolio tab).
+1. Switch between **@dglogan42** (59 repos, newest first — **The-Good-Herbs** / **Camera-Trader** / **Vinyl-Addict** featured) and **@Thedoctorjpg** (portfolio tab).
 2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
@@ -63,6 +63,7 @@ When a repo is selected:
 
 | Repo | What it is |
 |------|------------|
+| [The-Good-Herbs](https://github.com/dglogan42/The-good-herbs) | Garden club finder, seed & bulb swap board, hemisphere-aware planting calendar — React + Express + SQLite |
 | [Camera-Trader](https://github.com/dglogan42/Camera-Trader) | Auckland camera trade-in hub — grade, credit/cash, shutter depreciation, stolen-serial mock (SNAP dead) |
 | [Vinyl-Addict](https://github.com/dglogan42/Vinyl-Addict) | Vinyl × Real Groovy PWA — scan covers, collection, mock trade-in, cash vs credit |
 | [Uma-Companion](https://github.com/dglogan42/Uma-Companion) | Offline PWA companion — chat, mood, notes, on-device only |
