@@ -1,9 +1,9 @@
 {
   "name": "cringe-meme-generator",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "private": true,
   "type": "module",
-  "description": "Cringe meme generator for @adhdloganberry.bsky.social + @dglogan42 & @Thedoctorjpg GitHub portfolio meme fuel (Trails-Companion + Paleo-Pal + Sew-And-Sew + birdy-bro + Biker-Meet + Pickle-Padel + Kart-Lap era)",
+  "description": "Cringe meme generator for @adhdloganberry.bsky.social + @dglogan42 & @Thedoctorjpg GitHub portfolio meme fuel (Visual-Diary + Puzzler + Marketing-Kit + Drone-Hire era)",
   "repository": {
     "type": "git",
     "url": "https://github.com/dglogan42/cringe-memes-bluesky.git"

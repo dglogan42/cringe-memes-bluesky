@@ -7,6 +7,58 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'visual-diary',
+    owner: 'dglogan42',
+    name: 'Visual-Diary',
+    repo: 'Visual-Diary',
+    url: 'https://github.com/dglogan42/Visual-Diary',
+    emoji: '📔',
+    tagline:
+      'Spine · Open Studio — marketing kit for a visual diary app: waitlist pages (en/es/fr/en-AU), Starter Packs, #OpenStudioFriday, brand tokens. Campaign before product (classic).',
+    memeTop: 'SHIPPED THE OPEN STUDIO CAMPAIGN',
+    memeBottom: 'the app is still a waitlist (story unfinished)',
+    bg: 'liveLaugh',
+  },
+  {
+    id: 'puzzler',
+    owner: 'dglogan42',
+    name: 'Puzzler',
+    repo: 'Puzzler',
+    url: 'https://github.com/dglogan42/Puzzler',
+    emoji: '🧩',
+    tagline:
+      'Puzzle Sorter — find puzzles, AR piece assist (colour/edges/grid), frames/glue/mats, clubs & table nights. React 19 + Zustand PWA, NZ seed catalogue. Edge pieces first, life later.',
+    memeTop: 'BUILT AN AR PUZZLE SORTER',
+    memeBottom: 'still missing three pieces and the will to glue it',
+    bg: 'minion',
+  },
+  {
+    id: 'marketing-kit',
+    owner: 'dglogan42',
+    name: 'Marketing-Kit',
+    repo: 'Marketing-Kit',
+    url: 'https://github.com/dglogan42/Marketing-Kit',
+    emoji: '📣',
+    tagline:
+      'Full-stack marketing kit studio — live-event promos, Bluesky-first campaigns, AI generate-from-source (SpaceXAI/xAI). React + Express + file catalog. BABYMONSTER Auckland + Own Your Sky seeds.',
+    memeTop: 'BUILT A MARKETING KIT FACTORY',
+    memeBottom: 'my own launch plan is still a sticky note',
+    bg: 'ai',
+  },
+  {
+    id: 'drone-hire',
+    owner: 'dglogan42',
+    name: 'Drone-Hire',
+    repo: 'Drone-Hire',
+    url: 'https://github.com/dglogan42/Drone-Hire',
+    emoji: '🛸',
+    tagline:
+      'Hire drones + optional pilots for photo, cinema, survey, thermal, FPV, ag. Fleet filters, live quotes, list-your-own. React 19 + Zustand PWA, NZ seed fleet. CAA vibes, localStorage only.',
+    memeTop: 'SHIPPED A DRONE HIRE APP',
+    memeBottom: 'my only flight is the demo booking (Part 101 pending)',
+    bg: 'berry',
+  },
+  {
     id: 'trails-companion',
     owner: 'dglogan42',
     name: 'Trails-Companion',
@@ -834,6 +886,10 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'visual-diary': 'chaos',
+  'puzzler': 'games',
+  'marketing-kit': 'chaos',
+  'drone-hire': 'commerce',
   'trails-companion': 'chaos',
   'paleo-pal': 'chaos',
   'sew-and-sew': 'chaos',

@@ -13,7 +13,7 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — 101 repos across two accounts ([@dglogan42](https://github.com/dglogan42) + [@Thedoctorjpg](https://github.com/Thedoctorjpg)) as one-click meme fuel (includes **Trails-Companion** + **Paleo-Pal** + **Sew-And-Sew** + **birdy-bro** + **Biker-Meet** + **Pickle-Padel** + **Kart-Lap** + The-Good-Herbs era + more)
+- **Stupid GitHub Projects** — 105 repos across two accounts ([@dglogan42](https://github.com/dglogan42) + [@Thedoctorjpg](https://github.com/Thedoctorjpg)) as one-click meme fuel (includes **Visual-Diary** + **Puzzler** + **Marketing-Kit** + **Drone-Hire** + Trails era + more)
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
 ## Quick Start
@@ -47,7 +47,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (66 repos, newest first — **Trails-Companion** / **Paleo-Pal** / **Sew-And-Sew** / **birdy-bro** featured) and **@Thedoctorjpg** (portfolio tab).
+1. Switch between **@dglogan42** (70 repos, newest first — **Visual-Diary** / **Puzzler** / **Marketing-Kit** / **Drone-Hire** featured) and **@Thedoctorjpg** (portfolio tab).
 2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
@@ -63,6 +63,10 @@ When a repo is selected:
 
 | Repo | What it is |
 |------|------------|
+| [Visual-Diary](https://github.com/dglogan42/Visual-Diary) | Spine · Open Studio — visual diary marketing kit: waitlists, Starter Packs, #OpenStudioFriday |
+| [Puzzler](https://github.com/dglogan42/Puzzler) | Puzzle Sorter — AR piece assist, frames/glue/mats, clubs & table nights (React + Zustand PWA) |
+| [Marketing-Kit](https://github.com/dglogan42/Marketing-Kit) | Marketing kit studio — event promos, Bluesky campaigns, AI generate-from-source (React + Express) |
+| [Drone-Hire](https://github.com/dglogan42/Drone-Hire) | Hire drones + optional pilots — fleet, quotes, list-your-own (React + Zustand PWA, NZ seed) |
 | [Trails-Companion](https://github.com/dglogan42/Trails-Companion) | Local hiking group social app — walks, crews, RSVP meetups, trail catalog (React + localStorage) |
 | [Paleo-Pal](https://github.com/dglogan42/Paleo-Pal) | Paleo calorie & macro tracker — ring, meals, ~40 staples, 7-day history |
 | [Sew-And-Sew](https://github.com/dglogan42/Sew-And-Sew) | Craft community — sewing/crochet/knitting patterns, clubs, stitch-night RSVPs |
