@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'alchemised',
+    owner: 'dglogan42',
+    name: 'alchemised',
+    repo: 'alchemised',
+    url: 'https://github.com/dglogan42/alchemised',
+    emoji: '⚗',
+    tagline:
+      'Alchemised: Resonance — pixel-art RPG Android APK (sideload) inspired by SenLinYu\'s Alchemised. Memory shards, manor crawl, alchemy bench, Alchemist / Vivimancer / Necromancer classes. Unofficial fan tribute, MIT code, T-rated.',
+    memeTop: 'SIDEOADED A DARK FANTASY PIXEL RPG',
+    memeBottom: 'my Resonance is sealed but the APK installs (unknown sources on)',
+    bg: 'ai',
+  },
+  {
     id: 'flying-fox',
     owner: 'dglogan42',
     name: 'Flying Fox',
@@ -899,6 +912,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'alchemised': 'games',
   'flying-fox': 'games',
   'visual-diary': 'chaos',
   'puzzler': 'games',

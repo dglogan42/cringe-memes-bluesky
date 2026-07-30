@@ -5,7 +5,7 @@ A browser-based meme generator that pulls live posts from [@adhdloganberry.bsky.
 No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES modules).
 
 **Repository:** [github.com/dglogan42/cringe-memes-bluesky](https://github.com/dglogan42/cringe-memes-bluesky)  
-**Version:** 1.9.0 · **Flying Fox** era portfolio fuel
+**Version:** 1.10.0 · **Alchemised** era portfolio fuel
 
 ## Features
 
@@ -14,8 +14,8 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — **106** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **71** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
-- Newest fuel: **[Flying Fox](https://github.com/dglogan42/flying-fox)** — cozy hex tile-laying deckbuilder + Firefox extension
+- **Stupid GitHub Projects** — **107** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **72** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
+- Newest fuel: **[alchemised](https://github.com/dglogan42/alchemised)** — pixel-art RPG Android APK (Alchemist / Vivimancer / Necromancer)
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
 ## Quick Start
@@ -49,7 +49,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (71 repos, newest first — **Flying Fox** featured) and **@Thedoctorjpg** (35 repos).
+1. Switch between **@dglogan42** (72 repos, newest first — **alchemised** featured) and **@Thedoctorjpg** (35 repos).
 2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
@@ -63,10 +63,11 @@ When a repo is selected:
 
 ## GitHub Portfolio (meme fuel)
 
-Synced from `projects.js` — **71** @dglogan42 repos (newest first).
+Synced from `projects.js` — **72** @dglogan42 repos (newest first).
 
 | Repo | What it is |
 |------|------------|
+| [alchemised](https://github.com/dglogan42/alchemised) | Alchemised: Resonance — pixel-art RPG Android APK (sideload), memory shards, alchemy, three Resonance classes. Fan tribute. |
 | [flying-fox](https://github.com/dglogan42/flying-fox) | Flying Fox — cozy hex tile-laying deckbuilder (Hexfell/Dorfromantik vibes) + Firefox extension. |
 | [Visual-Diary](https://github.com/dglogan42/Visual-Diary) | Spine · Open Studio — marketing kit for a visual diary app: waitlist pages (en/es/fr/en-AU), Starter Packs, #OpenStudioFriday, brand tokens. |
 | [Puzzler](https://github.com/dglogan42/Puzzler) | Puzzle Sorter — find puzzles, AR piece assist (colour/edges/grid), frames/glue/mats, clubs & table nights. |
@@ -155,7 +156,7 @@ cringe-memes-bluesky/          # local folder may still be cringe-meme-generator
 ├── projects.js                # @dglogan42 portfolio meme fuel
 ├── projects-thedoctorjpg.js   # @Thedoctorjpg portfolio meme fuel
 ├── install.js                 # PWA install prompt helpers
-├── sw.js                      # Service worker (offline cache v1.9.0)
+├── sw.js                      # Service worker (offline cache v1.10.0)
 ├── manifest.webmanifest       # PWA manifest
 ├── icons/                     # App icons
 ├── package.json               # Convenience scripts (npm start)
