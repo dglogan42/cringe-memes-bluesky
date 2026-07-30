@@ -5,7 +5,7 @@ A browser-based meme generator that pulls live posts from [@adhdloganberry.bsky.
 No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES modules).
 
 **Repository:** [github.com/dglogan42/cringe-memes-bluesky](https://github.com/dglogan42/cringe-memes-bluesky)  
-**Version:** 1.11.0 · **steam-mods** era portfolio fuel
+**Version:** 1.11.1 · **steam-mods** era portfolio fuel (synced)
 
 ## Features
 
@@ -14,8 +14,8 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — **122** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **81** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **41**) as one-click meme fuel
-- Newest fuel: **[steam-mods](https://github.com/dglogan42/steam-mods)** — Linux Steam / Proton mod tooling (Umamusume UMML helpers + GE-Proton notes)
+- **Stupid GitHub Projects** — **108** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **73** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
+- Newest fuel: **[steam-mods](https://github.com/dglogan42/steam-mods)** — Umamusume Linux tools (GE-Proton, UMML, headless patcher, external library)
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
 ## Quick Start
@@ -49,7 +49,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (81 repos, newest first — **steam-mods** featured) and **@Thedoctorjpg** (41 repos).
+1. Switch between **@dglogan42** (73 repos, newest first — **steam-mods** featured) and **@Thedoctorjpg** (35 repos).
 2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
@@ -63,11 +63,11 @@ When a repo is selected:
 
 ## GitHub Portfolio (meme fuel)
 
-Synced from `projects.js` — **81** @dglogan42 repos (newest first).
+Synced from `projects.js` — **73** @dglogan42 repos (newest first; matches public GitHub).
 
 | Repo | What it is |
 |------|------------|
-| [steam-mods](https://github.com/dglogan42/steam-mods) | Linux Steam mod tooling — GE-Proton helpers, UMML/patch scripts for Umamusume, external library install notes. |
+| [steam-mods](https://github.com/dglogan42/steam-mods) | Umamusume Linux tools — GE-Proton/external library, UMML GUI + `patch-mods.py`, MIT helpers only. |
 | [alchemised](https://github.com/dglogan42/alchemised) | Alchemised: Resonance — pixel-art RPG Android APK (sideload), memory shards, alchemy, three Resonance classes. Fan tribute. |
 | [flying-fox](https://github.com/dglogan42/flying-fox) | Flying Fox — cozy hex tile-laying deckbuilder (Hexfell/Dorfromantik vibes) + Firefox extension. |
 | [Visual-Diary](https://github.com/dglogan42/Visual-Diary) | Spine · Open Studio — marketing kit for a visual diary app: waitlist pages (en/es/fr/en-AU), Starter Packs, #OpenStudioFriday, brand tokens. |
@@ -141,7 +141,7 @@ Synced from `projects.js` — **81** @dglogan42 repos (newest first).
 | [production-notes](https://github.com/dglogan42/production-notes) | Evening yoga routine that spiralled into a full shoot brief, call sheet, choreography count, and location scout guide. |
 | [AI-Friend](https://github.com/dglogan42/AI-Friend) | Cat-eared VR companion, in pseudocode: BEGIN heard ← Listen(); reply ← Think(heard); Emote(reply.mood); Speak(reply.text) END. |
 
-### @Thedoctorjpg portfolio (41 repos)
+### @Thedoctorjpg portfolio (35 repos)
 
 Playdate games, open-source novels, red-flag scanners, snack finders, and other chaos — including [warriors-meme-generator](https://github.com/Thedoctorjpg/warriors-meme-generator), [book-club-discussion](https://github.com/Thedoctorjpg/book-club-discussion), [neurohire](https://github.com/Thedoctorjpg/neurohire), [hospo-guide](https://github.com/Thedoctorjpg/hospo-guide), [Amateur-Botanist](https://github.com/Thedoctorjpg/Amateur-Botanist), [mad-max-podcaster](https://github.com/Thedoctorjpg/mad-max-podcaster), and more. Switch to the **@Thedoctorjpg** tab in the app.
 
@@ -157,7 +157,7 @@ cringe-memes-bluesky/          # local folder may still be cringe-meme-generator
 ├── projects.js                # @dglogan42 portfolio meme fuel
 ├── projects-thedoctorjpg.js   # @Thedoctorjpg portfolio meme fuel
 ├── install.js                 # PWA install prompt helpers
-├── sw.js                      # Service worker (offline cache v1.11.0)
+├── sw.js                      # Service worker (offline cache v1.11.1)
 ├── manifest.webmanifest       # PWA manifest
 ├── icons/                     # App icons
 ├── package.json               # Convenience scripts (npm start)

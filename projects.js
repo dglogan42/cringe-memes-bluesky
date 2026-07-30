@@ -14,9 +14,9 @@ export const DGLOGAN42_PROJECTS = [
     url: 'https://github.com/dglogan42/steam-mods',
     emoji: '🎮',
     tagline:
-      'Linux Steam mod tooling for Umamusume (and friends) — GE-Proton helpers, headless UMML-style patcher, external-library install notes. MIT scripts; game assets not included. Sideload energy, but for Proton prefixes.',
+      'Umamusume Linux Tools & Mods — GE-Proton/external Steam library setup, Linux-patched UMML, headless patch-mods.py, play/apply scripts. MIT for helpers only; Cygames assets not included. Proton prefix diaries welcome.',
     memeTop: 'SHIPPED STEAM MOD TOOLS FOR LINUX',
-    memeBottom: 'still waiting for the in-game data download (and my dignity)',
+    memeBottom: 'GE-Proton installed. dignity still downloading',
     bg: 'ai',
   },
   {
