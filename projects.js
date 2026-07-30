@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'steam-mods',
+    owner: 'dglogan42',
+    name: 'steam-mods',
+    repo: 'steam-mods',
+    url: 'https://github.com/dglogan42/steam-mods',
+    emoji: '🎮',
+    tagline:
+      'Linux Steam mod tooling for Umamusume (and friends) — GE-Proton helpers, headless UMML-style patcher, external-library install notes. MIT scripts; game assets not included. Sideload energy, but for Proton prefixes.',
+    memeTop: 'SHIPPED STEAM MOD TOOLS FOR LINUX',
+    memeBottom: 'still waiting for the in-game data download (and my dignity)',
+    bg: 'ai',
+  },
+  {
     id: 'alchemised',
     owner: 'dglogan42',
     name: 'alchemised',
@@ -912,6 +925,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'steam-mods': 'games',
   'alchemised': 'games',
   'flying-fox': 'games',
   'visual-diary': 'chaos',
