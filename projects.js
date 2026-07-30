@@ -7,16 +7,16 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
-    id: 'flighing-fox',
+    id: 'flying-fox',
     owner: 'dglogan42',
     name: 'Flying Fox',
-    repo: 'flighing-fox',
-    url: 'https://github.com/dglogan42/flighing-fox',
+    repo: 'flying-fox',
+    url: 'https://github.com/dglogan42/flying-fox',
     emoji: '🦊',
     tagline:
-      'Flying Fox — cozy hex tile-laying deckbuilder (Hexfell/Dorfromantik vibes) + Firefox extension. Forest/meadow/water/rock edges, hand of 3, quests, localStorage best. Repo typo intentional* (*not intentional).',
+      'Flying Fox — cozy hex tile-laying deckbuilder (Hexfell/Dorfromantik vibes) + Firefox extension. Forest/meadow/water/rock edges, hand of 3, quests, localStorage best. Flap was v1; the canopy is the product now.',
     memeTop: 'SHIPPED A TILE-LAYING DECKBUILDER',
-    memeBottom: 'named the repo flighing-fox (the fox can\'t spell either)',
+    memeBottom: 'still calling it Flying Fox like it flaps (it places hexes)',
     bg: 'berry',
   },
   {
@@ -899,7 +899,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
-  'flighing-fox': 'games',
+  'flying-fox': 'games',
   'visual-diary': 'chaos',
   'puzzler': 'games',
   'marketing-kit': 'chaos',

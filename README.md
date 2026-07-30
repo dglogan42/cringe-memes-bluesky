@@ -13,7 +13,7 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — 106 repos across two accounts ([@dglogan42](https://github.com/dglogan42) + [@Thedoctorjpg](https://github.com/Thedoctorjpg)) as one-click meme fuel (includes **Flying Fox** / `flighing-fox` + Visual-Diary era + more)
+- **Stupid GitHub Projects** — 106 repos across two accounts ([@dglogan42](https://github.com/dglogan42) + [@Thedoctorjpg](https://github.com/Thedoctorjpg)) as one-click meme fuel (includes **Flying Fox** + Visual-Diary era + more)
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
 ## Quick Start
@@ -63,7 +63,7 @@ When a repo is selected:
 
 | Repo | What it is |
 |------|------------|
-| [flighing-fox](https://github.com/dglogan42/flighing-fox) | Flying Fox — cozy hex tile-laying deckbuilder + Firefox extension (repo spelling is the meme) |
+| [flying-fox](https://github.com/dglogan42/flying-fox) | Flying Fox — cozy hex tile-laying deckbuilder + Firefox extension |
 | [Visual-Diary](https://github.com/dglogan42/Visual-Diary) | Spine · Open Studio — visual diary marketing kit: waitlists, Starter Packs, #OpenStudioFriday |
 | [Puzzler](https://github.com/dglogan42/Puzzler) | Puzzle Sorter — AR piece assist, frames/glue/mats, clubs & table nights (React + Zustand PWA) |
 | [Marketing-Kit](https://github.com/dglogan42/Marketing-Kit) | Marketing kit studio — event promos, Bluesky campaigns, AI generate-from-source (React + Express) |
