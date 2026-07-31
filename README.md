@@ -5,7 +5,7 @@ A browser-based meme generator that pulls live posts from [@adhdloganberry.bsky.
 No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES modules).
 
 **Repository:** [github.com/dglogan42/cringe-memes-bluesky](https://github.com/dglogan42/cringe-memes-bluesky)  
-**Version:** 1.12.0 · **Ubuntu-Studio-Tablet** era portfolio fuel (synced)
+**Version:** 1.13.0 · **Blade-Arena** era portfolio fuel (synced)
 
 ## Features
 
@@ -14,8 +14,8 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — **109** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **74** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
-- Newest fuel: **[Ubuntu-Studio-Tablet](https://github.com/dglogan42/Ubuntu-Studio-Tablet)** — tablet-first Ubuntu Studio 26.04 / Plasma layer (Xiaoxin laptop + ARM path)
+- **Stupid GitHub Projects** — **110** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **75** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
+- Newest fuel: **[Blade-Arena](https://github.com/dglogan42/Blade-Arena)** — offline Android sideload tactical sword fighter (Blade Symphony–inspired 1v1 / 2v2 / FFA / Control Points)
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
 ## Quick Start
@@ -49,7 +49,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (74 repos, newest first — **Ubuntu-Studio-Tablet** featured) and **@Thedoctorjpg** (35 repos).
+1. Switch between **@dglogan42** (75 repos, newest first — **Blade-Arena** featured) and **@Thedoctorjpg** (35 repos).
 2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
@@ -63,10 +63,11 @@ When a repo is selected:
 
 ## GitHub Portfolio (meme fuel)
 
-Synced from `projects.js` — **74** @dglogan42 repos (newest first; matches public GitHub).
+Synced from `projects.js` — **75** @dglogan42 repos (newest first; matches public GitHub).
 
 | Repo | What it is |
 |------|------------|
+| [Blade-Arena](https://github.com/dglogan42/Blade-Arena) | Offline Android sideload tactical sword fighter — Blade Symphony–inspired 1v1 / 2v2 / FFA / Control Points, stances, WebView + Canvas APK. |
 | [Ubuntu-Studio-Tablet](https://github.com/dglogan42/Ubuntu-Studio-Tablet) | Tablet-first Ubuntu Studio 26.04 layer — Plasma app launchers, Xiaoxin laptop dual-boot, ARM/Plasma Mobile, Waydroid helpers. |
 | [steam-mods](https://github.com/dglogan42/steam-mods) | Umamusume Linux tools — GE-Proton/external library, UMML GUI + `patch-mods.py`, MIT helpers only. |
 | [alchemised](https://github.com/dglogan42/alchemised) | Alchemised: Resonance — pixel-art RPG Android APK (sideload), memory shards, alchemy, three Resonance classes. Fan tribute. |
@@ -158,7 +159,7 @@ cringe-memes-bluesky/          # local folder may still be cringe-meme-generator
 ├── projects.js                # @dglogan42 portfolio meme fuel
 ├── projects-thedoctorjpg.js   # @Thedoctorjpg portfolio meme fuel
 ├── install.js                 # PWA install prompt helpers
-├── sw.js                      # Service worker (offline cache v1.12.0)
+├── sw.js                      # Service worker (offline cache v1.13.0)
 ├── manifest.webmanifest       # PWA manifest
 ├── icons/                     # App icons
 ├── package.json               # Convenience scripts (npm start)

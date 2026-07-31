@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'blade-arena',
+    owner: 'dglogan42',
+    name: 'Blade-Arena',
+    repo: 'Blade-Arena',
+    url: 'https://github.com/dglogan42/Blade-Arena',
+    emoji: '⚔',
+    tagline:
+      'Blade Arena — offline Android sideload tactical sword fighter (Blade Symphony–inspired). 1v1 / 2v2 / FFA / Control Points, five fighters, five swords, four stances, timed parries. WebView + HTML5 Canvas, MIT code, fan-work notice. Prove you are the world\'s greatest swordsman (on a Chinese tablet with unknown sources on).',
+    memeTop: 'SHIPPED A BLADE SYMPHONY CLONE FOR TABLETS',
+    memeBottom: 'parried in WebView. still Mixed reviews on Steam (the real one)',
+    bg: 'ai',
+  },
+  {
     id: 'ubuntu-studio-tablet',
     owner: 'dglogan42',
     name: 'Ubuntu-Studio-Tablet',
@@ -938,6 +951,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'blade-arena': 'games',
   'ubuntu-studio-tablet': 'chaos',
   'steam-mods': 'games',
   'alchemised': 'games',
