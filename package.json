@@ -1,9 +1,9 @@
 {
   "name": "cringe-meme-generator",
-  "version": "1.13.0",
+  "version": "1.14.0",
   "private": true,
   "type": "module",
-  "description": "Cringe meme generator for @adhdloganberry.bsky.social + @dglogan42 & @Thedoctorjpg GitHub portfolio meme fuel (Blade-Arena + Ubuntu-Studio-Tablet era)",
+  "description": "Cringe meme generator for @adhdloganberry.bsky.social + @dglogan42 & @Thedoctorjpg GitHub portfolio meme fuel (Dropzone-Royale + Blade-Arena era)",
   "repository": {
     "type": "git",
     "url": "https://github.com/dglogan42/cringe-memes-bluesky.git"

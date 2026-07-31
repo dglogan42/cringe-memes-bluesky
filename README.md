@@ -5,7 +5,7 @@ A browser-based meme generator that pulls live posts from [@adhdloganberry.bsky.
 No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES modules).
 
 **Repository:** [github.com/dglogan42/cringe-memes-bluesky](https://github.com/dglogan42/cringe-memes-bluesky)  
-**Version:** 1.13.0 · **Blade-Arena** era portfolio fuel (synced)
+**Version:** 1.14.0 · **Dropzone-Royale** era portfolio fuel (synced)
 
 ## Features
 
@@ -14,8 +14,8 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — **110** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **75** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
-- Newest fuel: **[Blade-Arena](https://github.com/dglogan42/Blade-Arena)** — offline Android sideload tactical sword fighter (Blade Symphony–inspired 1v1 / 2v2 / FFA / Control Points)
+- **Stupid GitHub Projects** — **111** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **76** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
+- Newest fuel: **[Dropzone-Royale](https://github.com/dglogan42/Dropzone-Royale)** — Linux-native offline battle royale (drop · loot · zone · last standing; PUBG-genre inspired, original MIT)
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
 ## Quick Start
@@ -49,7 +49,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (75 repos, newest first — **Blade-Arena** featured) and **@Thedoctorjpg** (35 repos).
+1. Switch between **@dglogan42** (76 repos, newest first — **Dropzone-Royale** featured) and **@Thedoctorjpg** (35 repos).
 2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
@@ -63,10 +63,11 @@ When a repo is selected:
 
 ## GitHub Portfolio (meme fuel)
 
-Synced from `projects.js` — **75** @dglogan42 repos (newest first; matches public GitHub).
+Synced from `projects.js` — **76** @dglogan42 repos (newest first; matches public GitHub).
 
 | Repo | What it is |
 |------|------------|
+| [Dropzone-Royale](https://github.com/dglogan42/Dropzone-Royale) | Linux-native offline battle royale — plane drop, loot, blue zone, AI rivals; PUBG-genre inspired, original MIT (not a Krafton port). |
 | [Blade-Arena](https://github.com/dglogan42/Blade-Arena) | Offline Android sideload tactical sword fighter — Blade Symphony–inspired 1v1 / 2v2 / FFA / Control Points, stances, WebView + Canvas APK. |
 | [Ubuntu-Studio-Tablet](https://github.com/dglogan42/Ubuntu-Studio-Tablet) | Tablet-first Ubuntu Studio 26.04 layer — Plasma app launchers, Xiaoxin laptop dual-boot, ARM/Plasma Mobile, Waydroid helpers. |
 | [steam-mods](https://github.com/dglogan42/steam-mods) | Umamusume Linux tools — GE-Proton/external library, UMML GUI + `patch-mods.py`, MIT helpers only. |

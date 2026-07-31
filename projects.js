@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'dropzone-royale',
+    owner: 'dglogan42',
+    name: 'Dropzone-Royale',
+    repo: 'Dropzone-Royale',
+    url: 'https://github.com/dglogan42/Dropzone-Royale',
+    emoji: '🪂',
+    tagline:
+      'Dropzone Royale — Linux-native offline battle royale (HTML5 Canvas). Plane drop, loot, shrinking blue zone, ~48 AI rivals, last standing. Genre-inspired by PUBG-style loops (Steam 578080); MIT original code — not a Krafton port, not affiliated with PUBG/Valve. ./scripts/run-linux.sh and dignity optional.',
+    memeTop: 'SHIPPED A LINUX BATTLE ROYALE',
+    memeBottom: 'winner winner… local python http.server',
+    bg: 'ai',
+  },
+  {
     id: 'blade-arena',
     owner: 'dglogan42',
     name: 'Blade-Arena',
@@ -951,6 +964,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'dropzone-royale': 'games',
   'blade-arena': 'games',
   'ubuntu-studio-tablet': 'chaos',
   'steam-mods': 'games',
