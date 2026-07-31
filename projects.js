@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'ubuntu-studio-tablet',
+    owner: 'dglogan42',
+    name: 'Ubuntu-Studio-Tablet',
+    repo: 'Ubuntu-Studio-Tablet',
+    url: 'https://github.com/dglogan42/Ubuntu-Studio-Tablet',
+    emoji: '🖥️',
+    tagline:
+      'Tablet-first Ubuntu Studio 26.04 layer — Plasma fullscreen app launchers, Xiaoxin laptop dual-boot (BitLocker/Fast Startup/shrink), ARM/Plasma Mobile path, Waydroid helpers. No kernel, no bootloader unlock, just vibes and kwinrulesrc.',
+    memeTop: 'SHIPPED A TABLET OS FOR STUDIO APPS',
+    memeBottom: 'my Xiaoxin Pad is still on Android (wrong ISA)',
+    bg: 'ai',
+  },
+  {
     id: 'steam-mods',
     owner: 'dglogan42',
     name: 'steam-mods',
@@ -925,6 +938,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'ubuntu-studio-tablet': 'chaos',
   'steam-mods': 'games',
   'alchemised': 'games',
   'flying-fox': 'games',
