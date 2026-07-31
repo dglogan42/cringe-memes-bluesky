@@ -160,7 +160,7 @@ cringe-memes-bluesky/          # local folder may still be cringe-meme-generator
 ├── projects.js                # @dglogan42 portfolio meme fuel
 ├── projects-thedoctorjpg.js   # @Thedoctorjpg portfolio meme fuel
 ├── install.js                 # PWA install prompt helpers
-├── sw.js                      # Service worker (offline cache v1.13.0)
+├── sw.js                      # Service worker (offline cache v1.14.0)
 ├── manifest.webmanifest       # PWA manifest
 ├── icons/                     # App icons
 ├── package.json               # Convenience scripts (npm start)
