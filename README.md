@@ -5,7 +5,7 @@ A browser-based meme generator that pulls live posts from [@adhdloganberry.bsky.
 No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES modules).
 
 **Repository:** [github.com/dglogan42/cringe-memes-bluesky](https://github.com/dglogan42/cringe-memes-bluesky)  
-**Version:** 1.15.0 · **Ubuntu-Live-Desktop** era portfolio fuel (synced)
+**Version:** 1.16.0 · **Witch-Dating** era portfolio fuel (synced)
 
 ## Features
 
@@ -14,8 +14,8 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — **112** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **77** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
-- Newest fuel: **[Ubuntu-Live-Desktop](https://github.com/dglogan42/Ubuntu-Live-Desktop)** — StudioWall live wallpaper for Ubuntu Studio / KDE Plasma (PyQt6, multi-monitor, tray + CLI)
+- **Stupid GitHub Projects** — **113** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **78** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
+- Newest fuel: **[Witch-Dating](https://github.com/dglogan42/Witch-Dating)** — Thorn Scarhart dating/social kit (Tinder, multi-platform posts, Spotify, thirst reels, Grok poster skill)
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
 ## Quick Start
@@ -49,7 +49,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (77 repos, newest first — **Ubuntu-Live-Desktop** featured) and **@Thedoctorjpg** (35 repos).
+1. Switch between **@dglogan42** (78 repos, newest first — **Witch-Dating** featured) and **@Thedoctorjpg** (35 repos).
 2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
@@ -63,10 +63,11 @@ When a repo is selected:
 
 ## GitHub Portfolio (meme fuel)
 
-Synced from `projects.js` — **77** @dglogan42 repos (newest first; matches public GitHub).
+Synced from `projects.js` — **78** @dglogan42 repos (newest first; matches public GitHub).
 
 | Repo | What it is |
 |------|------------|
+| [Witch-Dating](https://github.com/dglogan42/Witch-Dating) | Thorn Scarhart dating & social kit — Tinder profile, IG/Bluesky/TikTok packs, Don't Stop Believin' Radio, thirst stills + 6s reels, Grok skill to post across socials. Inspired by *An Ancient Witch's Guide to Modern Dating*. |
 | [Ubuntu-Live-Desktop](https://github.com/dglogan42/Ubuntu-Live-Desktop) | StudioWall — live wallpaper for Ubuntu Studio / KDE Plasma (Wayland + X11). PyQt6 player, dark GUI, tray, CLI, multi-monitor, autostart. Wallspace-inspired, no subscription. |
 | [Dropzone-Royale](https://github.com/dglogan42/Dropzone-Royale) | Linux-native offline battle royale — plane drop, loot, blue zone, AI rivals; PUBG-genre inspired, original MIT (not a Krafton port). |
 | [Blade-Arena](https://github.com/dglogan42/Blade-Arena) | Offline Android sideload tactical sword fighter — Blade Symphony–inspired 1v1 / 2v2 / FFA / Control Points, stances, WebView + Canvas APK. |
@@ -161,7 +162,7 @@ cringe-memes-bluesky/          # local folder may still be cringe-meme-generator
 ├── projects.js                # @dglogan42 portfolio meme fuel
 ├── projects-thedoctorjpg.js   # @Thedoctorjpg portfolio meme fuel
 ├── install.js                 # PWA install prompt helpers
-├── sw.js                      # Service worker (offline cache v1.15.0)
+├── sw.js                      # Service worker (offline cache v1.16.0)
 ├── manifest.webmanifest       # PWA manifest
 ├── icons/                     # App icons
 ├── package.json               # Convenience scripts (npm start)

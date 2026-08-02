@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'witch-dating',
+    owner: 'dglogan42',
+    name: 'Witch-Dating',
+    repo: 'Witch-Dating',
+    url: 'https://github.com/dglogan42/Witch-Dating',
+    emoji: '🪄',
+    tagline:
+      "Thorn Scarhart dating & social kit — 17th-c witch spell-yeeted into modern apps (An Ancient Witch's Guide to Modern Dating vibes). Tinder bio, IG/Bluesky packs, Don't Stop Believin' Radio, thirst stills, 6s reels, and a Grok skill that posts to all her socials. Marriage-minded. Algorithm-cursed.",
+    memeTop: 'BUILT A FULL DATING KIT FOR A TIME-TRAVEL WITCH',
+    memeBottom: 'the hex failed. the content calendar did not',
+    bg: 'ai',
+  },
+  {
     id: 'ubuntu-live-desktop',
     owner: 'dglogan42',
     name: 'Ubuntu-Live-Desktop',
@@ -977,6 +990,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'witch-dating': 'writing',
   'ubuntu-live-desktop': 'chaos',
   'dropzone-royale': 'games',
   'blade-arena': 'games',
