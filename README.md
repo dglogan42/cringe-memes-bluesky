@@ -5,7 +5,7 @@ A browser-based meme generator that pulls live posts from [@adhdloganberry.bsky.
 No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES modules).
 
 **Repository:** [github.com/dglogan42/cringe-memes-bluesky](https://github.com/dglogan42/cringe-memes-bluesky)  
-**Version:** 1.17.0 · **Voice-Agent** era portfolio fuel (synced) — 79 @dglogan42
+**Version:** 1.18.0 · **Convention-Expo** era portfolio fuel (synced) — 80 @dglogan42
 
 ## Features
 
@@ -14,8 +14,8 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — **114** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **79** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
-- Newest fuel: **[Voice-Agent](https://github.com/dglogan42/Voice-Agent)** — Carina, ADHD-friendly xAI Realtime scheduling agent
+- **Stupid GitHub Projects** — **115** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **80** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
+- Newest fuel: **[Convention-Expo](https://github.com/dglogan42/Convention-Expo)** — con/expo volunteer toolkit + Grok skill (Overload packs, redacted templates)
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
 ## Quick Start
@@ -49,7 +49,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (79 repos, newest first — **Voice-Agent** featured) and **@Thedoctorjpg** (35 repos).
+1. Switch between **@dglogan42** (80 repos, newest first — **Convention-Expo** featured) and **@Thedoctorjpg** (35 repos).
 2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
@@ -63,10 +63,11 @@ When a repo is selected:
 
 ## GitHub Portfolio (meme fuel)
 
-Synced from `projects.js` — **79** @dglogan42 repos (newest first; matches public GitHub).
+Synced from `projects.js` — **80** @dglogan42 repos (newest first; matches public GitHub).
 
 | Repo | What it is |
 |------|------------|
+| [Convention-Expo](https://github.com/dglogan42/Convention-Expo) | Con/expo volunteer toolkit — Grok event-volunteer skill, Overload NZ packs, applications, ICS, guests/events, floor landmarks (PII redacted) |
 | [Voice-Agent](https://github.com/dglogan42/Voice-Agent) | Carina — ADHD-friendly xAI Realtime scheduling voice agent (calendar clash checks, safety guards, 1737 handoff) |
 | [Witch-Dating](https://github.com/dglogan42/Witch-Dating) | Thorn Scarhart dating & social kit — Tinder profile, IG/Bluesky/TikTok packs, Don't Stop Believin' Radio, thirst stills + 6s reels, Grok skill to post across socials. Inspired by *An Ancient Witch's Guide to Modern Dating*. |
 | [Ubuntu-Live-Desktop](https://github.com/dglogan42/Ubuntu-Live-Desktop) | StudioWall — live wallpaper for Ubuntu Studio / KDE Plasma (Wayland + X11). PyQt6 player, dark GUI, tray, CLI, multi-monitor, autostart. Wallspace-inspired, no subscription. |

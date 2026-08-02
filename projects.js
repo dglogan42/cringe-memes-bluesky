@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'convention-expo',
+    owner: 'dglogan42',
+    name: 'Convention-Expo',
+    repo: 'Convention-Expo',
+    url: 'https://github.com/dglogan42/Convention-Expo',
+    emoji: '🎫',
+    tagline:
+      'Con/expo volunteer toolkit — Grok event-volunteer skill, Overload NZ packs, applications, ICS, guests/events cheat sheets, floor landmarks. Personal data redacted. Crew first, chaos second.',
+    memeTop: 'SHIPPED A FULL CONVENTION VOLUNTEER OPS KIT',
+    memeBottom: 'my break plan has more acts than the main stage',
+    bg: 'ai',
+  },
+  {
     id: 'voice-agent',
     owner: 'dglogan42',
     name: 'Voice-Agent',
@@ -1003,6 +1016,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'convention-expo': 'chaos',
   'voice-agent': 'chaos',
   'witch-dating': 'writing',
   'ubuntu-live-desktop': 'chaos',
