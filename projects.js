@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'ubuntu-live-desktop',
+    owner: 'dglogan42',
+    name: 'Ubuntu-Live-Desktop',
+    repo: 'Ubuntu-Live-Desktop',
+    url: 'https://github.com/dglogan42/Ubuntu-Live-Desktop',
+    emoji: '🖥️',
+    tagline:
+      'StudioWall — live wallpaper for Ubuntu Studio / KDE Plasma (Wayland + X11). Loop cinematic MP4/WebM on the desktop with a dark control GUI, system tray, CLI, multi-monitor surfaces, and login autostart. Wallspace vibes, zero subscription, pure PyQt6 chaos.',
+    memeTop: 'SHIPPED LIVE WALLPAPERS FOR UBUNTU STUDIO',
+    memeBottom: 'my desktop is now a 6-second aurora and 12% CPU',
+    bg: 'ai',
+  },
+  {
     id: 'dropzone-royale',
     owner: 'dglogan42',
     name: 'Dropzone-Royale',
@@ -964,6 +977,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'ubuntu-live-desktop': 'chaos',
   'dropzone-royale': 'games',
   'blade-arena': 'games',
   'ubuntu-studio-tablet': 'chaos',
