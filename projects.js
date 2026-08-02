@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'voice-agent',
+    owner: 'dglogan42',
+    name: 'Voice-Agent',
+    repo: 'Voice-Agent',
+    url: 'https://github.com/dglogan42/Voice-Agent',
+    emoji: '🎙️',
+    tagline:
+      'Carina — ADHD-friendly xAI Realtime scheduling voice agent. Calendar clash checks, PII scrub, 1737 crisis handoff. No medical advice, just appointments.',
+    memeTop: 'BUILT A VOICE AGENT NAMED CARINA',
+    memeBottom: 'she books the GP then refuses my double-book (adhd said send it)',
+    bg: 'ai',
+  },
+  {
     id: 'witch-dating',
     owner: 'dglogan42',
     name: 'Witch-Dating',
@@ -990,6 +1003,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'voice-agent': 'chaos',
   'witch-dating': 'writing',
   'ubuntu-live-desktop': 'chaos',
   'dropzone-royale': 'games',
