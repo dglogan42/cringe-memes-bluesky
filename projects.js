@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'mythicats',
+    owner: 'dglogan42',
+    name: 'mythicats',
+    repo: 'mythicats',
+    url: 'https://github.com/dglogan42/mythicats',
+    emoji: '🐱',
+    tagline:
+      'Pokémon GO–style open-world AR hunt for mythical cats. Web (Three.js + GPS) + Android (ARCore Geospatial, SceneView/Filament glTF, multiplayer spawns). Catch with Catnip, Tuna, or Milk. MIT monorepo. Not affiliated with Pokémon/Niantic.',
+    memeTop: "SHIPPED A POKÉMON GO CLONE BUT IT'S CATS",
+    memeBottom: 'threw milk at a void kitten. still in demo mode',
+    bg: 'ai',
+  },
+  {
     id: 'convention-expo',
     owner: 'dglogan42',
     name: 'Convention-Expo',
@@ -1025,6 +1038,7 @@ export const PROJECT_CATEGORY_MAP = {
   'ubuntu-studio-tablet': 'chaos',
   'steam-mods': 'games',
   'alchemised': 'games',
+  'mythicats': 'games',
   'flying-fox': 'games',
   'visual-diary': 'chaos',
   'puzzler': 'games',
