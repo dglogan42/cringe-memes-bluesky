@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'fair-dinkum-trivia',
+    owner: 'dglogan42',
+    name: 'FairDinkum-Trivia',
+    repo: 'FairDinkum-Trivia',
+    url: 'https://github.com/dglogan42/FairDinkum-Trivia',
+    emoji: '🇦🇺',
+    tagline:
+      'Fair Dinkum Trivia — original offline Australian general-knowledge quiz for Android (Kotlin + Jetpack Compose). 15-step prize ladder, safe levels, 50:50 / Ask the Crowd / Skip lifelines, 130+ AU questions, local high scores only. Free, no ads, not affiliated with any TV quiz show.',
+    memeTop: 'SHIPPED OFFLINE AU TRIVIA FOR ANDROID',
+    memeBottom: 'walked away at $32k. still failed the emu question',
+    bg: 'ai',
+  },
+  {
     id: 'hololive-dreams',
     owner: 'dglogan42',
     name: 'HoloLive-Dreams',
@@ -1042,6 +1055,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'fair-dinkum-trivia': 'games',
   'hololive-dreams': 'games',
   'convention-expo': 'chaos',
   'voice-agent': 'chaos',
