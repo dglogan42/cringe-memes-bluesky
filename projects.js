@@ -7,6 +7,32 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'space-factory',
+    owner: 'dglogan42',
+    name: 'Space-Factory',
+    repo: 'Space-Factory',
+    url: 'https://github.com/dglogan42/Space-Factory',
+    emoji: '🚀',
+    tagline:
+      'Space Factory — Android orbital factory sim. Mine asteroids, smelt metal, fabricate chips, launch starships. 48×32 grid, Ore→Metal→Chips→Ships chain, solar power network, 15-ship victory fleet. Touch pan/zoom, auto-save. Original; not affiliated with Factorio / Wube.',
+    memeTop: 'SHIPPED AN ORBITAL FACTORY ON ANDROID',
+    memeBottom: 'ran out of chips. the solar panels are judging me',
+    bg: 'ai',
+  },
+  {
+    id: 'pebble-cove',
+    owner: 'dglogan42',
+    name: 'Pebble-Cove',
+    repo: 'Pebble-Cove',
+    url: 'https://github.com/dglogan42/Pebble-Cove',
+    emoji: '🏝️',
+    tagline:
+      'Pebble Cove — original offline village / collectible life-sim for Android (Kotlin + Compose). Island map, day/night energy, bugs/fish/shells/forage, NPCs, shop, cottage décor, collection book. Local DataStore only. Free, no ads; not affiliated with Nintendo / Chucklefish / ConcernedApe.',
+    memeTop: 'SHIPPED AN OFFLINE ISLAND LIFE-SIM',
+    memeBottom: 'spent all energy on shells. nana wren is disappointed',
+    bg: 'ai',
+  },
+  {
     id: 'fair-dinkum-trivia',
     owner: 'dglogan42',
     name: 'FairDinkum-Trivia',
@@ -17,6 +43,58 @@ export const DGLOGAN42_PROJECTS = [
       'Fair Dinkum Trivia — original offline Australian general-knowledge quiz for Android (Kotlin + Jetpack Compose). 15-step prize ladder, safe levels, 50:50 / Ask the Crowd / Skip lifelines, 130+ AU questions, local high scores only. Free, no ads, not affiliated with any TV quiz show.',
     memeTop: 'SHIPPED OFFLINE AU TRIVIA FOR ANDROID',
     memeBottom: 'walked away at $32k. still failed the emu question',
+    bg: 'ai',
+  },
+  {
+    id: 'tryline-sevens',
+    owner: 'dglogan42',
+    name: 'TryLine-Sevens',
+    repo: 'TryLine-Sevens',
+    url: 'https://github.com/dglogan42/TryLine-Sevens',
+    emoji: '🏉',
+    tagline:
+      "Tryline Sevens '98 — HK / Wellington Sevens–style 7-a-side cup rugby for Android sideload + PC browser. Short halves, pass/kick/sprint, QF→SF→Cup Final. Original fan-style arcade energy; not Jonah Lomu Rugby; not affiliated with World Rugby / Codemasters / unions.",
+    memeTop: "SHIPPED SEVENS '98 ARCADE RUGBY",
+    memeBottom: 'dropped it in the cup final. still not jonah lomu',
+    bg: 'ai',
+  },
+  {
+    id: 'flare',
+    owner: 'dglogan42',
+    name: 'Flare',
+    repo: 'Flare',
+    url: 'https://github.com/dglogan42/Flare',
+    emoji: '🔥',
+    tagline:
+      'Flare Android (Offline) — packaging helpers for the free/libre Flare ARPG engine + Empyrean Campaign. Official engine APK, mods zip, install checklist; optional source build. Not a reimplementation; credits Flare / flarerpg.org (GPL).',
+    memeTop: 'PACKAGED FLARE FOR OFFLINE ANDROID',
+    memeBottom: 'forgot the mods zip. engine said path not found',
+    bg: 'ai',
+  },
+  {
+    id: 'shardfall',
+    owner: 'dglogan42',
+    name: 'Shardfall',
+    repo: 'Shardfall',
+    url: 'https://github.com/dglogan42/Shardfall',
+    emoji: '⚔️',
+    tagline:
+      'Shardfall — offline Diablo-style action RPG for Android sideload + PC browser. Procedural floors, loot, skills, boss every 5 floors. Spellblade / Warden / Arcanist. Original code; not affiliated with Blizzard / Level-5 / Netmarble.',
+    memeTop: 'SHIPPED A DIABLO-STYLE OFFLINE ARPG',
+    memeBottom: 'died to the floor 5 boss with full inventory',
+    bg: 'ai',
+  },
+  {
+    id: 'metro-dash',
+    owner: 'dglogan42',
+    name: 'MetroDash',
+    repo: 'MetroDash',
+    url: 'https://github.com/dglogan42/MetroDash',
+    emoji: '🚇',
+    tagline:
+      'Metro Dash PC — original Windows endless runner. 3 lanes, jump, slide, coins, magnet/boost/shield power-ups, Xbox pad support. Offline, no Steam. Not Subway Surfers; not affiliated with Kiloo / SYBO.',
+    memeTop: 'SHIPPED A METRO ENDLESS RUNNER FOR PC',
+    memeBottom: 'hit the train. high score was 12 coins',
     bg: 'ai',
   },
   {
@@ -1055,7 +1133,13 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'space-factory': 'games',
+  'pebble-cove': 'games',
   'fair-dinkum-trivia': 'games',
+  'tryline-sevens': 'sports',
+  'flare': 'games',
+  'shardfall': 'games',
+  'metro-dash': 'games',
   'hololive-dreams': 'games',
   'convention-expo': 'chaos',
   'voice-agent': 'chaos',
