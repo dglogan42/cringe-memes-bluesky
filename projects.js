@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'hololive-dreams',
+    owner: 'dglogan42',
+    name: 'HoloLive-Dreams',
+    repo: 'HoloLive-Dreams',
+    url: 'https://github.com/dglogan42/HoloLive-Dreams',
+    emoji: '🎮',
+    tagline:
+      'Dream Park PC — offline Windows fan demo (not Steam, not the official game). Park hub + 4-lane rhythm + Hoppin\' Rope minigame + quests, Xbox 360/One/Series support, Web Audio synth. Unofficial; not affiliated with COVER / hololive / QualiArts.',
+    memeTop: 'SHIPPED A HOLOLIVE DREAMS PC FAN DEMO',
+    memeBottom: 'no steam. no servers. just D F J K and emotional damage',
+    bg: 'ai',
+  },
+  {
     id: 'mythicats',
     owner: 'dglogan42',
     name: 'mythicats',
@@ -1029,6 +1042,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'hololive-dreams': 'games',
   'convention-expo': 'chaos',
   'voice-agent': 'chaos',
   'witch-dating': 'writing',

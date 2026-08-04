@@ -5,7 +5,7 @@ A browser-based meme generator that pulls live posts from [@adhdloganberry.bsky.
 No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES modules).
 
 **Repository:** [github.com/dglogan42/cringe-memes-bluesky](https://github.com/dglogan42/cringe-memes-bluesky)  
-**Version:** 1.19.0 · **Mythicats** era portfolio fuel (synced) — 81 @dglogan42
+**Version:** 1.20.0 · **HoloLive-Dreams** era portfolio fuel (synced) — 82 @dglogan42
 
 ## Features
 
@@ -14,9 +14,9 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — **116** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **81** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
-- Newest fuel: **[mythicats](https://github.com/dglogan42/mythicats)** — Pokémon GO–style AR mythical cats (web + Android monorepo; Catnip/Tuna/Milk catch bait)
-- Also hot: **[Convention-Expo](https://github.com/dglogan42/Convention-Expo)**, **[Voice-Agent](https://github.com/dglogan42/Voice-Agent)**, **[Witch-Dating](https://github.com/dglogan42/Witch-Dating)**
+- **Stupid GitHub Projects** — **117** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **82** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
+- Newest fuel: **[HoloLive-Dreams](https://github.com/dglogan42/HoloLive-Dreams)** — Dream Park PC fan demo (rhythm + park + Xbox pad, offline, not Steam / not official)
+- Also hot: **[mythicats](https://github.com/dglogan42/mythicats)**, **[Convention-Expo](https://github.com/dglogan42/Convention-Expo)**, **[Voice-Agent](https://github.com/dglogan42/Voice-Agent)**
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
 ## Quick Start
@@ -50,7 +50,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (81 repos, newest first — **mythicats** featured) and **@Thedoctorjpg** (35 repos).
+1. Switch between **@dglogan42** (82 repos, newest first — **HoloLive-Dreams** featured) and **@Thedoctorjpg** (35 repos).
 2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
@@ -64,10 +64,11 @@ When a repo is selected:
 
 ## GitHub Portfolio (meme fuel)
 
-Synced from `projects.js` — **81** @dglogan42 repos (newest first; matches public GitHub).
+Synced from `projects.js` — **82** @dglogan42 repos (newest first; matches public GitHub).
 
 | Repo | What it is |
 |------|------------|
+| [HoloLive-Dreams](https://github.com/dglogan42/HoloLive-Dreams) | Dream Park PC — offline Windows fan demo (not Steam). Park hub, 4-lane rhythm, Hoppin' Rope, quests, Xbox controller support. Unofficial; not affiliated with COVER / hololive. |
 | [mythicats](https://github.com/dglogan42/mythicats) | Pokémon GO–style AR hunt for mythical cats — web (Three.js + GPS) + Android (ARCore Geospatial, SceneView glTF, multiplayer). Catch with Catnip, Tuna, or Milk. MIT monorepo. |
 | [Convention-Expo](https://github.com/dglogan42/Convention-Expo) | Con/expo volunteer toolkit — Grok event-volunteer skill, Overload NZ packs, applications, ICS, guests/events, floor landmarks (PII redacted) |
 | [Voice-Agent](https://github.com/dglogan42/Voice-Agent) | Carina — ADHD-friendly xAI Realtime scheduling voice agent (calendar clash checks, safety guards, 1737 handoff) |
@@ -166,7 +167,7 @@ cringe-memes-bluesky/          # local folder may still be cringe-meme-generator
 ├── projects.js                # @dglogan42 portfolio meme fuel
 ├── projects-thedoctorjpg.js   # @Thedoctorjpg portfolio meme fuel
 ├── install.js                 # PWA install prompt helpers
-├── sw.js                      # Service worker (offline cache v1.19.0)
+├── sw.js                      # Service worker (offline cache v1.20.0)
 ├── manifest.webmanifest       # PWA manifest
 ├── icons/                     # App icons
 ├── package.json               # Convenience scripts (npm start)
