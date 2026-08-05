@@ -5,7 +5,7 @@ A browser-based meme generator that pulls live posts from [@adhdloganberry.bsky.
 No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES modules).
 
 **Repository:** [github.com/dglogan42/cringe-memes-bluesky](https://github.com/dglogan42/cringe-memes-bluesky)  
-**Version:** 1.22.0 · **Space-Factory** era portfolio fuel (synced) — 89 @dglogan42
+**Version:** 1.23.0 · **Bread** era portfolio fuel (synced) — 93 @dglogan42
 
 ## Features
 
@@ -14,9 +14,9 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — **124** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **89** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
-- Newest fuel: **[Space-Factory](https://github.com/dglogan42/Space-Factory)** — Android orbital factory sim (Ore→Metal→Chips→Ships, solar power, 15-ship victory)
-- Also hot: **[Pebble-Cove](https://github.com/dglogan42/Pebble-Cove)**, **[FairDinkum-Trivia](https://github.com/dglogan42/FairDinkum-Trivia)**, **[TryLine-Sevens](https://github.com/dglogan42/TryLine-Sevens)**, **[Shardfall](https://github.com/dglogan42/Shardfall)**, **[MetroDash](https://github.com/dglogan42/MetroDash)**
+- **Stupid GitHub Projects** — **128** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **93** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
+- Newest fuel: **[Bread](https://github.com/dglogan42/Bread)** — cozy bakery shop sim for Android & iOS (Expo / EAS APK)
+- Also hot: **[Supa-Saver](https://github.com/dglogan42/Supa-Saver)**, **[ToyFinder](https://github.com/dglogan42/ToyFinder)**, **[Hardware-Help](https://github.com/dglogan42/Hardware-Help)**, **[Space-Factory](https://github.com/dglogan42/Space-Factory)**, **[Pebble-Cove](https://github.com/dglogan42/Pebble-Cove)**
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
 ## Quick Start
@@ -50,7 +50,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (89 repos, newest first — **Space-Factory** featured) and **@Thedoctorjpg** (35 repos).
+1. Switch between **@dglogan42** (93 repos, newest first — **Bread** featured) and **@Thedoctorjpg** (35 repos).
 2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
@@ -64,10 +64,14 @@ When a repo is selected:
 
 ## GitHub Portfolio (meme fuel)
 
-Synced from `projects.js` — **89** @dglogan42 repos (newest first; matches public GitHub).
+Synced from `projects.js` — **93** @dglogan42 repos (newest first; matches public GitHub).
 
 | Repo | What it is |
 |------|------------|
+| [Bread](https://github.com/dglogan42/Bread) | Bread — cozy bakery shop sim for Android & iOS (Expo / React Native). Order supplies, bake recipes, serve customers, pay rent, day cycle + autosave. EAS preview APK. |
+| [Supa-Saver](https://github.com/dglogan42/Supa-Saver) | Supa Saver — NZ supermarket price spy. Compare Woolworths, New World, PAK'nSAVE & FreshChoice. Barcode scan, GPS regions, multi-store basket split. Expo + Express. |
+| [ToyFinder](https://github.com/dglogan42/ToyFinder) | ToyFinder — preorder upcoming toys before they sell out. Expo mobile + Vite web, NZD catalog, filters, limited editions, on-device preorder history. |
+| [Hardware-Help](https://github.com/dglogan42/Hardware-Help) | Hardware Help / Aisle Finder — AR aisle locate + 15% price match for Bunnings & Mitre 10. Capacitor web→Android/iOS, dual-chain maps, offline catalogue. |
 | [Space-Factory](https://github.com/dglogan42/Space-Factory) | Space Factory — Android orbital factory sim. Mine asteroids, smelt metal, fabricate chips, launch starships. 48×32 grid, solar power network, 15-ship victory. Original; not Factorio. |
 | [Pebble-Cove](https://github.com/dglogan42/Pebble-Cove) | Pebble Cove — offline village / collectible life-sim for Android (Kotlin + Compose). Island map, day/night, bugs/fish/shells, NPCs, shop, cottage décor. Not affiliated with Nintendo / Stardew / etc. |
 | [FairDinkum-Trivia](https://github.com/dglogan42/FairDinkum-Trivia) | Fair Dinkum Trivia — offline Australian general-knowledge quiz for Android (Kotlin + Compose). Prize ladder, lifelines, 130+ AU questions, local high scores. Free; not a TV-show port. |
@@ -174,7 +178,7 @@ cringe-memes-bluesky/          # local folder may still be cringe-meme-generator
 ├── projects.js                # @dglogan42 portfolio meme fuel
 ├── projects-thedoctorjpg.js   # @Thedoctorjpg portfolio meme fuel
 ├── install.js                 # PWA install prompt helpers
-├── sw.js                      # Service worker (offline cache v1.22.0)
+├── sw.js                      # Service worker (offline cache v1.23.0)
 ├── manifest.webmanifest       # PWA manifest
 ├── icons/                     # App icons
 ├── package.json               # Convenience scripts (npm start)

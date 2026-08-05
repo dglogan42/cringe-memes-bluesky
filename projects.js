@@ -7,6 +7,58 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'bread',
+    owner: 'dglogan42',
+    name: 'Bread',
+    repo: 'Bread',
+    url: 'https://github.com/dglogan42/Bread',
+    emoji: '🍞',
+    tagline:
+      'Bread — cozy bakery shop sim for Android & iOS (Expo / React Native). Order supplies, bake 10 recipes, serve impatient customers, pay rent, unlock progression. Day cycle, energy, autosave. EAS preview APK ready.',
+    memeTop: 'SHIPPED A BAKERY SIM WITH REAL RENT ENERGY',
+    memeBottom: 'customers ragequit while the croissants are still proving',
+    bg: 'ai',
+  },
+  {
+    id: 'supa-saver',
+    owner: 'dglogan42',
+    name: 'Supa-Saver',
+    repo: 'Supa-Saver',
+    url: 'https://github.com/dglogan42/Supa-Saver',
+    emoji: '🛒',
+    tagline:
+      "Supa Saver — NZ supermarket price spy (Expo + Express). Compare Woolworths, New World, PAK'nSAVE & FreshChoice. Barcode scan, unit prices, region GPS, shopping list with cheapest-store / multi-store split plan. Live API + offline catalogue fallback.",
+    memeTop: 'BUILT A 4-STORE NZ GROCERY PRICE SPY',
+    memeBottom: "split the basket across three shops to save $2.40. worth it?",
+    bg: 'ai',
+  },
+  {
+    id: 'toyfinder',
+    owner: 'dglogan42',
+    name: 'ToyFinder',
+    repo: 'ToyFinder',
+    url: 'https://github.com/dglogan42/ToyFinder',
+    emoji: '🧸',
+    tagline:
+      'ToyFinder — preorder upcoming toys before they sell out. Expo mobile + Vite web share one NZD catalog. Search/filter by brand & category, limited-edition badges, cart, checkout form, on-device preorder history. Sample catalog; no live payments.',
+    memeTop: 'SHIPPED A TOY PREORDER STOREFRONT',
+    memeBottom: 'limited edition sold out while I was still in checkout',
+    bg: 'ai',
+  },
+  {
+    id: 'hardware-help',
+    owner: 'dglogan42',
+    name: 'Hardware-Help',
+    repo: 'Hardware-Help',
+    url: 'https://github.com/dglogan42/Hardware-Help',
+    emoji: '🔧',
+    tagline:
+      'Hardware Help / Aisle Finder — AR aisle locate + 15% price match for Bunnings & Mitre 10. Capacitor web→Android/iOS. Search, floor maps, dual-chain aisle/bay/shelf, shopping list, optional AI photo ID. Offline catalogue bundled.',
+    memeTop: 'SHIPPED AR AISLE FINDER FOR TWO HARDWARE CHAINS',
+    memeBottom: 'price matched 15% and still got lost in timber',
+    bg: 'ai',
+  },
+  {
     id: 'space-factory',
     owner: 'dglogan42',
     name: 'Space-Factory',
@@ -1133,6 +1185,10 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'bread': 'games',
+  'supa-saver': 'commerce',
+  'toyfinder': 'commerce',
+  'hardware-help': 'commerce',
   'space-factory': 'games',
   'pebble-cove': 'games',
   'fair-dinkum-trivia': 'games',
