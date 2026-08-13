@@ -20,6 +20,19 @@ export const DGLOGAN42_PROJECTS = [
     bg: 'ai',
   },
   {
+    id: 'haiyaku-beach-volleyball',
+    owner: 'dglogan42',
+    name: 'Haiyaku-Beach-Volleyball',
+    repo: 'Haiyaku-Beach-Volleyball',
+    url: 'https://github.com/dglogan42/Haiyaku-Beach-Volleyball',
+    emoji: '🏐',
+    tagline:
+      'HAIYAKU! Beach Volleyball — week-long beach training camp. 2v2 sand volleyball, tiki bar, infinity pool, suikawari / fireworks / shaved ice / swimsuit boutique. Web + signed Android 8+ APK. Original roster; not Haikyū!! or DOA Xtreme.',
+    memeTop: 'SHIPPED A BEACH EPISODE WITH ACTUAL 2V2 VOLLEYBALL',
+    memeBottom: 'HAIYAKU!! quick attack then immediately lose to shaved ice',
+    bg: 'ai',
+  },
+  {
     id: 'sakura-mart',
     owner: 'dglogan42',
     name: 'Sakura-Mart',
@@ -1212,6 +1225,7 @@ export const PROJECT_CATEGORIES = [
 
 export const PROJECT_CATEGORY_MAP = {
   'cursed-circuit': 'games',
+  'haiyaku-beach-volleyball': 'sports',
   'sakura-mart': 'games',
   'bread': 'games',
   'supa-saver': 'commerce',
