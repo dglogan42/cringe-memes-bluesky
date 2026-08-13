@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'sakura-mart',
+    owner: 'dglogan42',
+    name: 'Sakura-Mart',
+    repo: 'Sakura-Mart',
+    url: 'https://github.com/dglogan42/Sakura-Mart',
+    emoji: '🛒',
+    tagline:
+      'ちびマート / CHIBI MART — chibi Japanese supermarket sim in Game Boy Advance pixel graphics + chiptunes. Web (240×160) and signed Android 8+ APK. Stock shelves, scan neighbors, 7-day week. Offline landscape pad.',
+    memeTop: 'SHIPPED A GBA SUPERMARKET SIM IN 240×160',
+    memeBottom: 'customers ragequit while the onigiri is still in the back room',
+    bg: 'ai',
+  },
+  {
     id: 'bread',
     owner: 'dglogan42',
     name: 'Bread',
@@ -1185,6 +1198,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'sakura-mart': 'games',
   'bread': 'games',
   'supa-saver': 'commerce',
   'toyfinder': 'commerce',
