@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'cursed-circuit',
+    owner: 'dglogan42',
+    name: 'Cursed-Circuit',
+    repo: 'Cursed-Circuit',
+    url: 'https://github.com/dglogan42/Cursed-Circuit',
+    emoji: '🧿',
+    tagline:
+      'CURSED CIRCUIT — original jujutsu-academy JRPG homage. Octopath BP/Break, Chained Echoes Overdrive, King\'s Fingers, Domain Expansion. Web 320×240 + signed Android 8+ APK. Not official JJK.',
+    memeTop: 'SHIPPED A JUJUTSU ACADEMY JRPG IN 320×240',
+    memeBottom: 'swallowed two King\'s Fingers and called it a job system',
+    bg: 'ai',
+  },
+  {
     id: 'sakura-mart',
     owner: 'dglogan42',
     name: 'Sakura-Mart',
@@ -1198,6 +1211,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'cursed-circuit': 'games',
   'sakura-mart': 'games',
   'bread': 'games',
   'supa-saver': 'commerce',
