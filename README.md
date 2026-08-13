@@ -5,7 +5,7 @@ A browser-based meme generator that pulls live posts from [@adhdloganberry.bsky.
 No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES modules).
 
 **Repository:** [github.com/dglogan42/cringe-memes-bluesky](https://github.com/dglogan42/cringe-memes-bluesky)  
-**Version:** 1.26.0 · **Cursed-Circuit + Haiyaku** era portfolio fuel (synced) — 96 @dglogan42
+**Version:** 1.27.0 · **Nineties-Fighter + Starroot** era portfolio fuel (synced) — 99 @dglogan42
 
 ## Features
 
@@ -14,9 +14,9 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — **131** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **96** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
-- Newest fuel: **[Cursed-Circuit](https://github.com/dglogan42/Cursed-Circuit)** — jujutsu-academy JRPG homage (web 320×240 + Android APK). King's Fingers, Domain Expansion, BP/Break.
-- Also hot: **[Haiyaku-Beach-Volleyball](https://github.com/dglogan42/Haiyaku-Beach-Volleyball)**, **[Sakura-Mart](https://github.com/dglogan42/Sakura-Mart)**, **[Bread](https://github.com/dglogan42/Bread)**, **[Supa-Saver](https://github.com/dglogan42/Supa-Saver)**
+- **Stupid GitHub Projects** — **134** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **99** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
+- Newest fuel: **[Nineties-Fighter](https://github.com/dglogan42/Nineties-Fighter)** — HYPER RUSH 3-on-3 90s arcade tag fighter (web + Android APK). Icons vs Outlaws. Not Marvel vs Capcom.
+- Also hot: **[Starroot-Isle](https://github.com/dglogan42/Starroot-Isle)**, **[APKs](https://github.com/dglogan42/APKs)**, **[Cursed-Circuit](https://github.com/dglogan42/Cursed-Circuit)**, **[Haiyaku-Beach-Volleyball](https://github.com/dglogan42/Haiyaku-Beach-Volleyball)**
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
 ## Quick Start
@@ -50,7 +50,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (96 repos, newest first — **Cursed-Circuit** featured) and **@Thedoctorjpg** (35 repos).
+1. Switch between **@dglogan42** (99 repos, newest first — **Nineties-Fighter** featured) and **@Thedoctorjpg** (35 repos).
 2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
@@ -64,10 +64,13 @@ When a repo is selected:
 
 ## GitHub Portfolio (meme fuel)
 
-Synced from `projects.js` — **96** @dglogan42 repos (newest first; matches public GitHub).
+Synced from `projects.js` — **99** @dglogan42 repos (newest first; matches public GitHub).
 
 | Repo | What it is |
 |------|------------|
+| [Nineties-Fighter](https://github.com/dglogan42/Nineties-Fighter) | HYPER RUSH — 3-on-3 90s arcade tag fighter (Icons vs Outlaws). Assists, launchers, Variable Combination, Level 3 hypers. Web + signed Android 8+ APK. Original roster; not Marvel vs Capcom. |
+| [Starroot-Isle](https://github.com/dglogan42/Starroot-Isle) | Starroot Isle — original cozy island adventure for Android. Farm, mine, fish, craft, Heartseed story, puffkin companions, local + online visit co-op. MIT original IP. |
+| [APKs](https://github.com/dglogan42/APKs) | Sideloadable Android APKs for dglogan42 games — one repo, many unknown-sources installs. |
 | [Cursed-Circuit](https://github.com/dglogan42/Cursed-Circuit) | CURSED CIRCUIT — original jujutsu-academy JRPG homage. Octopath BP/Break, Chained Echoes Overdrive, King's Fingers, Domain Expansion. Web 320×240 + signed Android 8+ APK. Not official JJK. |
 | [Haiyaku-Beach-Volleyball](https://github.com/dglogan42/Haiyaku-Beach-Volleyball) | HAIYAKU! — week-long beach training camp. 2v2 sand volleyball, tiki bar, infinity pool, suikawari / fireworks / shaved ice. Web + signed Android 8+ APK. Original; not Haikyū!! or DOA Xtreme. |
 | [Sakura-Mart](https://github.com/dglogan42/Sakura-Mart) | ちびマート / CHIBI MART — chibi Japanese supermarket sim in Game Boy Advance pixel graphics + chiptunes. Web 240×160 + signed Android 8+ APK. Stock shelves, scan neighbors, 7-day week. |
@@ -181,7 +184,7 @@ cringe-memes-bluesky/          # local folder may still be cringe-meme-generator
 ├── projects.js                # @dglogan42 portfolio meme fuel
 ├── projects-thedoctorjpg.js   # @Thedoctorjpg portfolio meme fuel
 ├── install.js                 # PWA install prompt helpers
-├── sw.js                      # Service worker (offline cache v1.26.0)
+├── sw.js                      # Service worker (offline cache v1.27.0)
 ├── manifest.webmanifest       # PWA manifest
 ├── icons/                     # App icons
 ├── package.json               # Convenience scripts (npm start)

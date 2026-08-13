@@ -7,6 +7,45 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'nineties-fighter',
+    owner: 'dglogan42',
+    name: 'Nineties-Fighter',
+    repo: 'Nineties-Fighter',
+    url: 'https://github.com/dglogan42/Nineties-Fighter',
+    emoji: '🥊',
+    tagline:
+      'HYPER RUSH — 3-on-3 90s arcade tag fighter (Icons vs Outlaws). Assists, launchers, Variable Combination, Level 3 hypers. Web + signed Android 8+ APK. Original roster; not Marvel vs Capcom.',
+    memeTop: 'SHIPPED A 90S ARCADE TAG FIGHTER',
+    memeBottom: 'quarter-circled into a variable combination then forgot to block',
+    bg: 'ai',
+  },
+  {
+    id: 'starroot-isle',
+    owner: 'dglogan42',
+    name: 'Starroot-Isle',
+    repo: 'Starroot-Isle',
+    url: 'https://github.com/dglogan42/Starroot-Isle',
+    emoji: '🌱',
+    tagline:
+      'Starroot Isle — original cozy island adventure for Android. Farm, mine, fish, craft, Heartseed story, puffkin companions, local + online visit co-op. Procedural 56×56 island. MIT original IP; not Stardew / Animal Crossing.',
+    memeTop: 'SHIPPED A COZY ISLAND ADVENTURE',
+    memeBottom: 'watered the crops. the Heartseed is still judging me',
+    bg: 'ai',
+  },
+  {
+    id: 'apks',
+    owner: 'dglogan42',
+    name: 'APKs',
+    repo: 'APKs',
+    url: 'https://github.com/dglogan42/APKs',
+    emoji: '📦',
+    tagline:
+      'Sideloadable Android APKs for dglogan42 games — one repo, many unknown-sources installs. Companion dump for the portfolio fighters, sims, and JRPGs.',
+    memeTop: 'DUMPED EVERY GAME APK IN ONE REPO',
+    memeBottom: 'unknown sources: on. dignity: still sideloading',
+    bg: 'ai',
+  },
+  {
     id: 'cursed-circuit',
     owner: 'dglogan42',
     name: 'Cursed-Circuit',
@@ -1224,6 +1263,9 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'nineties-fighter': 'games',
+  'starroot-isle': 'games',
+  'apks': 'games',
   'cursed-circuit': 'games',
   'haiyaku-beach-volleyball': 'sports',
   'sakura-mart': 'games',
