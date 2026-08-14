@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'frisco-founders-club',
+    owner: 'dglogan42',
+    name: 'Frisco-Founders-Club',
+    repo: 'Frisco-Founders-Club',
+    url: 'https://github.com/dglogan42/Frisco-Founders-Club',
+    emoji: '🌁',
+    tagline:
+      'Fogline — San Francisco club for founders, operators, and investors who meet through sport and wellness. Android (Kotlin + Compose): this week’s events, RSVP, member directory, 1:1 chat. MIT. Not Golden Born Society.',
+    memeTop: 'SHIPPED A FOUNDER CLUB FOR PEOPLE WHO ACTUALLY RUN',
+    memeBottom: 'linkedin but the event is 6:30am embarcadero and nobody ghosted',
+    bg: 'ai',
+  },
+  {
     id: 'nineties-fighter',
     owner: 'dglogan42',
     name: 'Nineties-Fighter',
@@ -1263,6 +1276,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'frisco-founders-club': 'sports',
   'nineties-fighter': 'games',
   'starroot-isle': 'games',
   'apks': 'games',
