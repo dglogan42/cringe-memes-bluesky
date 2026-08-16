@@ -7,6 +7,84 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'atsnz-expo',
+    owner: 'dglogan42',
+    name: 'ATSNZExpo',
+    repo: 'ATSNZExpo',
+    url: 'https://github.com/dglogan42/ATSNZExpo',
+    emoji: '♿',
+    tagline:
+      'ATSNZ Access — unofficial Expo web companion for the ATSNZ Disability Expo 2026 at Due Drop Events Centre, Manukau. High contrast, Easy Read, Gate 3 parking, Have a Go, Help now. Not official ATSNZ.',
+    memeTop: 'SHIPPED AN ACCESSIBLE EXPO COMPANION',
+    memeBottom: 'the seminar programme is still "TBA" but the contrast is yellow on black',
+    bg: 'ai',
+  },
+  {
+    id: 'the-silk-roads',
+    owner: 'dglogan42',
+    name: 'The-Silk-Roads',
+    repo: 'The-Silk-Roads',
+    url: 'https://github.com/dglogan42/The-Silk-Roads',
+    emoji: '🐪',
+    tagline:
+      'The Silk Roads — 3D globe of 18 land and monsoon corridors, 72 cities, caravan fly-through from Luoyang to Constantinople. Browser Cesium + Google Earth KML. Schematic history, not GPS camel tracks.',
+    memeTop: 'MAPPED THE SILK ROAD IN 3D',
+    memeBottom: 'still lost between Dunhuang and Kashgar',
+    bg: 'ai',
+  },
+  {
+    id: 'sundry',
+    owner: 'dglogan42',
+    name: 'Sundry',
+    repo: 'Sundry',
+    url: 'https://github.com/dglogan42/Sundry',
+    emoji: '📋',
+    tagline:
+      'Sundry — rate anything. Pens, incense, Lindt, a bus route. 1–10 plus SS→D boards, lists, share links. Letterboxd / Goodreads energy. Static web, localStorage.',
+    memeTop: 'BUILT LETTERBOXD FOR BALLPOINT PENS',
+    memeBottom: 'this incense is SS. this bus route is D',
+    bg: 'ai',
+  },
+  {
+    id: 'herd',
+    owner: 'dglogan42',
+    name: 'Herd',
+    repo: 'Herd',
+    url: 'https://github.com/dglogan42/Herd',
+    emoji: '🦬',
+    tagline:
+      'Herd — anonymous campus feed for Android. Hot/New, votes, comments, peek other herds, GPS radius. Original; not Yik Yak. Room demo, six campuses.',
+    memeTop: 'SHIPPED AN ANONYMOUS CAMPUS FEED',
+    memeBottom: 'peeked UCLA then immediately went back to my own herd',
+    bg: 'ai',
+  },
+  {
+    id: 'ink',
+    owner: 'dglogan42',
+    name: 'Ink',
+    repo: 'Ink',
+    url: 'https://github.com/dglogan42/Ink',
+    emoji: '💬',
+    tagline:
+      'Ink — Instagram messenger without Instagram. Notes, requests folder, group threads, hearts. No feed, no Reels, no Meta. Android Room demo.',
+    memeTop: 'BUILT INSTAGRAM DMS WITHOUT INSTAGRAM',
+    memeBottom: 'the notes are 60 characters. the dignity is still in requests',
+    bg: 'ai',
+  },
+  {
+    id: 'local-marketplace',
+    owner: 'dglogan42',
+    name: 'local-marketplace',
+    repo: 'local-marketplace',
+    url: 'https://github.com/dglogan42/local-marketplace',
+    emoji: '🛋️',
+    tagline:
+      'Stoop — local classifieds without Facebook. Two-week listings, typed first messages, no "is this available?". Android Room demo, one city (SF). Not Marketplace / Meta.',
+    memeTop: 'SHIPPED MARKETPLACE WITHOUT THE META',
+    memeBottom: 'is this available? no. type a real sentence',
+    bg: 'ai',
+  },
+  {
     id: 'vitalstatistix',
     owner: 'dglogan42',
     name: 'Vitalstatistix',
@@ -1302,6 +1380,12 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'atsnz-expo': 'chaos',
+  'the-silk-roads': 'chaos',
+  'sundry': 'chaos',
+  'herd': 'chaos',
+  'ink': 'chaos',
+  'local-marketplace': 'commerce',
   'vitalstatistix': 'chaos',
   'rubble-app': 'chaos',
   'frisco-founders-club': 'sports',

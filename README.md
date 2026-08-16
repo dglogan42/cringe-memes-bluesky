@@ -5,7 +5,7 @@ A browser-based meme generator that pulls live posts from [@adhdloganberry.bsky.
 No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES modules).
 
 **Repository:** [github.com/dglogan42/cringe-memes-bluesky](https://github.com/dglogan42/cringe-memes-bluesky)  
-**Version:** 1.30.0 · **Vitalstatistix + health-home** era portfolio fuel (synced) — 102 @dglogan42
+**Version:** 1.31.0 · **ATSNZExpo + Silk Roads** era portfolio fuel (synced) — 108 @dglogan42
 
 ## Features
 
@@ -14,9 +14,9 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — **137** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **102** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
-- Newest fuel: **[Vitalstatistix](https://github.com/dglogan42/Vitalstatistix)** — local-first Health.app for Android (Kotlin + Compose + Health Connect). Timeline, logging, widgets. No INTERNET. Not a medical device.
-- Also hot: **[Rubble-App](https://github.com/dglogan42/Rubble-App)**, **[Frisco-Founders-Club](https://github.com/dglogan42/Frisco-Founders-Club)**, **[Nineties-Fighter](https://github.com/dglogan42/Nineties-Fighter)**, **[Starroot-Isle](https://github.com/dglogan42/Starroot-Isle)**
+- **Stupid GitHub Projects** — **143** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **108** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
+- Newest fuel: **[ATSNZExpo](https://github.com/dglogan42/ATSNZExpo)** — ATSNZ Access companion for the 2026 Disability Expo (high contrast, Easy Read, Gate 3, Help now). Not official ATSNZ.
+- Also hot: **[The-Silk-Roads](https://github.com/dglogan42/The-Silk-Roads)**, **[Sundry](https://github.com/dglogan42/Sundry)**, **[Herd](https://github.com/dglogan42/Herd)**, **[Vitalstatistix](https://github.com/dglogan42/Vitalstatistix)**
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
 ## Quick Start
@@ -50,7 +50,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (102 repos, newest first — **Vitalstatistix** featured) and **@Thedoctorjpg** (35 repos).
+1. Switch between **@dglogan42** (108 repos, newest first — **ATSNZExpo** featured) and **@Thedoctorjpg** (35 repos).
 2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
@@ -64,10 +64,16 @@ When a repo is selected:
 
 ## GitHub Portfolio (meme fuel)
 
-Synced from `projects.js` — **102** @dglogan42 repos (newest first; matches public GitHub).
+Synced from `projects.js` — **108** @dglogan42 repos (newest first; matches public GitHub).
 
 | Repo | What it is |
 |------|------------|
+| [ATSNZExpo](https://github.com/dglogan42/ATSNZExpo) | ATSNZ Access — unofficial Expo web companion for the ATSNZ Disability Expo 2026 (Due Drop, Manukau). High contrast, Easy Read, Gate 3 parking, Have a Go, Help now. Not official ATSNZ. |
+| [The-Silk-Roads](https://github.com/dglogan42/The-Silk-Roads) | 3D Silk Road globe — 18 corridors, 72 cities, caravan fly-through Luoyang to Constantinople. Cesium + Google Earth KML. |
+| [Sundry](https://github.com/dglogan42/Sundry) | Rate anything (pens, incense, Lindt, bus routes). 1–10 + SS→D boards. Static web, localStorage. |
+| [Herd](https://github.com/dglogan42/Herd) | Anonymous campus feed for Android. Votes, comments, peek other herds. Original; not Yik Yak. |
+| [Ink](https://github.com/dglogan42/Ink) | Instagram messenger without Instagram. Notes, requests, hearts. No feed / Reels / Meta. |
+| [local-marketplace](https://github.com/dglogan42/local-marketplace) | Stoop — local classifieds without Facebook. Two-week listings, typed first messages. |
 | [Vitalstatistix](https://github.com/dglogan42/Vitalstatistix) | Local-first Health.app for Android. Kotlin + Jetpack Compose on Health Connect: one timeline, two-second logging, honest widgets. Symptoms, brushing, meds, labs. No company server, no INTERNET. Apache 2.0. Not a medical device. |
 | [Rubble-App](https://github.com/dglogan42/Rubble-App) | Out of the Rubble — Gracecity Church 8-week Nehemiah personal journey. Native Android (Java + JDK + Android SDK): weekly practices, lined journal, great-work sentence, bundled booklet PDF, sermon links. Offline. Apache 2.0. |
 | [Frisco-Founders-Club](https://github.com/dglogan42/Frisco-Founders-Club) | Fogline — San Francisco club for founders, operators, and investors who meet through sport and wellness. Android (Kotlin + Compose): this week’s events, RSVP, member directory, 1:1 chat. MIT. Not Golden Born Society. |
@@ -187,7 +193,7 @@ cringe-memes-bluesky/          # local folder may still be cringe-meme-generator
 ├── projects.js                # @dglogan42 portfolio meme fuel
 ├── projects-thedoctorjpg.js   # @Thedoctorjpg portfolio meme fuel
 ├── install.js                 # PWA install prompt helpers
-├── sw.js                      # Service worker (offline cache v1.30.0)
+├── sw.js                      # Service worker (offline cache v1.31.0)
 ├── manifest.webmanifest       # PWA manifest
 ├── icons/                     # App icons
 ├── package.json               # Convenience scripts (npm start)
