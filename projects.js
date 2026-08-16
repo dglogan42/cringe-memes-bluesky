@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'franxx-command',
+    owner: 'dglogan42',
+    name: 'Franxx-Command',
+    repo: 'Franxx-Command',
+    url: 'https://github.com/dglogan42/Franxx-Command',
+    emoji: '🌸',
+    tagline:
+      'FRANXX COMMAND — unofficial mecha gacha for Android. Summon Franxx pilots, build a squad, hunt a Klaxosaur. Offline WebView APK. Fan project; not Darling in the Franxx / Xenoblade.',
+    memeTop: 'SHIPPED A MECHA GACHA FROM A SAVED KIMI TAB',
+    memeBottom: 'ssr is 5% but my dignity is 0',
+    bg: 'ai',
+  },
+  {
     id: 'mossling-meadows',
     owner: 'dglogan42',
     name: 'Mossling-Meadows',
