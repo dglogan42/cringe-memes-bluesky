@@ -7,6 +7,32 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'vitalstatistix',
+    owner: 'dglogan42',
+    name: 'Vitalstatistix',
+    repo: 'Vitalstatistix',
+    url: 'https://github.com/dglogan42/Vitalstatistix',
+    emoji: '🩺',
+    tagline:
+      'Vitalstatistix — local-first Health.app for Android. Kotlin + Jetpack Compose on Health Connect: one timeline, two-second logging, honest widgets. Symptoms, brushing, meds, labs. No company server, no INTERNET. Apache 2.0. Not a medical device.',
+    memeTop: 'SHIPPED APPLE HEALTH FOR ANDROID BECAUSE I WAS MAD',
+    memeBottom: 'minSdk 34. the timeline is empty. samsung still has the watch',
+    bg: 'pandemic',
+  },
+  {
+    id: 'rubble-app',
+    owner: 'dglogan42',
+    name: 'Rubble-App',
+    repo: 'Rubble-App',
+    url: 'https://github.com/dglogan42/Rubble-App',
+    emoji: '🧱',
+    tagline:
+      'Out of the Rubble — Gracecity Church 8-week Nehemiah personal journey. Native Android (Java + JDK + Android SDK): weekly practices, lined journal, great-work sentence, bundled booklet PDF, sermon links. Offline. Apache 2.0.',
+    memeTop: 'SHIPPED AN 8-WEEK NEHEMIAH JOURNEY APP FOR CHURCH',
+    memeBottom: 'the wall is still rubble. the journal is on-device. god is not in the cloud',
+    bg: 'ai',
+  },
+  {
     id: 'frisco-founders-club',
     owner: 'dglogan42',
     name: 'Frisco-Founders-Club',
@@ -1276,6 +1302,8 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'vitalstatistix': 'chaos',
+  'rubble-app': 'chaos',
   'frisco-founders-club': 'sports',
   'nineties-fighter': 'games',
   'starroot-isle': 'games',
