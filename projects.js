@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'mossling-meadows',
+    owner: 'dglogan42',
+    name: 'Mossling-Meadows',
+    repo: 'Mossling-Meadows',
+    url: 'https://github.com/dglogan42/Mossling-Meadows',
+    emoji: '🌿',
+    tagline:
+      'Mossling — offline cozy valley life-sim for Android sideload + PC browser. Tend Mossvale: gather dew and peat, craft gifts, plant dewleaf, restore a workshop and shrine, befriend ten original moss-folk. WebView APK. Original; not Pokémon Pokopia / Nintendo.',
+    memeTop: 'SHIPPED A COZY MOSS VALLEY LIFE-SIM',
+    memeBottom: 'the moss-folk ran away because i did not hold still',
+    bg: 'ai',
+  },
+  {
     id: 'atsnz-expo',
     owner: 'dglogan42',
     name: 'ATSNZExpo',
@@ -1380,6 +1393,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'mossling-meadows': 'games',
   'atsnz-expo': 'chaos',
   'the-silk-roads': 'chaos',
   'sundry': 'chaos',

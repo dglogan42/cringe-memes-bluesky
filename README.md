@@ -5,7 +5,7 @@ A browser-based meme generator that pulls live posts from [@adhdloganberry.bsky.
 No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES modules).
 
 **Repository:** [github.com/dglogan42/cringe-memes-bluesky](https://github.com/dglogan42/cringe-memes-bluesky)  
-**Version:** 1.31.0 · **ATSNZExpo + Silk Roads** era portfolio fuel (synced) — 108 @dglogan42
+**Version:** 1.32.0 · **Mossling-Meadows** era portfolio fuel (synced) — 109 @dglogan42
 
 ## Features
 
@@ -14,9 +14,9 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — **143** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **108** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
-- Newest fuel: **[ATSNZExpo](https://github.com/dglogan42/ATSNZExpo)** — ATSNZ Access companion for the 2026 Disability Expo (high contrast, Easy Read, Gate 3, Help now). Not official ATSNZ.
-- Also hot: **[The-Silk-Roads](https://github.com/dglogan42/The-Silk-Roads)**, **[Sundry](https://github.com/dglogan42/Sundry)**, **[Herd](https://github.com/dglogan42/Herd)**, **[Vitalstatistix](https://github.com/dglogan42/Vitalstatistix)**
+- **Stupid GitHub Projects** — **144** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **109** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
+- Newest fuel: **[Mossling-Meadows](https://github.com/dglogan42/Mossling-Meadows)** — Mossling, an offline cozy valley life-sim (Mossvale moss-folk, dew/peat crafting, Android sideload + PC browser). Original; not Pokémon Pokopia.
+- Also hot: **[ATSNZExpo](https://github.com/dglogan42/ATSNZExpo)**, **[The-Silk-Roads](https://github.com/dglogan42/The-Silk-Roads)**, **[Sundry](https://github.com/dglogan42/Sundry)**, **[Herd](https://github.com/dglogan42/Herd)**
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
 ## Quick Start
@@ -50,7 +50,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (108 repos, newest first — **ATSNZExpo** featured) and **@Thedoctorjpg** (35 repos).
+1. Switch between **@dglogan42** (109 repos, newest first — **Mossling-Meadows** featured) and **@Thedoctorjpg** (35 repos).
 2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
@@ -64,10 +64,11 @@ When a repo is selected:
 
 ## GitHub Portfolio (meme fuel)
 
-Synced from `projects.js` — **108** @dglogan42 repos (newest first; matches public GitHub).
+Synced from `projects.js` — **109** @dglogan42 repos (newest first; matches public GitHub).
 
 | Repo | What it is |
 |------|------------|
+| [Mossling-Meadows](https://github.com/dglogan42/Mossling-Meadows) | Mossling — offline cozy valley life-sim for Android sideload + PC browser. Tend Mossvale: gather dew and peat, craft gifts, plant dewleaf, restore a workshop and shrine, befriend ten original moss-folk. Original; not Pokémon Pokopia / Nintendo. |
 | [ATSNZExpo](https://github.com/dglogan42/ATSNZExpo) | ATSNZ Access — unofficial Expo web companion for the ATSNZ Disability Expo 2026 (Due Drop, Manukau). High contrast, Easy Read, Gate 3 parking, Have a Go, Help now. Not official ATSNZ. |
 | [The-Silk-Roads](https://github.com/dglogan42/The-Silk-Roads) | 3D Silk Road globe — 18 corridors, 72 cities, caravan fly-through Luoyang to Constantinople. Cesium + Google Earth KML. |
 | [Sundry](https://github.com/dglogan42/Sundry) | Rate anything (pens, incense, Lindt, bus routes). 1–10 + SS→D boards. Static web, localStorage. |
@@ -193,7 +194,7 @@ cringe-memes-bluesky/          # local folder may still be cringe-meme-generator
 ├── projects.js                # @dglogan42 portfolio meme fuel
 ├── projects-thedoctorjpg.js   # @Thedoctorjpg portfolio meme fuel
 ├── install.js                 # PWA install prompt helpers
-├── sw.js                      # Service worker (offline cache v1.31.0)
+├── sw.js                      # Service worker (offline cache v1.32.0)
 ├── manifest.webmanifest       # PWA manifest
 ├── icons/                     # App icons
 ├── package.json               # Convenience scripts (npm start)
