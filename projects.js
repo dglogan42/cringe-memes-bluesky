@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'bark-derby',
+    owner: 'dglogan42',
+    name: 'Bark-Derby',
+    repo: 'Bark-Derby',
+    url: 'https://github.com/dglogan42/Bark-Derby',
+    emoji: '🐕',
+    tagline:
+      'Bark Derby — dog-racing training-sim: scout, train 12 turns, championship race, then karaoke night and date night with five house idols. React + Express + signed Android 8+ APK. Original.',
+    memeTop: 'SHIPPED A DOG DERBY APK WITH KARAOKE DATE NIGHT',
+    memeBottom: 'vela won the race then asked for moonlight terrace on kibble coins',
+    bg: 'ai',
+  },
+  {
     id: 'portaloo-sim',
     owner: 'dglogan42',
     name: 'Portaloo-Sim',
@@ -1432,6 +1445,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'bark-derby': 'games',
   'portaloo-sim': 'games',
   'vanguard-command': 'games',
   'franxx-command': 'games',
