@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'vanguard-command',
+    owner: 'dglogan42',
+    name: 'Vanguard-Command',
+    repo: 'Vanguard-Command',
+    url: 'https://github.com/dglogan42/Vanguard-Command',
+    emoji: '🛡️',
+    tagline:
+      'VANGUARD COMMAND — turn-based squad tactics. Grid movement + ranged combat (Mario + Rabbids), cards you draw each round (Midnight Suns), persistent squad roles (Girls Frontline). React + Express leaderboard. Original; not Nintendo / Marvel / MICA.',
+    memeTop: 'SHIPPED MIDNIGHT SUNS PLUS RABBIDS IN A VITE TAB',
+    memeBottom: '3 energy 3 cards and the leaderboard is a json file',
+    bg: 'ai',
+  },
+  {
     id: 'franxx-command',
     owner: 'dglogan42',
     name: 'Franxx-Command',
@@ -1406,6 +1419,8 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'vanguard-command': 'games',
+  'franxx-command': 'games',
   'mossling-meadows': 'games',
   'atsnz-expo': 'chaos',
   'the-silk-roads': 'chaos',

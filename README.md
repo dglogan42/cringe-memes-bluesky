@@ -5,7 +5,7 @@ A browser-based meme generator that pulls live posts from [@adhdloganberry.bsky.
 No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES modules).
 
 **Repository:** [github.com/dglogan42/cringe-memes-bluesky](https://github.com/dglogan42/cringe-memes-bluesky)  
-**Version:** 1.33.0 · **Franxx-Command** era portfolio fuel (synced) — 110 @dglogan42
+**Version:** 1.34.0 · **Vanguard-Command** era portfolio fuel (synced) — 111 @dglogan42
 
 ## Features
 
@@ -14,9 +14,9 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — **145** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **110** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
-- Newest fuel: **[Franxx-Command](https://github.com/dglogan42/Franxx-Command)** — FRANXX COMMAND, unofficial mecha gacha for Android (summon, squad, Klaxosaur hunt). Offline WebView APK. Fan project; not Darling in the Franxx.
-- Also hot: **[Mossling-Meadows](https://github.com/dglogan42/Mossling-Meadows)**, **[ATSNZExpo](https://github.com/dglogan42/ATSNZExpo)**, **[The-Silk-Roads](https://github.com/dglogan42/The-Silk-Roads)**, **[Sundry](https://github.com/dglogan42/Sundry)**
+- **Stupid GitHub Projects** — **146** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **111** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
+- Newest fuel: **[Vanguard-Command](https://github.com/dglogan42/Vanguard-Command)** — VANGUARD COMMAND, turn-based squad tactics (grid + cards + roles). React + Express leaderboard. Original; not Nintendo / Marvel / MICA.
+- Also hot: **[Franxx-Command](https://github.com/dglogan42/Franxx-Command)**, **[Mossling-Meadows](https://github.com/dglogan42/Mossling-Meadows)**, **[ATSNZExpo](https://github.com/dglogan42/ATSNZExpo)**, **[The-Silk-Roads](https://github.com/dglogan42/The-Silk-Roads)**
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
 ## Quick Start
@@ -50,7 +50,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (110 repos, newest first — **Franxx-Command** featured) and **@Thedoctorjpg** (35 repos).
+1. Switch between **@dglogan42** (111 repos, newest first — **Vanguard-Command** featured) and **@Thedoctorjpg** (35 repos).
 2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
@@ -64,10 +64,11 @@ When a repo is selected:
 
 ## GitHub Portfolio (meme fuel)
 
-Synced from `projects.js` — **110** @dglogan42 repos (newest first; matches public GitHub).
+Synced from `projects.js` — **111** @dglogan42 repos (newest first; matches public GitHub).
 
 | Repo | What it is |
 |------|------------|
+| [Vanguard-Command](https://github.com/dglogan42/Vanguard-Command) | VANGUARD COMMAND — turn-based squad tactics. Grid movement + ranged combat (Mario + Rabbids), cards you draw each round (Midnight Suns), persistent squad roles (Girls Frontline). React + Express leaderboard. Original; not Nintendo / Marvel / MICA. |
 | [Franxx-Command](https://github.com/dglogan42/Franxx-Command) | FRANXX COMMAND — unofficial mecha gacha for Android. Summon Franxx pilots, build a squad, hunt a Klaxosaur. Offline WebView APK. Fan project; not Darling in the Franxx / Xenoblade. |
 | [Mossling-Meadows](https://github.com/dglogan42/Mossling-Meadows) | Mossling — offline cozy valley life-sim for Android sideload + PC browser. Tend Mossvale: gather dew and peat, craft gifts, plant dewleaf, restore a workshop and shrine, befriend ten original moss-folk. Original; not Pokémon Pokopia / Nintendo. |
 | [ATSNZExpo](https://github.com/dglogan42/ATSNZExpo) | ATSNZ Access — unofficial Expo web companion for the ATSNZ Disability Expo 2026 (Due Drop, Manukau). High contrast, Easy Read, Gate 3 parking, Have a Go, Help now. Not official ATSNZ. |
@@ -195,7 +196,7 @@ cringe-memes-bluesky/          # local folder may still be cringe-meme-generator
 ├── projects.js                # @dglogan42 portfolio meme fuel
 ├── projects-thedoctorjpg.js   # @Thedoctorjpg portfolio meme fuel
 ├── install.js                 # PWA install prompt helpers
-├── sw.js                      # Service worker (offline cache v1.33.0)
+├── sw.js                      # Service worker (offline cache v1.34.0)
 ├── manifest.webmanifest       # PWA manifest
 ├── icons/                     # App icons
 ├── package.json               # Convenience scripts (npm start)
