@@ -5,7 +5,7 @@ A browser-based meme generator that pulls live posts from [@adhdloganberry.bsky.
 No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES modules).
 
 **Repository:** [github.com/dglogan42/cringe-memes-bluesky](https://github.com/dglogan42/cringe-memes-bluesky)  
-**Version:** 1.34.0 · **Vanguard-Command** era portfolio fuel (synced) — 111 @dglogan42
+**Version:** 1.35.0 · **full APK** era portfolio fuel (synced) — 111 @dglogan42
 
 ## Features
 
@@ -15,8 +15,8 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
 - **Stupid GitHub Projects** — **146** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **111** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
-- Newest fuel: **[Vanguard-Command](https://github.com/dglogan42/Vanguard-Command)** — VANGUARD COMMAND, turn-based squad tactics (grid + cards + roles). React + Express leaderboard. Original; not Nintendo / Marvel / MICA.
-- Also hot: **[Franxx-Command](https://github.com/dglogan42/Franxx-Command)**, **[Mossling-Meadows](https://github.com/dglogan42/Mossling-Meadows)**, **[ATSNZExpo](https://github.com/dglogan42/ATSNZExpo)**, **[The-Silk-Roads](https://github.com/dglogan42/The-Silk-Roads)**
+- Newest fuel: **[Vanguard-Command](https://github.com/dglogan42/Vanguard-Command)** — offline squad tactics APK, four operations, on-device leaderboard. Original; not Nintendo / Marvel / MICA.
+- Also hot: **[Franxx-Command](https://github.com/dglogan42/Franxx-Command)** (8-hunt mecha gacha APK), **[Mossling-Meadows](https://github.com/dglogan42/Mossling-Meadows)**, **[ATSNZExpo](https://github.com/dglogan42/ATSNZExpo)**, **[The-Silk-Roads](https://github.com/dglogan42/The-Silk-Roads)**
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
 ## Quick Start
@@ -68,8 +68,8 @@ Synced from `projects.js` — **111** @dglogan42 repos (newest first; matches pu
 
 | Repo | What it is |
 |------|------------|
-| [Vanguard-Command](https://github.com/dglogan42/Vanguard-Command) | VANGUARD COMMAND — turn-based squad tactics. Grid movement + ranged combat (Mario + Rabbids), cards you draw each round (Midnight Suns), persistent squad roles (Girls Frontline). React + Express leaderboard. Original; not Nintendo / Marvel / MICA. |
-| [Franxx-Command](https://github.com/dglogan42/Franxx-Command) | FRANXX COMMAND — unofficial mecha gacha for Android. Summon Franxx pilots, build a squad, hunt a Klaxosaur. Offline WebView APK. Fan project; not Darling in the Franxx / Xenoblade. |
+| [Vanguard-Command](https://github.com/dglogan42/Vanguard-Command) | VANGUARD COMMAND — offline squad tactics APK. Four operations (Sector 7 → Core Vault), cards each round, on-device leaderboard. WebView Android 8+. Original; not Nintendo / Marvel / MICA. |
+| [Franxx-Command](https://github.com/dglogan42/Franxx-Command) | FRANXX COMMAND — unofficial mecha gacha APK. 8-hunt campaign, 3-unit squad, dupe upgrades, pair sync bonus, Plant commissary. Offline WebView Android 8+. Fan project; not Darling in the Franxx / Xenoblade. |
 | [Mossling-Meadows](https://github.com/dglogan42/Mossling-Meadows) | Mossling — offline cozy valley life-sim for Android sideload + PC browser. Tend Mossvale: gather dew and peat, craft gifts, plant dewleaf, restore a workshop and shrine, befriend ten original moss-folk. Original; not Pokémon Pokopia / Nintendo. |
 | [ATSNZExpo](https://github.com/dglogan42/ATSNZExpo) | ATSNZ Access — unofficial Expo web companion for the ATSNZ Disability Expo 2026 (Due Drop, Manukau). High contrast, Easy Read, Gate 3 parking, Have a Go, Help now. Not official ATSNZ. |
 | [The-Silk-Roads](https://github.com/dglogan42/The-Silk-Roads) | 3D Silk Road globe — 18 corridors, 72 cities, caravan fly-through Luoyang to Constantinople. Cesium + Google Earth KML. |
@@ -196,7 +196,7 @@ cringe-memes-bluesky/          # local folder may still be cringe-meme-generator
 ├── projects.js                # @dglogan42 portfolio meme fuel
 ├── projects-thedoctorjpg.js   # @Thedoctorjpg portfolio meme fuel
 ├── install.js                 # PWA install prompt helpers
-├── sw.js                      # Service worker (offline cache v1.34.0)
+├── sw.js                      # Service worker (offline cache v1.35.0)
 ├── manifest.webmanifest       # PWA manifest
 ├── icons/                     # App icons
 ├── package.json               # Convenience scripts (npm start)

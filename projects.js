@@ -14,9 +14,9 @@ export const DGLOGAN42_PROJECTS = [
     url: 'https://github.com/dglogan42/Vanguard-Command',
     emoji: '🛡️',
     tagline:
-      'VANGUARD COMMAND — turn-based squad tactics. Grid movement + ranged combat (Mario + Rabbids), cards you draw each round (Midnight Suns), persistent squad roles (Girls Frontline). React + Express leaderboard. Original; not Nintendo / Marvel / MICA.',
-    memeTop: 'SHIPPED MIDNIGHT SUNS PLUS RABBIDS IN A VITE TAB',
-    memeBottom: '3 energy 3 cards and the leaderboard is a json file',
+      'VANGUARD COMMAND — offline squad tactics APK. Four operations (Sector 7 → Core Vault), cards each round, on-device leaderboard. WebView Android 8+. Original; not Nintendo / Marvel / MICA.',
+    memeTop: 'SHIPPED A FOUR-OP TACTICS APK WITH NO SERVER',
+    memeBottom: '3 energy 3 cards and the leaderboard is localStorage',
     bg: 'ai',
   },
   {
@@ -27,9 +27,9 @@ export const DGLOGAN42_PROJECTS = [
     url: 'https://github.com/dglogan42/Franxx-Command',
     emoji: '🌸',
     tagline:
-      'FRANXX COMMAND — unofficial mecha gacha for Android. Summon Franxx pilots, build a squad, hunt a Klaxosaur. Offline WebView APK. Fan project; not Darling in the Franxx / Xenoblade.',
-    memeTop: 'SHIPPED A MECHA GACHA FROM A SAVED KIMI TAB',
-    memeBottom: 'ssr is 5% but my dignity is 0',
+      'FRANXX COMMAND — unofficial mecha gacha APK. 8-hunt campaign, 3-unit squad, dupe upgrades, pair sync bonus, Plant commissary. Offline WebView Android 8+. Fan project; not Darling in the Franxx / Xenoblade.',
+    memeTop: 'SHIPPED AN 8-HUNT MECHA GACHA APK',
+    memeBottom: 'ssr is 5% but the mothership still one-shots my dignity',
     bg: 'ai',
   },
   {
