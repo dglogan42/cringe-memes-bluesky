@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'portaloo-sim',
+    owner: 'dglogan42',
+    name: 'Portaloo-Sim',
+    repo: 'Portaloo-Sim',
+    url: 'https://github.com/dglogan42/Portaloo-Sim',
+    emoji: '🚽',
+    tagline:
+      'The Loo Yard — offline portable toilet hire tycoon. Buy cabins, crew the wash bay, hire to festivals, markets, civil sites and farm weddings. PC browser + WebView Android APK. Original.',
+    memeTop: 'SHIPPED A PORTALOO HIRE TYCOON APK',
+    memeBottom: 'the festival tagged every cabin and the enzyme still costs $140',
+    bg: 'ai',
+  },
+  {
     id: 'vanguard-command',
     owner: 'dglogan42',
     name: 'Vanguard-Command',
@@ -1419,6 +1432,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'portaloo-sim': 'games',
   'vanguard-command': 'games',
   'franxx-command': 'games',
   'mossling-meadows': 'games',

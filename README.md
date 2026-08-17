@@ -5,7 +5,7 @@ A browser-based meme generator that pulls live posts from [@adhdloganberry.bsky.
 No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES modules).
 
 **Repository:** [github.com/dglogan42/cringe-memes-bluesky](https://github.com/dglogan42/cringe-memes-bluesky)  
-**Version:** 1.35.0 · **full APK** era portfolio fuel (synced) — 111 @dglogan42
+**Version:** 1.36.0 · **Portaloo-Sim** era portfolio fuel (synced) — 112 @dglogan42
 
 ## Features
 
@@ -14,9 +14,9 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — **146** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **111** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
-- Newest fuel: **[Vanguard-Command](https://github.com/dglogan42/Vanguard-Command)** — offline squad tactics APK, four operations, on-device leaderboard. Original; not Nintendo / Marvel / MICA.
-- Also hot: **[Franxx-Command](https://github.com/dglogan42/Franxx-Command)** (8-hunt mecha gacha APK), **[Mossling-Meadows](https://github.com/dglogan42/Mossling-Meadows)**, **[ATSNZExpo](https://github.com/dglogan42/ATSNZExpo)**, **[The-Silk-Roads](https://github.com/dglogan42/The-Silk-Roads)**
+- **Stupid GitHub Projects** — **147** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **112** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
+- Newest fuel: **[Portaloo-Sim](https://github.com/dglogan42/Portaloo-Sim)** — The Loo Yard, offline portaloo hire tycoon, PC + WebView APK
+- Also hot: **[Vanguard-Command](https://github.com/dglogan42/Vanguard-Command)**, **[Franxx-Command](https://github.com/dglogan42/Franxx-Command)**, **[Mossling-Meadows](https://github.com/dglogan42/Mossling-Meadows)**, **[ATSNZExpo](https://github.com/dglogan42/ATSNZExpo)**
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
 ## Quick Start
@@ -50,7 +50,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (111 repos, newest first — **Vanguard-Command** featured) and **@Thedoctorjpg** (35 repos).
+1. Switch between **@dglogan42** (112 repos, newest first — **Portaloo-Sim** featured) and **@Thedoctorjpg** (35 repos).
 2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
@@ -64,10 +64,11 @@ When a repo is selected:
 
 ## GitHub Portfolio (meme fuel)
 
-Synced from `projects.js` — **111** @dglogan42 repos (newest first; matches public GitHub).
+Synced from `projects.js` — **112** @dglogan42 repos (newest first; matches public GitHub).
 
 | Repo | What it is |
 |------|------------|
+| [Portaloo-Sim](https://github.com/dglogan42/Portaloo-Sim) | The Loo Yard — offline portable toilet hire tycoon. Buy cabins, crew the wash bay, hire to festivals, markets, civil sites and farm weddings. PC browser + WebView Android APK. Original. |
 | [Vanguard-Command](https://github.com/dglogan42/Vanguard-Command) | VANGUARD COMMAND — offline squad tactics APK. Four operations (Sector 7 → Core Vault), cards each round, on-device leaderboard. WebView Android 8+. Original; not Nintendo / Marvel / MICA. |
 | [Franxx-Command](https://github.com/dglogan42/Franxx-Command) | FRANXX COMMAND — unofficial mecha gacha APK. 8-hunt campaign, 3-unit squad, dupe upgrades, pair sync bonus, Plant commissary. Offline WebView Android 8+. Fan project; not Darling in the Franxx / Xenoblade. |
 | [Mossling-Meadows](https://github.com/dglogan42/Mossling-Meadows) | Mossling — offline cozy valley life-sim for Android sideload + PC browser. Tend Mossvale: gather dew and peat, craft gifts, plant dewleaf, restore a workshop and shrine, befriend ten original moss-folk. Original; not Pokémon Pokopia / Nintendo. |
@@ -196,7 +197,7 @@ cringe-memes-bluesky/          # local folder may still be cringe-meme-generator
 ├── projects.js                # @dglogan42 portfolio meme fuel
 ├── projects-thedoctorjpg.js   # @Thedoctorjpg portfolio meme fuel
 ├── install.js                 # PWA install prompt helpers
-├── sw.js                      # Service worker (offline cache v1.35.0)
+├── sw.js                      # Service worker (offline cache v1.36.0)
 ├── manifest.webmanifest       # PWA manifest
 ├── icons/                     # App icons
 ├── package.json               # Convenience scripts (npm start)
