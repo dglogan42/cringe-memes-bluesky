@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'holotcg',
+    owner: 'dglogan42',
+    name: 'HoloTCG',
+    repo: 'HoloTCG',
+    url: 'https://github.com/dglogan42/HoloTCG',
+    emoji: '🎴',
+    tagline:
+      'HoloTCG / LUMINA — unofficial hololive OCG fan client. Official EN names and public stats, original proxy art, no COVER scans. Browser CPU + LAN rooms, Gradle WebView Android APK. Not affiliated with COVER / hololive / Bushiroad.',
+    memeTop: 'SHIPPED AN UNOFFICIAL HOLOLIVE TCG WITH PROXY ART',
+    memeBottom: 'sora vs choco on localhost and the apk still says lumina',
+    bg: 'ai',
+  },
+  {
     id: 'bark-derby',
     owner: 'dglogan42',
     name: 'Bark-Derby',
