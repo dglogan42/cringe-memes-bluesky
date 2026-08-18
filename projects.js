@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'mossglow-island',
+    owner: 'dglogan42',
+    name: 'MossGlow-Island',
+    repo: 'MossGlow-Island',
+    url: 'https://github.com/dglogan42/MossGlow-Island',
+    emoji: '🍄',
+    tagline:
+      'Mossglow Isle — original cozy island adventure for Android sideload + PC browser. Farm, fish, mine, cook, hatch Mossglows, clear the Ancient Hollow. Gradle WebView APK, no stamina. Inspired by the farm/explore/companion loop; not affiliated with Luma Island / Feel Free Games.',
+    memeTop: 'SHIPPED ANOTHER COZY ISLAND APK WITH LANTERN SPIRITS',
+    memeBottom: 'the hollow gate is three stones and the gradle daemon still costs 2 minutes',
+    bg: 'ai',
+  },
+  {
     id: 'holotcg',
     owner: 'dglogan42',
     name: 'HoloTCG',
@@ -1458,6 +1471,8 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'mossglow-island': 'games',
+  'holotcg': 'games',
   'bark-derby': 'games',
   'portaloo-sim': 'games',
   'vanguard-command': 'games',
