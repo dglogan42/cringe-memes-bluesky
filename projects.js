@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'continental-line',
+    owner: 'dglogan42',
+    name: 'ContinentalLine',
+    repo: 'ContinentalLine',
+    url: 'https://github.com/dglogan42/ContinentalLine',
+    emoji: '🎖️',
+    tagline:
+      'Continental Line — original American War of Independence real-time tactics. No camps: line, column, square, loose. Volleys, morale, fatigue, woods and redoubts. Lexington to Guilford. PC browser + Gradle WebView APK. Inspired by formation RTS; not affiliated with Veterans: Napoleonic Wars / Tactical Boar.',
+    memeTop: 'SHIPPED A FORMATION RTS WHERE THE LINE IS THE UNIT',
+    memeBottom: 'militia fired twice then the grenadiers walked through them',
+    bg: 'ai',
+  },
+  {
     id: 'mossglow-island',
     owner: 'dglogan42',
     name: 'MossGlow-Island',
@@ -1471,6 +1484,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'continental-line': 'games',
   'mossglow-island': 'games',
   'holotcg': 'games',
   'bark-derby': 'games',

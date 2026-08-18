@@ -5,7 +5,7 @@ A browser-based meme generator that pulls live posts from [@adhdloganberry.bsky.
 No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES modules).
 
 **Repository:** [github.com/dglogan42/cringe-memes-bluesky](https://github.com/dglogan42/cringe-memes-bluesky)  
-**Version:** 1.39.0 · **MossGlow-Island** era portfolio fuel (synced) — 115 @dglogan42
+**Version:** 1.40.0 · **Continental Line** era portfolio fuel (synced) — 116 @dglogan42
 
 ## Features
 
@@ -14,9 +14,9 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — **150** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **115** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
-- Newest fuel: **[MossGlow-Island](https://github.com/dglogan42/MossGlow-Island)** — cozy island farm/fish/mine APK with hatchable Mossglows
-- Also hot: **[HoloTCG](https://github.com/dglogan42/HoloTCG)**, **[Bark-Derby](https://github.com/dglogan42/Bark-Derby)**, **[Portaloo-Sim](https://github.com/dglogan42/Portaloo-Sim)**, **[Vanguard-Command](https://github.com/dglogan42/Vanguard-Command)**
+- **Stupid GitHub Projects** — **151** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **116** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
+- Newest fuel: **[ContinentalLine](https://github.com/dglogan42/ContinentalLine)** — AWI formation RTS, line/column/square, no base-building
+- Also hot: **[MossGlow-Island](https://github.com/dglogan42/MossGlow-Island)**, **[HoloTCG](https://github.com/dglogan42/HoloTCG)**, **[Bark-Derby](https://github.com/dglogan42/Bark-Derby)**, **[Portaloo-Sim](https://github.com/dglogan42/Portaloo-Sim)**
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
 ## Quick Start
@@ -50,7 +50,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (115 repos, newest first — **MossGlow-Island** featured) and **@Thedoctorjpg** (35 repos).
+1. Switch between **@dglogan42** (116 repos, newest first — **Continental Line** featured) and **@Thedoctorjpg** (35 repos).
 2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
@@ -64,10 +64,11 @@ When a repo is selected:
 
 ## GitHub Portfolio (meme fuel)
 
-Synced from `projects.js` — **115** @dglogan42 repos (newest first; matches public GitHub).
+Synced from `projects.js` — **116** @dglogan42 repos (newest first; matches public GitHub).
 
 | Repo | What it is |
 |------|------------|
+| [ContinentalLine](https://github.com/dglogan42/ContinentalLine) | Continental Line — original American War of Independence real-time tactics. No camps: line, column, square, loose. Volleys, morale, fatigue, woods and redoubts. Lexington to Guilford. PC browser + Gradle WebView APK. Inspired by formation RTS; not affiliated with Veterans: Napoleonic Wars / Tactical Boar. |
 | [MossGlow-Island](https://github.com/dglogan42/MossGlow-Island) | Mossglow Isle — original cozy island adventure for Android sideload + PC browser. Farm, fish, mine, cook, hatch Mossglows, clear the Ancient Hollow. Gradle WebView APK, no stamina. Inspired by the farm/explore/companion loop; not affiliated with Luma Island / Feel Free Games. |
 | [HoloTCG](https://github.com/dglogan42/HoloTCG) | HoloTCG / LUMINA — unofficial hololive OCG fan client. Official EN names and public stats, original proxy art, no COVER scans. Browser CPU + LAN rooms, Gradle WebView Android APK. Not affiliated with COVER / hololive / Bushiroad. |
 | [Bark-Derby](https://github.com/dglogan42/Bark-Derby) | Bark Derby — dog-racing training-sim: scout, train 12 turns, championship race, then karaoke night and date night with five house idols. React + Express + signed Android 8+ APK. Original. |
@@ -200,7 +201,7 @@ cringe-memes-bluesky/          # local folder may still be cringe-meme-generator
 ├── projects.js                # @dglogan42 portfolio meme fuel
 ├── projects-thedoctorjpg.js   # @Thedoctorjpg portfolio meme fuel
 ├── install.js                 # PWA install prompt helpers
-├── sw.js                      # Service worker (offline cache v1.39.0)
+├── sw.js                      # Service worker (offline cache v1.40.0)
 ├── manifest.webmanifest       # PWA manifest
 ├── icons/                     # App icons
 ├── package.json               # Convenience scripts (npm start)
