@@ -7,6 +7,32 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'lytchgate',
+    owner: 'dglogan42',
+    name: 'lytchgate',
+    repo: 'lytchgate',
+    url: 'https://github.com/dglogan42/lytchgate',
+    emoji: '🕯️',
+    tagline:
+      'WITHERMERE — original Victorian survival horror. Mira Alden, Fallowmere House, the Pale Bloom. Pre-rendered rooms, tank controls, eight-slot case, phonograph needles, crest puzzles, two endings. PC browser. Original IP; not affiliated with Capcom / Resident Evil.',
+    memeTop: 'SHIPPED A VICTORIAN SURVIVAL HORROR WITH TANK CONTROLS',
+    memeBottom: 'the phonograph needs a needle and the latch already fell',
+    bg: 'pandemic',
+  },
+  {
+    id: 'spanlight',
+    owner: 'dglogan42',
+    name: 'Spanlight',
+    repo: 'Spanlight',
+    url: 'https://github.com/dglogan42/Spanlight',
+    emoji: '🌉',
+    tagline:
+      'Spanlight — original browser lane-siege. Aurel vs Nadir across three living brass spans. Last-hit Glimmers, spend Shards at the Hearth, tear down the Spire. Four Bound. Not Dota, League, or any licensed MOBA.',
+    memeTop: 'SHIPPED A LANE SIEGE WHERE THE SPANS ARE ALIVE',
+    memeBottom: 'the spire shrugged until i remembered the beacons',
+    bg: 'ai',
+  },
+  {
     id: 'continental-line',
     owner: 'dglogan42',
     name: 'ContinentalLine',
@@ -1484,6 +1510,8 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  lytchgate: 'games',
+  spanlight: 'games',
   'continental-line': 'games',
   'mossglow-island': 'games',
   'holotcg': 'games',
