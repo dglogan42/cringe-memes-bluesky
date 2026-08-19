@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'sugarpaw',
+    owner: 'dglogan42',
+    name: 'Sugarpaw',
+    repo: 'Sugarpaw',
+    url: 'https://github.com/dglogan42/Sugarpaw',
+    emoji: '🐼',
+    tagline:
+      'SUGARPAW — original cozy orchard cart. Nuan, 22, half-East-Asian panda-kin. Pick strawberries, watermelon, grapes; mix lemonade and ice cream; serve the line. Three days then festival. PC browser. Original IP; not affiliated with hololive / any cosplayer.',
+    memeTop: 'SHIPPED A PANDA GIRL LEMONADE SIM',
+    memeBottom: 'the watermelon lemonade sold out and the grapes were still on cooldown',
+    bg: 'berry',
+  },
+  {
     id: 'lacewarrant',
     owner: 'dglogan42',
     name: 'Lacewarrant',
@@ -1523,6 +1536,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  sugarpaw: 'games',
   lacewarrant: 'games',
   lytchgate: 'games',
   spanlight: 'games',

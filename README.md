@@ -5,7 +5,7 @@ A browser-based meme generator that pulls live posts from [@adhdloganberry.bsky.
 No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES modules).
 
 **Repository:** [github.com/dglogan42/cringe-memes-bluesky](https://github.com/dglogan42/cringe-memes-bluesky)  
-**Version:** 1.42.0 · **LACEWARRANT** era portfolio fuel (synced) — 119 @dglogan42
+**Version:** 1.43.0 · **SUGARPAW** era portfolio fuel (synced) — 120 @dglogan42
 
 ## Features
 
@@ -14,9 +14,9 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — **154** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **119** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
-- Newest fuel: **[Lacewarrant](https://github.com/dglogan42/Lacewarrant)** — LACEWARRANT, original 2D scythe hunter of stolen silk
-- Also hot: **[lytchgate](https://github.com/dglogan42/lytchgate)**, **[Spanlight](https://github.com/dglogan42/Spanlight)**, **[ContinentalLine](https://github.com/dglogan42/ContinentalLine)**, **[MossGlow-Island](https://github.com/dglogan42/MossGlow-Island)**
+- **Stupid GitHub Projects** — **155** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **120** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
+- Newest fuel: **[Sugarpaw](https://github.com/dglogan42/Sugarpaw)** — SUGARPAW, original panda-girl lemonade & ice cream cart
+- Also hot: **[Lacewarrant](https://github.com/dglogan42/Lacewarrant)**, **[lytchgate](https://github.com/dglogan42/lytchgate)**, **[Spanlight](https://github.com/dglogan42/Spanlight)**, **[ContinentalLine](https://github.com/dglogan42/ContinentalLine)**
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
 ## Quick Start
@@ -50,7 +50,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (119 repos, newest first — **LACEWARRANT** featured) and **@Thedoctorjpg** (35 repos).
+1. Switch between **@dglogan42** (120 repos, newest first — **SUGARPAW** featured) and **@Thedoctorjpg** (35 repos).
 2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
@@ -64,10 +64,11 @@ When a repo is selected:
 
 ## GitHub Portfolio (meme fuel)
 
-Synced from `projects.js` — **119** @dglogan42 repos (newest first; matches public GitHub).
+Synced from `projects.js` — **120** @dglogan42 repos (newest first; matches public GitHub).
 
 | Repo | What it is |
 |------|------------|
+| [Sugarpaw](https://github.com/dglogan42/Sugarpaw) | SUGARPAW — original cozy orchard cart. Nuan, 22, half-East-Asian panda-kin. Pick strawberries, watermelon, grapes; mix lemonade and ice cream; serve the line. Three days then festival. PC browser. Original IP; not affiliated with hololive / any cosplayer. |
 | [Lacewarrant](https://github.com/dglogan42/Lacewarrant) | LACEWARRANT — original 2D action hunter. Rue Calder, 27, licensed hem hunter of the Nameless Ward. Slash combos, dash i-frames, heavy launch, six adult warrants, Seamlord boss. PC browser. Original IP; not affiliated with UMO Studio / Tia:weird hunter. |
 | [lytchgate](https://github.com/dglogan42/lytchgate) | WITHERMERE — original Victorian survival horror. Mira Alden, Fallowmere House, the Pale Bloom. Pre-rendered rooms, tank controls, eight-slot case, phonograph needles, crest puzzles, two endings. PC browser. Original IP; not affiliated with Capcom / Resident Evil. |
 | [Spanlight](https://github.com/dglogan42/Spanlight) | Spanlight — original browser lane-siege. Aurel vs Nadir across three living brass spans. Last-hit Glimmers, spend Shards at the Hearth, tear down the Spire. Four Bound. Not Dota, League, or any licensed MOBA. |
@@ -204,7 +205,7 @@ cringe-memes-bluesky/          # local folder may still be cringe-meme-generator
 ├── projects.js                # @dglogan42 portfolio meme fuel
 ├── projects-thedoctorjpg.js   # @Thedoctorjpg portfolio meme fuel
 ├── install.js                 # PWA install prompt helpers
-├── sw.js                      # Service worker (offline cache v1.42.0)
+├── sw.js                      # Service worker (offline cache v1.43.0)
 ├── manifest.webmanifest       # PWA manifest
 ├── icons/                     # App icons
 ├── package.json               # Convenience scripts (npm start)
