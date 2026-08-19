@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'lacewarrant',
+    owner: 'dglogan42',
+    name: 'Lacewarrant',
+    repo: 'Lacewarrant',
+    url: 'https://github.com/dglogan42/Lacewarrant',
+    emoji: '🎀',
+    tagline:
+      'LACEWARRANT — original 2D action hunter. Rue Calder, 27, licensed hem hunter of the Nameless Ward. Slash combos, dash i-frames, heavy launch, six adult warrants, Seamlord boss. PC browser. Original IP; not affiliated with UMO Studio / Tia:weird hunter.',
+    memeTop: 'SHIPPED A SCYTHE ACTION GAME ABOUT STOLEN SILK',
+    memeBottom: 'the seamlord wore the crown lace as a veil and i still dashed through him',
+    bg: 'liveLaugh',
+  },
+  {
     id: 'lytchgate',
     owner: 'dglogan42',
     name: 'lytchgate',
@@ -1510,6 +1523,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  lacewarrant: 'games',
   lytchgate: 'games',
   spanlight: 'games',
   'continental-line': 'games',
