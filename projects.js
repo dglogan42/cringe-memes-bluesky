@@ -7,6 +7,32 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'discord-restream',
+    owner: 'dglogan42',
+    name: 'Discord-Restream',
+    repo: 'Discord-Restream',
+    url: 'https://github.com/dglogan42/Discord-Restream',
+    emoji: '📡',
+    tagline:
+      'Signal Deck — Discord livestream rebroadcast control room PWA. Pick Discord Go Live or the Replit YouTube stream, send it to Bluesky, YouTube, Twitch, Kick, or custom RTMP. Partial failure is first-class. MIT.',
+    memeTop: 'SHIPPED A DISCORD GO LIVE CONTROL ROOM',
+    memeBottom: 'twitch is reconnecting and bluesky still wants a youtube card',
+    bg: 'liveLaugh',
+  },
+  {
+    id: 'bluesky-replit',
+    owner: 'dglogan42',
+    name: 'Bluesky-Replit',
+    repo: 'Bluesky-Replit',
+    url: 'https://github.com/dglogan42/Bluesky-Replit',
+    emoji: '🦋',
+    tagline:
+      'Replit YouTube → Bluesky. Watches youtube.com/@replit/streams and posts the official Live Now pattern: YouTube card embed + app.bsky.actor.status#live. Optional Discord webhook. MIT. Does not restream the video file.',
+    memeTop: 'REBROADCAST @REPLIT ONTO BSKY.APP',
+    memeBottom: 'bluesky does not host the video so i posted a live now badge and called it a day',
+    bg: 'ai',
+  },
+  {
     id: 'sugarpaw',
     owner: 'dglogan42',
     name: 'Sugarpaw',
@@ -1536,6 +1562,8 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'discord-restream': 'chaos',
+  'bluesky-replit': 'chaos',
   sugarpaw: 'games',
   lacewarrant: 'games',
   lytchgate: 'games',
