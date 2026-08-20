@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'seolleda',
+    owner: 'dglogan42',
+    name: 'seolleda',
+    repo: 'seolleda',
+    url: 'https://github.com/dglogan42/seolleda',
+    emoji: '💗',
+    tagline:
+      '설레 SEOLLE — phone-first Korean rizz for oppa / unnie. KakaoTalk line lab, SS-tier board (goddess, doll, lemonade, ramen), classic pickups, English glow-up, slang, crush practice. Vault offline + optional grok-4.6. MIT.',
+    memeTop: 'SHIPPED A KOREAN RIZZ APP CALLED 설레',
+    memeBottom: '라면 먹고 갈래 is still not about noodles',
+    bg: 'berry',
+  },
+  {
     id: 'stanford-compsci-tutor',
     owner: 'dglogan42',
     name: 'Stanford-CompSci-Tutor',
@@ -1575,6 +1588,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  seolleda: 'chaos',
   'stanford-compsci-tutor': 'chaos',
   'discord-restream': 'chaos',
   'bluesky-replit': 'chaos',

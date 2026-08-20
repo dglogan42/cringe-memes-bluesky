@@ -5,7 +5,7 @@ A browser-based meme generator that pulls live posts from [@adhdloganberry.bsky.
 No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES modules).
 
 **Repository:** [github.com/dglogan42/cringe-memes-bluesky](https://github.com/dglogan42/cringe-memes-bluesky)  
-**Version:** 1.45.0 · **Stanford-CompSci-Tutor** era portfolio fuel (synced) — 123 @dglogan42
+**Version:** 1.46.0 · **seolleda** era portfolio fuel (synced) — 124 @dglogan42
 
 ## Features
 
@@ -14,8 +14,8 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — **158** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **123** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
-- Newest fuel: **[Stanford-CompSci-Tutor](https://github.com/dglogan42/Stanford-CompSci-Tutor)** — GPA-first Stanford CS B.S. degree planner / prep bot
+- **Stupid GitHub Projects** — **159** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **124** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **35**) as one-click meme fuel
+- Newest fuel: **[seolleda](https://github.com/dglogan42/seolleda)** — 설레 SEOLLE, phone-first Korean rizz for oppa / unnie
 - Also hot: **[Discord-Restream](https://github.com/dglogan42/Discord-Restream)**, **[Bluesky-Replit](https://github.com/dglogan42/Bluesky-Replit)**, **[Sugarpaw](https://github.com/dglogan42/Sugarpaw)**, **[Lacewarrant](https://github.com/dglogan42/Lacewarrant)**
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
@@ -50,7 +50,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (123 repos, newest first — **Stanford-CompSci-Tutor** featured) and **@Thedoctorjpg** (35 repos).
+1. Switch between **@dglogan42** (124 repos, newest first — **seolleda** featured) and **@Thedoctorjpg** (35 repos).
 2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
@@ -64,10 +64,11 @@ When a repo is selected:
 
 ## GitHub Portfolio (meme fuel)
 
-Synced from `projects.js` — **123** @dglogan42 repos (newest first; matches public GitHub).
+Synced from `projects.js` — **124** @dglogan42 repos (newest first; matches public GitHub).
 
 | Repo | What it is |
 |------|------------|
+| [seolleda](https://github.com/dglogan42/seolleda) | 설레 SEOLLE — phone-first Korean rizz for oppa / unnie. KakaoTalk line lab, SS-tier board, classic pickups (라면 먹고 갈래), English glow-up, slang, crush practice. Vault offline + optional grok-4.6. MIT. |
 | [Stanford-CompSci-Tutor](https://github.com/dglogan42/Stanford-CompSci-Tutor) | Stanford CS B.S. study planner / prep bot (2025–26 sheets). GPA-first quarter maps, program-sheet tracker, course drills, Grok tutor + offline coach. MIT. Not affiliated with Stanford. |
 | [Discord-Restream](https://github.com/dglogan42/Discord-Restream) | Signal Deck — Discord livestream rebroadcast control room PWA. Pick Discord Go Live or the Replit YouTube stream, send it to Bluesky, YouTube, Twitch, Kick, or custom RTMP. Partial failure is first-class. MIT. |
 | [Bluesky-Replit](https://github.com/dglogan42/Bluesky-Replit) | Replit YouTube → Bluesky. Watches youtube.com/@replit/streams and posts the official Live Now pattern: YouTube card embed + app.bsky.actor.status#live. Optional Discord webhook. MIT. Does not restream the video file. |
@@ -208,7 +209,7 @@ cringe-memes-bluesky/          # local folder may still be cringe-meme-generator
 ├── projects.js                # @dglogan42 portfolio meme fuel
 ├── projects-thedoctorjpg.js   # @Thedoctorjpg portfolio meme fuel
 ├── install.js                 # PWA install prompt helpers
-├── sw.js                      # Service worker (offline cache v1.45.0)
+├── sw.js                      # Service worker (offline cache v1.46.0)
 ├── manifest.webmanifest       # PWA manifest
 ├── icons/                     # App icons
 ├── package.json               # Convenience scripts (npm start)
