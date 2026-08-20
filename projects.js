@@ -7,6 +7,19 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    id: 'stanford-compsci-tutor',
+    owner: 'dglogan42',
+    name: 'Stanford-CompSci-Tutor',
+    repo: 'Stanford-CompSci-Tutor',
+    url: 'https://github.com/dglogan42/Stanford-CompSci-Tutor',
+    emoji: '🎓',
+    tagline:
+      'Stanford CS B.S. study planner / prep bot (2025–26 sheets). GPA-first quarter maps, program-sheet tracker, course drills, Grok tutor + offline coach. MIT. Not affiliated with Stanford.',
+    memeTop: 'SHIPPED A FULL STANFORD CS DEGREE PLANNER',
+    memeBottom: 'gpa is the constraint and i still booked 107 with 161',
+    bg: 'ai',
+  },
+  {
     id: 'discord-restream',
     owner: 'dglogan42',
     name: 'Discord-Restream',
@@ -1562,6 +1575,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  'stanford-compsci-tutor': 'chaos',
   'discord-restream': 'chaos',
   'bluesky-replit': 'chaos',
   sugarpaw: 'games',
