@@ -7,6 +7,18 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    "id": "auroral-atlas-offline",
+    "owner": "dglogan42",
+    "name": "auroral-atlas-offline",
+    "repo": "auroral-atlas-offline",
+    "url": "https://github.com/dglogan42/auroral-atlas-offline",
+    "emoji": "🔭",
+    "tagline": "Auroral Atlas — offline documentation and searchable 282-page astrology reference, original PDF, SQLite database, SQL schema, and user guide. Reader works without internet; hosted chart calculator and saved charts are not included. MIT for original code and docs; historical source text excluded.",
+    "memeTop": "PUT THE ZODIAC IN A SQLITE DATABASE",
+    "memeBottom": "Mercury is in retrograde but my queries are parameterized",
+    "bg": "ai"
+  },
+  {
     "id": "it-warehouse-management",
     "owner": "dglogan42",
     "name": "IT-warehouse-management",
@@ -1636,6 +1648,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  "auroral-atlas-offline": "writing",
   "it-warehouse-management": "commerce",
   "health-data-portfolio": "chaos",
   "ecommerce": "commerce",

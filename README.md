@@ -5,7 +5,7 @@ A browser-based meme generator that pulls live posts from [@adhdloganberry.bsky.
 No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES modules).
 
 **Repository:** [github.com/dglogan42/cringe-memes-bluesky](https://github.com/dglogan42/cringe-memes-bluesky)  
-**Version:** 1.48.0 · Gallery refresh — 128 @dglogan42 + 36 @Thedoctorjpg projects
+**Version:** 1.49.0 · Gallery refresh — 129 @dglogan42 + 36 @Thedoctorjpg projects
 
 ## Features
 
@@ -14,10 +14,18 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — **164** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **128** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **36**) as one-click meme fuel
-- Newest fuel: **[IT-warehouse-management](https://github.com/dglogan42/IT-warehouse-management)**; recent additions include **[health-data-portfolio](https://github.com/dglogan42/health-data-portfolio)** and **[ecommerce](https://github.com/dglogan42/ecommerce)**, **[IncomeCal](https://github.com/dglogan42/IncomeCal)** and the **[Thedoctorjpg profile repo](https://github.com/Thedoctorjpg/Thedoctorjpg)**
+- **Stupid GitHub Projects** — **165** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **129** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **36**) as one-click meme fuel
+- Newest fuel: **[auroral-atlas-offline](https://github.com/dglogan42/auroral-atlas-offline)**; recent additions include **[IT-warehouse-management](https://github.com/dglogan42/IT-warehouse-management)**, **[health-data-portfolio](https://github.com/dglogan42/health-data-portfolio)** and **[ecommerce](https://github.com/dglogan42/ecommerce)**, **[IncomeCal](https://github.com/dglogan42/IncomeCal)** and the **[Thedoctorjpg profile repo](https://github.com/Thedoctorjpg/Thedoctorjpg)**
 - Also hot: **[Discord-Restream](https://github.com/dglogan42/Discord-Restream)**, **[Bluesky-Replit](https://github.com/dglogan42/Bluesky-Replit)**, **[Sugarpaw](https://github.com/dglogan42/Sugarpaw)**, **[Lacewarrant](https://github.com/dglogan42/Lacewarrant)**
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
+
+## Auroral Atlas offline documentation
+
+The newest portfolio entry is [auroral-atlas-offline](https://github.com/dglogan42/auroral-atlas-offline), the offline companion to [Auroral Atlas](https://auroral-atlas.david-logan-nz.chatgpt.site).
+
+Unpack the documentation and open `index.html` locally. It includes a searchable 282-page reference reader, the original *Astrology: Its Technics and Ethics* PDF, OCR text, a SQLite reference database, SQL schema, and README. The reader needs no internet connection or installation. The offline charts table is empty; the hosted calculator and saved records are not bundled.
+
+Original reader code, guide and schema use the MIT License. The historical PDF and derived source text are excluded from that grant; see the offline package's third-party notices. The hosted app provides Western planetary charts, Chinese zodiac year-cycle charts, an educational sky map, archive CRUD, and exports. Full BaZi, Western houses and ascendant calculations are not included.
 
 ## Quick Start
 
@@ -50,7 +58,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (128 repos, newest first — **IT-warehouse-management** featured) and **@Thedoctorjpg** (36 repos).
+1. Switch between **@dglogan42** (129 repos, newest first — **auroral-atlas-offline** featured) and **@Thedoctorjpg** (36 repos).
 2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
@@ -64,12 +72,13 @@ When a repo is selected:
 
 ## GitHub Portfolio (meme fuel)
 
-Gallery checked against the GitHub public repository listings on **9 October 2026**. Projects are ordered by repository creation date, newest first. This is a bundled snapshot; opening the app does not automatically refresh GitHub repositories. Existing custom meme captions are retained. New cards use conservative descriptions where GitHub supplies no description.
+Gallery checked against the GitHub public repository listings on **10 October 2026**. Projects are ordered by repository creation date, newest first. This is a bundled snapshot; opening the app does not automatically refresh GitHub repositories. Existing custom meme captions are retained. New cards use conservative descriptions where GitHub supplies no description.
 
-### @dglogan42 portfolio (128 repos)
+### @dglogan42 portfolio (129 repos)
 
 | Repo | Gallery description |
 |---|---|
+| [auroral-atlas-offline](https://github.com/dglogan42/auroral-atlas-offline) | Offline guide and searchable 282-page astrology reference, original PDF, SQLite database and SQL schema. Original code/docs MIT; historical source excluded. Hosted chart calculator and saved charts are not included. |
 | [IT-warehouse-management](https://github.com/dglogan42/IT-warehouse-management) | IT warehouse management project from @dglogan42. |
 | [health-data-portfolio](https://github.com/dglogan42/health-data-portfolio) | Health data portfolio project from @dglogan42. |
 | [ecommerce](https://github.com/dglogan42/ecommerce) | Ecommerce project from @dglogan42. |
@@ -256,7 +265,7 @@ cringe-memes-bluesky/          # local folder may still be cringe-meme-generator
 ├── projects.js                # @dglogan42 portfolio meme fuel
 ├── projects-thedoctorjpg.js   # @Thedoctorjpg portfolio meme fuel
 ├── install.js                 # PWA install prompt helpers
-├── sw.js                      # Service worker (offline cache v1.48.0)
+├── sw.js                      # Service worker (offline cache v1.49.0)
 ├── manifest.webmanifest       # PWA manifest
 ├── icons/                     # App icons
 ├── package.json               # Convenience scripts (npm start)
