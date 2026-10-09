@@ -7,6 +7,18 @@ import {
 /** @dglogan42's stupid GitHub portfolio — meme fuel */
 export const DGLOGAN42_PROJECTS = [
   {
+    "id": "it-warehouse-management",
+    "owner": "dglogan42",
+    "name": "IT-warehouse-management",
+    "repo": "IT-warehouse-management",
+    "url": "https://github.com/dglogan42/IT-warehouse-management",
+    "emoji": "📦",
+    "tagline": "IT warehouse management project from @dglogan42.",
+    "memeTop": "BUILT A WAREHOUSE MANAGEMENT SYSTEM",
+    "memeBottom": "the toner has better tracking than my life",
+    "bg": "ai"
+  },
+  {
     "id": "health-data-portfolio",
     "owner": "dglogan42",
     "name": "health-data-portfolio",
@@ -1624,6 +1636,7 @@ export const PROJECT_CATEGORIES = [
 ];
 
 export const PROJECT_CATEGORY_MAP = {
+  "it-warehouse-management": "commerce",
   "health-data-portfolio": "chaos",
   "ecommerce": "commerce",
   "incomecal": "commerce",

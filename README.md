@@ -5,7 +5,7 @@ A browser-based meme generator that pulls live posts from [@adhdloganberry.bsky.
 No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES modules).
 
 **Repository:** [github.com/dglogan42/cringe-memes-bluesky](https://github.com/dglogan42/cringe-memes-bluesky)  
-**Version:** 1.47.0 · Gallery refresh — 127 @dglogan42 + 36 @Thedoctorjpg projects
+**Version:** 1.48.0 · Gallery refresh — 128 @dglogan42 + 36 @Thedoctorjpg projects
 
 ## Features
 
@@ -14,8 +14,8 @@ No build step. No dependencies. Just static HTML, CSS, and JavaScript (ES module
 - Adjustable cringe level with sparkles, WordArt, and Comic Sans toggles
 - Canvas-rendered meme preview with download and caption copy
 - Bluesky compose intent link for sharing
-- **Stupid GitHub Projects** — **163** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **127** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **36**) as one-click meme fuel
-- Newest fuel: **[health-data-portfolio](https://github.com/dglogan42/health-data-portfolio)** and **[ecommerce](https://github.com/dglogan42/ecommerce)**; also added **[IncomeCal](https://github.com/dglogan42/IncomeCal)** and the **[Thedoctorjpg profile repo](https://github.com/Thedoctorjpg/Thedoctorjpg)**
+- **Stupid GitHub Projects** — **164** repos across two accounts ([@dglogan42](https://github.com/dglogan42) **128** + [@Thedoctorjpg](https://github.com/Thedoctorjpg) **36**) as one-click meme fuel
+- Newest fuel: **[IT-warehouse-management](https://github.com/dglogan42/IT-warehouse-management)**; recent additions include **[health-data-portfolio](https://github.com/dglogan42/health-data-portfolio)** and **[ecommerce](https://github.com/dglogan42/ecommerce)**, **[IncomeCal](https://github.com/dglogan42/IncomeCal)** and the **[Thedoctorjpg profile repo](https://github.com/Thedoctorjpg/Thedoctorjpg)**
 - Also hot: **[Discord-Restream](https://github.com/dglogan42/Discord-Restream)**, **[Bluesky-Replit](https://github.com/dglogan42/Bluesky-Replit)**, **[Sugarpaw](https://github.com/dglogan42/Sugarpaw)**, **[Lacewarrant](https://github.com/dglogan42/Lacewarrant)**
 - **Multi-platform PWA** — install on web, iOS, Android, Windows, Mac, Linux
 
@@ -50,7 +50,7 @@ Click any post in the **Recent Posts** sidebar to turn it into meme text instant
 
 Scroll to **My Stupid GitHub Projects**:
 
-1. Switch between **@dglogan42** (127 repos, newest first — **health-data-portfolio** featured) and **@Thedoctorjpg** (36 repos).
+1. Switch between **@dglogan42** (128 repos, newest first — **IT-warehouse-management** featured) and **@Thedoctorjpg** (36 repos).
 2. Filter by category — Sports, Games, Chaos Apps, Commerce, Writing, etc.
 3. Click a repo card or **Meme this repo** to load cringe top/bottom text.
 4. Use **Meme a Random Repo** in the sidebar for chaos mode.
@@ -66,10 +66,11 @@ When a repo is selected:
 
 Gallery checked against the GitHub public repository listings on **9 October 2026**. Projects are ordered by repository creation date, newest first. This is a bundled snapshot; opening the app does not automatically refresh GitHub repositories. Existing custom meme captions are retained. New cards use conservative descriptions where GitHub supplies no description.
 
-### @dglogan42 portfolio (127 repos)
+### @dglogan42 portfolio (128 repos)
 
 | Repo | Gallery description |
 |---|---|
+| [IT-warehouse-management](https://github.com/dglogan42/IT-warehouse-management) | IT warehouse management project from @dglogan42. |
 | [health-data-portfolio](https://github.com/dglogan42/health-data-portfolio) | Health data portfolio project from @dglogan42. |
 | [ecommerce](https://github.com/dglogan42/ecommerce) | Ecommerce project from @dglogan42. |
 | [seolleda](https://github.com/dglogan42/seolleda) | 설레 SEOLLE — phone-first Korean rizz for oppa / unnie. KakaoTalk line lab, SS-tier board (goddess, doll, lemonade, ramen), classic pickups, English glow-up, slang, crush practice. Vault offline + optional grok-4.6. MIT. |
@@ -255,7 +256,7 @@ cringe-memes-bluesky/          # local folder may still be cringe-meme-generator
 ├── projects.js                # @dglogan42 portfolio meme fuel
 ├── projects-thedoctorjpg.js   # @Thedoctorjpg portfolio meme fuel
 ├── install.js                 # PWA install prompt helpers
-├── sw.js                      # Service worker (offline cache v1.47.0)
+├── sw.js                      # Service worker (offline cache v1.48.0)
 ├── manifest.webmanifest       # PWA manifest
 ├── icons/                     # App icons
 ├── package.json               # Convenience scripts (npm start)
